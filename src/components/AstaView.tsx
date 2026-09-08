@@ -22,6 +22,8 @@ export default function AstaView() {
   const unassign = useAuction((s) => s.unassign)
   const toggleTarget = useAuction((s) => s.toggleTarget)
   const setPriceOverride = useAuction((s) => s.setPriceOverride)
+  const note = useAuction((s) => s.note)
+  const setNota = useAuction((s) => s.setNota)
 
   const league = useLeague()
 
@@ -232,6 +234,7 @@ export default function AstaView() {
             pickByPlayer={league.pickByPlayer}
             advice={league.advice}
             abbinamenti={league.abbinamenti}
+            note={note}
             targetIds={league.targetIds}
             selectedId={selected?.id ?? null}
             highlightIndex={searching ? hi : -1}
@@ -252,6 +255,8 @@ export default function AstaView() {
             myTeam={league.myTeam}
             targetIds={league.targetIds}
             onToggleTarget={toggleTarget}
+            nota={note[selected.id] ?? ''}
+            onNota={setNota}
             onChiudi={() => {
               setSelected(null)
               searchRef.current?.focus()

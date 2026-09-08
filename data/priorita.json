@@ -1,0 +1,6 @@
+{
+ "_nota": "La TUA priorita', quando non sei d'accordo con quella del workbook. Nel workbook la colonna Prio e' una formula (=RANK sull'Indice, che a sua volta dipende dai pesi del foglio Guida): sovrascriverla a mano regge una cella sola, poi Excel ricalcola il resto e restano buchi e doppioni. Qui invece il valore vince sempre, e la dashboard lo segna in azzurro con il valore del listone nel tooltip.",
+ "_comeSiUsa": "Chiave del giocatore -> numero di priorita' dentro il suo reparto (1 = il primo che vuoi). I giocatori non elencati tengono la priorita' del workbook. Sono ammessi doppioni: a parita' di priorita' ordina l'indice. Cambia solo la colonna Prio e il suo ordinamento — non tocca prezzi, Score o listino d'asta. Dopo ogni modifica: npm run ingest (o salva il file con npm run dev attivo).",
+ "_esempio": "Se per te Hojlund viene prima di Martinez L., scrivi Hojlund 2 e Martinez L. 3.",
+ "priorita": {}
+}

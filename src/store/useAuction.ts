@@ -33,6 +33,8 @@ export interface Snapshot {
   targetIds: number[]
   /** Prezzo atteso corretto a mano, per id giocatore. Vince su tutto il resto. */
   priceOverrides: Record<number, number>
+  /** Note personali per id giocatore: restano nel browser e nel backup JSON. */
+  note: Record<number, string>
 }
 
 interface AuctionState extends Snapshot {
@@ -53,6 +55,9 @@ interface AuctionState extends Snapshot {
 
   setPriceOverride: (playerId: number, price: number | null) => void
   clearPriceOverrides: () => void
+
+  setNota: (playerId: number, testo: string) => void
+  clearNote: () => void
 
   assign: (playerId: number, teamId: string, price: number) => void
   unassign: (playerId: number) => void
@@ -79,6 +84,7 @@ export const useAuction = create<AuctionState>()(
             myTeamId: s.myTeamId,
             targetIds: s.targetIds,
             priceOverrides: s.priceOverrides,
+            note: s.note,
           }
           return { ...fn(s), undoStack: [before, ...s.undoStack].slice(0, UNDO_LIMIT) }
         })
@@ -90,6 +96,7 @@ export const useAuction = create<AuctionState>()(
         myTeamId: DEFAULT_TEAMS[0].id,
         targetIds: [],
         priceOverrides: {},
+        note: {},
         undoStack: [],
 
         setSettings: (patch) => set((s) => ({ settings: { ...s.settings, ...patch } })),
@@ -135,6 +142,17 @@ export const useAuction = create<AuctionState>()(
 
         clearPriceOverrides: () => mutate(() => ({ priceOverrides: {} })),
 
+        setNota: (playerId, testo) =>
+          set((s) => {
+            const next = { ...s.note }
+            // Una nota svuotata e' una nota cancellata: niente chiavi vuote nel backup.
+            if (testo.trim()) next[playerId] = testo
+            else delete next[playerId]
+            return { note: next }
+          }),
+
+        clearNote: () => mutate(() => ({ note: {} })),
+
         assign: (playerId, teamId, price) =>
           mutate((s) => ({
             picks: [
@@ -162,6 +180,7 @@ export const useAuction = create<AuctionState>()(
             myTeamId: DEFAULT_TEAMS[0].id,
             targetIds: [],
             priceOverrides: {},
+            note: {},
             undoStack: [],
           }),
 
@@ -173,6 +192,7 @@ export const useAuction = create<AuctionState>()(
             myTeamId: snap.myTeamId ?? null,
             targetIds: snap.targetIds ?? [],
             priceOverrides: snap.priceOverrides ?? {},
+            note: snap.note ?? {},
           })),
 
         snapshot: () => {
@@ -184,6 +204,7 @@ export const useAuction = create<AuctionState>()(
             myTeamId: s.myTeamId,
             targetIds: s.targetIds,
             priceOverrides: s.priceOverrides,
+            note: s.note,
           }
         },
       }
@@ -197,6 +218,7 @@ export const useAuction = create<AuctionState>()(
         myTeamId: s.myTeamId,
         targetIds: s.targetIds,
         priceOverrides: s.priceOverrides,
+        note: s.note,
       }),
     },
   ),

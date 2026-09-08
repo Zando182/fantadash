@@ -70,6 +70,8 @@ export interface Player {
 
   /** Priorita nel reparto: 1 e il primo della lista. */
   prio: number
+  /** La priorita del workbook, presente solo se riscritta in data/priorita.json. */
+  prioListone?: number
   /** Indice di priorita 0-100 calcolato nel workbook. */
   indice: number
   /** Posizione per FVM dentro il reparto. */

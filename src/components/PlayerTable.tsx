@@ -27,6 +27,8 @@ interface Props {
   advice: Map<number, Advice>
   abbinamenti: Map<number, Abbinamento>
   targetIds: Set<number>
+  /** Le tue note per id giocatore: chi ce l'ha prende il pallino azzurro. */
+  note: Record<number, string>
   selectedId: number | null
   highlightIndex: number
   sort: { key: SortKey; desc: boolean }
@@ -66,6 +68,7 @@ export default function PlayerTable({
   advice,
   abbinamenti,
   targetIds,
+  note,
   selectedId,
   highlightIndex,
   sort,
@@ -193,6 +196,13 @@ export default function PlayerTable({
                     <span className="min-w-0 truncate">
                       {pick ? <span className="line-through decoration-ink-600">{p.nome}</span> : p.nome}
                     </span>
+                    {note[p.id] && (
+                      <span
+                        title={`Tua nota: ${note[p.id]}`}
+                        aria-label="Hai una nota su questo giocatore"
+                        className="size-2 shrink-0 rounded-full bg-sky-400 shadow-[0_0_5px_rgba(56,189,248,0.8)]"
+                      />
+                    )}
                     <PlayerTags p={p} />
                   </span>
                 </td>
@@ -202,7 +212,14 @@ export default function PlayerTable({
                 <td className="px-2 py-1">
                   <FasciaBadge fascia={p.fascia} />
                 </td>
-                <td className="px-2 py-1 text-right text-ink-400" title={`Indice di priorita ${p.indice}`}>
+                <td
+                  className={`px-2 py-1 text-right ${p.prioListone != null ? 'font-semibold text-sky-300' : 'text-ink-400'}`}
+                  title={
+                    p.prioListone != null
+                      ? `Priorita tua: il listone lo metteva #${p.prioListone} (indice ${p.indice})`
+                      : `Indice di priorita ${p.indice}`
+                  }
+                >
                   {int(p.prio)}
                 </td>
                 <td className="px-2 py-1 text-right font-semibold">{int(p.qtA)}</td>

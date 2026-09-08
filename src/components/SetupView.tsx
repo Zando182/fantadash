@@ -23,6 +23,8 @@ export default function SetupView({ utente, onEsci }: { utente: Utente; onEsci: 
   const targetIds = useAuction((s) => s.targetIds)
   const clearTargets = useAuction((s) => s.clearTargets)
   const priceOverrides = useAuction((s) => s.priceOverrides)
+  const note = useAuction((s) => s.note)
+  const clearNote = useAuction((s) => s.clearNote)
   const clearPriceOverrides = useAuction((s) => s.clearPriceOverrides)
   const resetPicks = useAuction((s) => s.resetPicks)
   const resetAll = useAuction((s) => s.resetAll)
@@ -62,7 +64,9 @@ export default function SetupView({ utente, onEsci }: { utente: Utente; onEsci: 
    * regole di lega: budget e slot sono scelte dell'utente, non del file.
    */
   const applicaRose = (teams: Team[], picks: Pick[], mioTeam: string | null, esito: EsitoImport) => {
-    loadSnapshot({ settings, teams, picks, myTeamId: mioTeam, targetIds: [], priceOverrides: {} })
+    // Le note personali sopravvivono all'import: sono appunti sui giocatori,
+    // non hanno niente a che vedere con chi possiede chi.
+    loadSnapshot({ settings, teams, picks, myTeamId: mioTeam, targetIds: [], priceOverrides: {}, note })
     setMsg(
       `Importate ${teams.length} squadre e ${picks.length} assegnazioni` +
         (esito.fuoriLista.length ? `, ${esito.fuoriLista.length} fuori listone saltati` : '') +
@@ -256,6 +260,15 @@ export default function SetupView({ utente, onEsci }: { utente: Utente; onEsci: 
                 onClick={clearPriceOverrides}
               >
                 Azzera prezzi corretti ({Object.keys(priceOverrides).length})
+              </button>
+              <button
+                className="btn"
+                disabled={!Object.keys(note).length}
+                onClick={() => {
+                  if (confirm('Cancella tutte le tue note sui giocatori. Confermi?')) clearNote()
+                }}
+              >
+                Azzera note ({Object.keys(note).length})
               </button>
               <button
                 className="btn text-rose-300 hover:border-rose-500/60"

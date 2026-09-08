@@ -435,6 +435,42 @@ Sotto c'e' il gruppo intero in ordine, con il pallino verde su chi parte, il con
 obiettivo senza uscire dalla scheda e senza perdere il giocatore che e' in asta in quel momento —
 che e' esattamente il gesto che serve quando stai comprando il titolare e vuoi anche la sua riserva.
 
+### La tua priorita', quando non sei d'accordo col listone
+
+Nel workbook la colonna `Prio` **e' una formula**: `=RANK(B4;$B$4:$B$92)` calcolata sull'`Indice`,
+che a sua volta e' una formula sui pesi del foglio `Guida`. Sovrascriverla a mano in Excel regge una
+cella sola: al primo ricalcolo le altre si rifanno da sole e restano buchi e doppioni.
+
+Due strade, a seconda di cosa vuoi cambiare:
+
+- **Il criterio, per tutti** — foglio `Guida`, celle gialle `B22`-`B25` (peso di FVM, rendimento,
+  rigorista, calci piazzati) e `B18` (compressione della curva). Excel ricalcola indici, priorita' e
+  prezzi consigliati in modo coerente. Poi `npm run ingest`.
+- **Il tuo ordine su singoli giocatori** — **`data/priorita.json`**, che non passa da Excel:
+
+```json
+{ "priorita": { "Hojlund (NAP)": 2, "Martinez L. (INT)": 3 } }
+```
+
+Chi non e' elencato tiene la priorita' del workbook. I doppioni sono ammessi: a parita' ordina
+l'indice. In dashboard la priorita' riscritta si vede **in azzurro**, con quella del listone nel
+tooltip. Cambia solo la colonna `Prio` e il suo ordinamento: non tocca prezzi, Score o listino
+d'asta. Come per gli altri file di correzione, una chiave che non corrisponde a nessuno ferma
+l'ingest.
+
+### Le tue note sui giocatori
+
+Non stanno in un file: si scrivono **dentro l'app**, nella striscia in cima alla scheda che si apre
+quando il giocatore va all'asta. Chi ha una nota prende un **pallino azzurro accanto al nome nella
+lista d'asta**, e passandoci sopra si legge senza aprire la scheda.
+
+Restano nel browser (`localStorage`) insieme al resto dell'asta, finiscono nel backup JSON e
+**sopravvivono all'import delle rose** — sono appunti sui giocatori, non hanno a che vedere con chi
+possiede chi. Si cancellano tutte da Impostazioni, "Azzera note".
+
+Un avvertimento: le note sono legate all'id del giocatore, quindi valgono lo stesso avviso delle
+assegnazioni — sostituendo il workbook gli id cambiano. Esporta il backup prima.
+
 ### Infortuni successivi al workbook
 
 Il foglio `Infortunati` e' fermo al 1 settembre, il pronto soccorso no.
@@ -515,6 +551,8 @@ barra di assegnazione **la scheda completa**, divisa in tre blocchi:
   mostrare zeri che sembrano un rendimento pessimo;
 - **Ballottaggio** – la riserva diretta o il titolare davanti, il gruppo che si gioca il posto, e una
   stella per ogni alternativa;
+- **La tua nota** – una striscia in cima, subito sotto lo stato: si scrive li' e compare subito il
+  pallino azzurro nella lista;
 - **Abbinamenti di calendario** – coppia e terzetto migliori fra i liberi, l'abbinamento fisso del
   listone, e le trasferte in comune con i giocatori dello stesso reparto che hai gia' in rosa.
 
@@ -585,7 +623,8 @@ data/                        il workbook .xlsx (il watcher guarda qui)
 data/ceduti.txt              chi ha lasciato la Serie A dopo la data del workbook
 data/formazioni-tipo.json    undici titolari probabili da due fonti, con URL e data
 data/infortuni.json          infortuni successivi alla data del workbook
-scripts/ingest_xlsx.py       workbook - ceduti + formazioni + infortuni -> listone.json
+data/priorita.json           la tua priorita' dove non concordi col listone
+scripts/ingest_xlsx.py       workbook + i quattro file di correzione -> listone.json
 scripts/serve.mjs            server statico senza dipendenze per dist/
 vite.config.ts               plugin autoIngest: rigenera il listone al volo
 src/lib/listone.ts           caricamento listone, ricerca, filtri, matrice calendario

@@ -342,7 +342,27 @@ Primo caso: **Thuram K. (Juventus)**, operato al ginocchio, rientro previsto a f
 "In dubbio per la prossima" a "Infortunato - lungo stop", con il moltiplicatore che scende da 0,95 a
 0,60. Come per i ceduti, una chiave che non corrisponde a nessuno ferma l'ingest.
 
-## 11. Cose minori
+## 11. La tua priorita' e le tue note
+
+Due cose personali, tenute separate perche' hanno vite diverse.
+
+**`data/priorita.json`** — nel workbook `Prio` e' una formula (`=RANK` sull'`Indice`, che dipende
+dai pesi del foglio `Guida`), quindi sovrascriverla a mano in Excel regge una cella sola e poi il
+ricalcolo lascia buchi e doppioni. Il file la riscrive per i giocatori elencati; gli altri tengono
+quella del workbook. In dashboard si vede in azzurro con il valore del listone nel tooltip. Cambia
+solo la colonna Prio e il suo ordinamento, non prezzi ne' Score.
+
+**Le note** stanno invece nello stato dell'app, non in un file: si scrivono nella striscia in cima
+alla scheda d'asta e compaiono subito come **pallino azzurro accanto al nome nella lista**, con il
+testo nel tooltip. Vivono in `localStorage` con il resto dell'asta, entrano nel backup JSON e
+sopravvivono all'import delle rose — sono appunti sui giocatori, indipendenti da chi li possiede. Si
+azzerano da Impostazioni.
+
+La differenza di trattamento e' voluta: la priorita' e' una decisione che vuoi rileggere e versionare
+in un file, la nota e' una cosa che scrivi in tre secondi mentre l'asta va avanti e non puoi
+permetterti di aprire un editor.
+
+## 12. Cose minori
 
 - Il plugin `autoIngest` non stampa piu' un falso `ingest fallito (-2)` su macOS: il comando `python`
   non esiste, e l'avviso usciva prima che scattasse il fallback su `python3`.
@@ -360,6 +380,7 @@ nuovi
   data/ceduti.txt                                       chi e' uscito dopo il workbook
   data/formazioni-tipo.json                              undici probabili da due fonti
   data/infortuni.json                                    infortuni dopo la data del workbook
+  data/priorita.json                                     la tua priorita' personale
   src/lib/abbinamenti.ts                                 coppie e terzetti fra i liberi
   src/lib/ballottaggi.ts                                 chi si gioca il posto con chi
   src/components/PlayerCard.tsx                          la scheda che si apre in asta

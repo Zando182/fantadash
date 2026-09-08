@@ -18,6 +18,9 @@ interface Props {
   /** Obiettivi gia marcati: la stella nel ballottaggio si accende da qui. */
   targetIds: Set<number>
   onToggleTarget: (playerId: number) => void
+  /** La tua nota su questo giocatore, e come scriverla. */
+  nota: string
+  onNota: (playerId: number, testo: string) => void
   onChiudi: () => void
 }
 
@@ -35,6 +38,8 @@ export default function PlayerCard({
   myTeam,
   targetIds,
   onToggleTarget,
+  nota,
+  onNota,
   onChiudi,
 }: Props) {
   const inf = tonoInfortunio(p)
@@ -52,7 +57,14 @@ export default function PlayerCard({
               <PlayerTags p={p} />
             </div>
             <div className="text-[11px] text-ink-400">
-              {p.squadra} · {p.rm} · <span className="text-ink-300">#{int(p.prio)}</span> fra i{' '}
+              {p.squadra} · {p.rm} ·{' '}
+              <span
+                className={p.prioListone != null ? 'font-semibold text-sky-300' : 'text-ink-300'}
+                title={p.prioListone != null ? `Priorita tua: il listone lo metteva #${p.prioListone}` : undefined}
+              >
+                #{int(p.prio)}
+              </span>{' '}
+              fra i{' '}
               {p.r === 'P' ? 'portieri' : p.r === 'D' ? 'difensori' : p.r === 'C' ? 'centrocampisti' : 'attaccanti'}
               {' · indice '}
               <span className="text-ink-300">{dec(p.indice, 1)}</span>
@@ -86,6 +98,24 @@ export default function PlayerCard({
           {p.inf?.stato && p.nota && <span className="ml-1.5 text-ink-400">({p.nota})</span>}
         </div>
       )}
+
+      <label className="flex items-start gap-2 border-b border-ink-800 px-3 py-2">
+        <span className="mt-1.5 flex shrink-0 items-center gap-1.5 text-[10px] font-semibold uppercase tracking-wide text-ink-500">
+          <span
+            className={`size-2 rounded-full ${
+              nota ? 'bg-sky-400 shadow-[0_0_5px_rgba(56,189,248,0.8)]' : 'bg-ink-700'
+            }`}
+          />
+          La tua nota
+        </span>
+        <textarea
+          value={nota}
+          onChange={(e) => onNota(p.id, e.target.value)}
+          rows={nota ? 2 : 1}
+          placeholder="Appunti tuoi su questo giocatore: fin dove arrivare, con chi accoppiarlo, cosa ti ha detto la lega..."
+          className="field min-h-0 flex-1 resize-y py-1 text-xs leading-snug"
+        />
+      </label>
 
       <div className="grid gap-3 px-3 py-2.5 md:grid-cols-2 2xl:grid-cols-4">
         <Blocco titolo="Prezzi">

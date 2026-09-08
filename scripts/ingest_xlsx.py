@@ -20,6 +20,7 @@ Ci sono due file accanto, che non sono fonti alternative ma correzioni:
   del workbook e' derivata dalle quotazioni, e sulle quotazioni un titolare
   economico sembra una riserva.
 - data/infortuni.json, gli infortuni successivi alla data del workbook.
+- data/priorita.json, la priorita' personale dove non si e' d'accordo col workbook.
 """
 from __future__ import annotations
 
@@ -38,6 +39,7 @@ OUT = ROOT / "src" / "data" / "listone.json"
 CEDUTI = ROOT / "data" / "ceduti.txt"
 FORMAZIONI = ROOT / "data" / "formazioni-tipo.json"
 INFORTUNI = ROOT / "data" / "infortuni.json"
+PRIORITA = ROOT / "data" / "priorita.json"
 
 # Nei fogli di reparto la riga 1 e' il titolo, la 2 il conteggio, la 3 l'header.
 HEADER_ROW = 3
@@ -398,6 +400,36 @@ def applica_infortuni(giocatori: list[dict]) -> tuple[int, list[str]]:
     return applicati, ignoti
 
 
+# --- priorita' personale ------------------------------------------------------
+
+
+def applica_priorita(giocatori: list[dict]) -> tuple[int, list[str]]:
+    """Sovrascrive la Prio con quella scelta a mano.
+
+    Nel workbook Prio e' una formula (=RANK sull'Indice), quindi cambiarla nel
+    file regge una cella sola: al primo ricalcolo Excel rifa' le altre e restano
+    buchi e doppioni. Qui il valore vince e basta.
+    """
+    if not PRIORITA.exists():
+        return 0, []
+
+    dati = json.loads(PRIORITA.read_text(encoding="utf-8"))
+    per_chiave = {p["chiave"]: p for p in giocatori}
+    ignoti: list[str] = []
+    applicate = 0
+
+    for chiave, valore in (dati.get("priorita") or {}).items():
+        p = per_chiave.get(chiave)
+        if p is None:
+            ignoti.append(chiave)
+            continue
+        p["prioListone"] = p["prio"]
+        p["prio"] = num0(valore)
+        applicate += 1
+
+    return applicate, ignoti
+
+
 # --- giocatori usciti dopo la data del workbook ------------------------------
 
 
@@ -531,6 +563,12 @@ def main() -> None:
 
     formazioni, form_persi = applica_formazioni(giocatori)
     n_inf, inf_ignoti = applica_infortuni(giocatori)
+    n_prio, prio_ignoti = applica_priorita(giocatori)
+    if prio_ignoti:
+        sys.exit(
+            f"data/priorita.json: chiavi non trovate nel listone {prio_ignoti}. "
+            "Il formato e' \"Cognome (SIG)\", come nella colonna Chiave del foglio DB."
+        )
     if inf_ignoti:
         sys.exit(
             f"data/infortuni.json: chiavi non trovate nel listone {inf_ignoti}. "
@@ -585,6 +623,8 @@ def main() -> None:
         print(f"  {len(ceduti)} tolti da data/ceduti.txt: {', '.join(ceduti)}")
     if n_inf:
         print(f"  {n_inf} infortuni aggiornati da data/infortuni.json")
+    if n_prio:
+        print(f"  {n_prio} priorita' riscritte da data/priorita.json")
     if formazioni:
         due = sum(1 for p in giocatori if p["fonti"] >= 2)
         una = sum(1 for p in giocatori if p["fonti"] == 1)
