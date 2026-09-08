@@ -14,7 +14,7 @@ export default function LoginSplash({ onEntra }: { onEntra: (u: Utente) => void 
   const submit = (e: React.FormEvent) => {
     e.preventDefault()
     if (!formatoValido(id)) {
-      setErrore('Serve il formato nome.cognome, per esempio lorenzo.bonetti')
+      setErrore('Serve il formato nome.cognome')
       return
     }
     if (!password.trim()) {

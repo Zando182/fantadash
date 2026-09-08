@@ -14,9 +14,9 @@
 const CHIAVE = 'fantadash.utente'
 
 export interface Utente {
-  /** Come e' stato digitato, es. "lorenzo.bonetti". */
+  /** Come e' stato digitato, es. "nome.cognome". */
   id: string
-  /** Ricavato dall'id per i saluti, es. "Lorenzo Bonetti". */
+  /** Ricavato dall'id per i saluti, es. "Nome Cognome". */
   nome: string
   /** ISO 8601 del primo accesso. */
   dal: string
@@ -29,7 +29,7 @@ export const formatoValido = (id: string) => FORMATO.test(id.trim())
 
 const maiuscola = (s: string) => s.charAt(0).toUpperCase() + s.slice(1)
 
-/** "lorenzo.bonetti" -> "Lorenzo Bonetti" */
+/** "nome.cognome" -> "Nome Cognome" */
 export function nomeLeggibile(id: string): string {
   return id
     .trim()
