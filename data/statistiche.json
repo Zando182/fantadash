@@ -1,0 +1,2423 @@
+{
+ "_nota": "Statistiche 2026/27 aggiornate a una giornata piu' recente del workbook. Sovrascrivono il blocco s26 del giocatore. La copertura non e' totale: chi non e' elencato tiene i dati del workbook, e la dashboard mostra a quante giornate si riferiscono i suoi.",
+ "_giornate": 3,
+ "_aggiornato": "2026-09-08",
+ "_fonte": "https://www.fantacalcio.it/statistiche-serie-a",
+ "statistiche": {
+  "Carnesecchi (ATA)": {
+   "pg": 3,
+   "mv": 6.83,
+   "fm": 6.17,
+   "gol": 0,
+   "ass": 0
+  },
+  "Mandas (LAZ)": {
+   "pg": 3,
+   "mv": 6.33,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Vicario (JUV)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 5.83,
+   "gol": 0,
+   "ass": 0
+  },
+  "Svilar (ROM)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 5.83,
+   "gol": 0,
+   "ass": 0
+  },
+  "Maignan (MIL)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 5.33,
+   "gol": 0,
+   "ass": 0
+  },
+  "Palmisani (FRO)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 5.17,
+   "gol": 0,
+   "ass": 0
+  },
+  "Martinez Jo. (INT)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 5.17,
+   "gol": 0,
+   "ass": 0
+  },
+  "Caprile (CAG)": {
+   "pg": 3,
+   "mv": 6.33,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Malen (ROM)": {
+   "pg": 3,
+   "mv": 7.5,
+   "fm": 12.33,
+   "gol": 5,
+   "ass": 0
+  },
+  "Raimondo (FRO)": {
+   "pg": 3,
+   "mv": 7.0,
+   "fm": 10.83,
+   "gol": 4,
+   "ass": 0
+  },
+  "Adams C. (TOR)": {
+   "pg": 3,
+   "mv": 6.67,
+   "fm": 8.67,
+   "gol": 2,
+   "ass": 0
+  },
+  "Douvikas (COM)": {
+   "pg": 3,
+   "mv": 6.33,
+   "fm": 8.33,
+   "gol": 2,
+   "ass": 0
+  },
+  "Hojlund (NAP)": {
+   "pg": 3,
+   "mv": 6.5,
+   "fm": 8.5,
+   "gol": 2,
+   "ass": 0
+  },
+  "Martinez L. (INT)": {
+   "pg": 3,
+   "mv": 6.33,
+   "fm": 8.0,
+   "gol": 2,
+   "ass": 0
+  },
+  "Raspadori (ATA)": {
+   "pg": 2,
+   "mv": 6.25,
+   "fm": 7.75,
+   "gol": 1,
+   "ass": 0
+  },
+  "Thuram (INT)": {
+   "pg": 2,
+   "mv": 6.25,
+   "fm": 7.75,
+   "gol": 1,
+   "ass": 0
+  },
+  "Esposito F.P. (INT)": {
+   "pg": 3,
+   "mv": 6.67,
+   "fm": 8.0,
+   "gol": 1,
+   "ass": 1
+  },
+  "Dybala (ROM)": {
+   "pg": 3,
+   "mv": 7.33,
+   "fm": 8.67,
+   "gol": 0,
+   "ass": 4
+  },
+  "Krstovic (ATA)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 6.67,
+   "gol": 1,
+   "ass": 0
+  },
+  "Dovbyk (BOL)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 6.67,
+   "gol": 1,
+   "ass": 0
+  },
+  "Piccoli (BOL)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 6.67,
+   "gol": 1,
+   "ass": 0
+  },
+  "Pellegrino M. (FIO)": {
+   "pg": 3,
+   "mv": 5.33,
+   "fm": 6.17,
+   "gol": 1,
+   "ass": 0
+  },
+  "Scamacca (ATA)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 5.83,
+   "gol": 0,
+   "ass": 0
+  },
+  "Politano (NAP)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 6.67,
+   "gol": 1,
+   "ass": 0
+  },
+  "Simeone (TOR)": {
+   "pg": 3,
+   "mv": 5.67,
+   "fm": 5.67,
+   "gol": 0,
+   "ass": 0
+  },
+  "Pinamonti (LAZ)": {
+   "pg": 1,
+   "mv": 5.0,
+   "fm": 5.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Lucca (NAP)": {
+   "pg": 2,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Kean (COM)": {
+   "pg": 2,
+   "mv": 6.25,
+   "fm": 6.75,
+   "gol": 0,
+   "ass": 1
+  },
+  "Cutrone (MON)": {
+   "pg": 2,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Mastantuono (FIO)": {
+   "pg": 3,
+   "mv": 5.33,
+   "fm": 5.33,
+   "gol": 0,
+   "ass": 0
+  },
+  "Zambo Anguissa (NAP)": {
+   "pg": 3,
+   "mv": 5.33,
+   "fm": 5.33,
+   "gol": 0,
+   "ass": 0
+  },
+  "Kolo Muani (JUV)": {
+   "pg": 3,
+   "mv": 5.17,
+   "fm": 5.17,
+   "gol": 0,
+   "ass": 0
+  },
+  "Frattesi (LAZ)": {
+   "pg": 3,
+   "mv": 7.17,
+   "fm": 10.17,
+   "gol": 3,
+   "ass": 0
+  },
+  "Varela G. (MON)": {
+   "pg": 2,
+   "mv": 7.0,
+   "fm": 10.0,
+   "gol": 2,
+   "ass": 0
+  },
+  "Soulè (ROM)": {
+   "pg": 3,
+   "mv": 6.83,
+   "fm": 9.17,
+   "gol": 2,
+   "ass": 1
+  },
+  "Diao (COM)": {
+   "pg": 3,
+   "mv": 6.67,
+   "fm": 9.0,
+   "gol": 2,
+   "ass": 1
+  },
+  "Koopmeiners (JUV)": {
+   "pg": 2,
+   "mv": 6.75,
+   "fm": 8.75,
+   "gol": 1,
+   "ass": 1
+  },
+  "Baturina (COM)": {
+   "pg": 3,
+   "mv": 6.67,
+   "fm": 8.5,
+   "gol": 2,
+   "ass": 0
+  },
+  "Calhanoglu (INT)": {
+   "pg": 3,
+   "mv": 6.67,
+   "fm": 8.5,
+   "gol": 2,
+   "ass": 0
+  },
+  "Gonzalez N. (JUV)": {
+   "pg": 2,
+   "mv": 7.0,
+   "fm": 8.5,
+   "gol": 1,
+   "ass": 0
+  },
+  "Cissè A. (MIL)": {
+   "pg": 3,
+   "mv": 6.5,
+   "fm": 8.33,
+   "gol": 2,
+   "ass": 0
+  },
+  "Vergara (NAP)": {
+   "pg": 2,
+   "mv": 6.5,
+   "fm": 8.25,
+   "gol": 1,
+   "ass": 1
+  },
+  "Berardi (SAS)": {
+   "pg": 2,
+   "mv": 6.75,
+   "fm": 8.25,
+   "gol": 1,
+   "ass": 0
+  },
+  "Kvernadze (FRO)": {
+   "pg": 3,
+   "mv": 6.83,
+   "fm": 8.17,
+   "gol": 1,
+   "ass": 1
+  },
+  "De Bruyne (NAP)": {
+   "pg": 3,
+   "mv": 6.67,
+   "fm": 8.0,
+   "gol": 1,
+   "ass": 1
+  },
+  "Pisilli (ROM)": {
+   "pg": 2,
+   "mv": 6.5,
+   "fm": 8.0,
+   "gol": 1,
+   "ass": 0
+  },
+  "Ekkelenkamp (UDI)": {
+   "pg": 3,
+   "mv": 6.5,
+   "fm": 7.83,
+   "gol": 1,
+   "ass": 1
+  },
+  "Bracaglia (FRO)": {
+   "pg": 3,
+   "mv": 6.5,
+   "fm": 7.67,
+   "gol": 1,
+   "ass": 1
+  },
+  "Bisseck (INT)": {
+   "pg": 3,
+   "mv": 6.67,
+   "fm": 7.67,
+   "gol": 1,
+   "ass": 0
+  },
+  "Zielinski (INT)": {
+   "pg": 3,
+   "mv": 6.67,
+   "fm": 7.67,
+   "gol": 1,
+   "ass": 0
+  },
+  "Bremer (JUV)": {
+   "pg": 3,
+   "mv": 6.67,
+   "fm": 7.67,
+   "gol": 1,
+   "ass": 0
+  },
+  "Adzic (SAS)": {
+   "pg": 3,
+   "mv": 6.33,
+   "fm": 7.67,
+   "gol": 1,
+   "ass": 1
+  },
+  "Romano (CAG)": {
+   "pg": 3,
+   "mv": 6.5,
+   "fm": 7.5,
+   "gol": 1,
+   "ass": 0
+  },
+  "Carlos Augusto (INT)": {
+   "pg": 1,
+   "mv": 6.5,
+   "fm": 7.5,
+   "gol": 0,
+   "ass": 1
+  },
+  "Diouf (INT)": {
+   "pg": 2,
+   "mv": 6.5,
+   "fm": 7.5,
+   "gol": 0,
+   "ass": 2
+  },
+  "Gorter (LEC)": {
+   "pg": 2,
+   "mv": 6.0,
+   "fm": 7.5,
+   "gol": 1,
+   "ass": 0
+  },
+  "Rabiot (MIL)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 7.5,
+   "gol": 1,
+   "ass": 1
+  },
+  "Hermoso (ROM)": {
+   "pg": 3,
+   "mv": 6.67,
+   "fm": 7.5,
+   "gol": 1,
+   "ass": 0
+  },
+  "Volpato (SAS)": {
+   "pg": 3,
+   "mv": 6.67,
+   "fm": 7.5,
+   "gol": 1,
+   "ass": 0
+  },
+  "Karlstrom (UDI)": {
+   "pg": 3,
+   "mv": 6.67,
+   "fm": 7.5,
+   "gol": 1,
+   "ass": 0
+  },
+  "Piotrowski (UDI)": {
+   "pg": 2,
+   "mv": 6.25,
+   "fm": 7.5,
+   "gol": 1,
+   "ass": 0
+  },
+  "Yeboah J. (VEN)": {
+   "pg": 3,
+   "mv": 6.5,
+   "fm": 7.5,
+   "gol": 1,
+   "ass": 0
+  },
+  "Lontani (PAR)": {
+   "pg": 3,
+   "mv": 6.5,
+   "fm": 7.5,
+   "gol": 1,
+   "ass": 0
+  },
+  "Mora (ROM)": {
+   "pg": 3,
+   "mv": 6.5,
+   "fm": 7.5,
+   "gol": 1,
+   "ass": 0
+  },
+  "Osmajic (GEN)": {
+   "pg": 2,
+   "mv": 6.0,
+   "fm": 7.5,
+   "gol": 1,
+   "ass": 0
+  },
+  "Belghali (TOR)": {
+   "pg": 1,
+   "mv": 6.5,
+   "fm": 7.5,
+   "gol": 0,
+   "ass": 1
+  },
+  "Samardzic (ATA)": {
+   "pg": 3,
+   "mv": 6.33,
+   "fm": 7.33,
+   "gol": 1,
+   "ass": 0
+  },
+  "Chukwueze (MIL)": {
+   "pg": 3,
+   "mv": 6.67,
+   "fm": 7.33,
+   "gol": 0,
+   "ass": 2
+  },
+  "Ederson D.S. (ATA)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 7.17,
+   "gol": 1,
+   "ass": 0
+  },
+  "Maldini (CAG)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 7.17,
+   "gol": 1,
+   "ass": 0
+  },
+  "Paz N. (COM)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 7.17,
+   "gol": 1,
+   "ass": 0
+  },
+  "Wesley (ROM)": {
+   "pg": 3,
+   "mv": 6.83,
+   "fm": 7.17,
+   "gol": 0,
+   "ass": 1
+  },
+  "Doig (SAS)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 7.17,
+   "gol": 1,
+   "ass": 0
+  },
+  "Comuzzo (TOR)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 7.17,
+   "gol": 1,
+   "ass": 0
+  },
+  "Mandragora (TOR)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 7.0,
+   "gol": 1,
+   "ass": 0
+  },
+  "Gudmundsson A. (LAZ)": {
+   "pg": 2,
+   "mv": 5.75,
+   "fm": 7.0,
+   "gol": 1,
+   "ass": 0
+  },
+  "Tavares N. (LAZ)": {
+   "pg": 2,
+   "mv": 6.5,
+   "fm": 7.0,
+   "gol": 0,
+   "ass": 1
+  },
+  "Ramos G. (MIL)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 7.0,
+   "gol": 1,
+   "ass": 0
+  },
+  "Davis K. (UDI)": {
+   "pg": 2,
+   "mv": 6.5,
+   "fm": 7.0,
+   "gol": 0,
+   "ass": 1
+  },
+  "Conceicao (JUV)": {
+   "pg": 3,
+   "mv": 6.5,
+   "fm": 6.83,
+   "gol": 0,
+   "ass": 1
+  },
+  "Colpani (MON)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 6.83,
+   "gol": 1,
+   "ass": 0
+  },
+  "Miranda J. (BOL)": {
+   "pg": 2,
+   "mv": 6.25,
+   "fm": 6.75,
+   "gol": 0,
+   "ass": 1
+  },
+  "Milla (COM)": {
+   "pg": 2,
+   "mv": 6.75,
+   "fm": 6.75,
+   "gol": 0,
+   "ass": 0
+  },
+  "Akinsanmiro (MON)": {
+   "pg": 2,
+   "mv": 6.25,
+   "fm": 6.75,
+   "gol": 0,
+   "ass": 1
+  },
+  "Comert (TOR)": {
+   "pg": 2,
+   "mv": 6.25,
+   "fm": 6.75,
+   "gol": 0,
+   "ass": 1
+  },
+  "Valle (COM)": {
+   "pg": 3,
+   "mv": 6.33,
+   "fm": 6.67,
+   "gol": 0,
+   "ass": 1
+  },
+  "Oyono A. (FRO)": {
+   "pg": 3,
+   "mv": 6.5,
+   "fm": 6.67,
+   "gol": 0,
+   "ass": 1
+  },
+  "Calò (FRO)": {
+   "pg": 3,
+   "mv": 6.33,
+   "fm": 6.67,
+   "gol": 0,
+   "ass": 1
+  },
+  "Masini (FRO)": {
+   "pg": 3,
+   "mv": 6.33,
+   "fm": 6.67,
+   "gol": 0,
+   "ass": 1
+  },
+  "Dimarco (INT)": {
+   "pg": 3,
+   "mv": 6.33,
+   "fm": 6.67,
+   "gol": 0,
+   "ass": 1
+  },
+  "Doekhi (LAZ)": {
+   "pg": 3,
+   "mv": 6.33,
+   "fm": 6.67,
+   "gol": 0,
+   "ass": 1
+  },
+  "Tiago Gabriel (LEC)": {
+   "pg": 3,
+   "mv": 5.67,
+   "fm": 6.67,
+   "gol": 1,
+   "ass": 0
+  },
+  "Mangas (MON)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 6.67,
+   "gol": 0,
+   "ass": 2
+  },
+  "Adopo (CAG)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 6.5,
+   "gol": 0,
+   "ass": 1
+  },
+  "Kempf (COM)": {
+   "pg": 1,
+   "mv": 6.5,
+   "fm": 6.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Barella (INT)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 6.5,
+   "gol": 0,
+   "ass": 1
+  },
+  "Kalulu (JUV)": {
+   "pg": 3,
+   "mv": 6.5,
+   "fm": 6.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Gila (MIL)": {
+   "pg": 3,
+   "mv": 6.5,
+   "fm": 6.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "De Winter (MIL)": {
+   "pg": 3,
+   "mv": 6.67,
+   "fm": 6.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Saelemaekers (MIL)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 6.5,
+   "gol": 0,
+   "ass": 1
+  },
+  "Ghilardi (ROM)": {
+   "pg": 2,
+   "mv": 6.5,
+   "fm": 6.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Cacciamani (TOR)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 6.5,
+   "gol": 0,
+   "ass": 1
+  },
+  "Palma (UDI)": {
+   "pg": 1,
+   "mv": 6.5,
+   "fm": 6.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Zaniolo (UDI)": {
+   "pg": 1,
+   "mv": 6.5,
+   "fm": 6.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Leysen F. (SAS)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 6.5,
+   "gol": 0,
+   "ass": 1
+  },
+  "Balerdi (ROM)": {
+   "pg": 1,
+   "mv": 6.5,
+   "fm": 6.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Zalewski (ATA)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 6.33,
+   "gol": 0,
+   "ass": 1
+  },
+  "Bernardeschi (BOL)": {
+   "pg": 3,
+   "mv": 6.33,
+   "fm": 6.33,
+   "gol": 0,
+   "ass": 0
+  },
+  "Da Cunha (COM)": {
+   "pg": 3,
+   "mv": 6.33,
+   "fm": 6.33,
+   "gol": 0,
+   "ass": 0
+  },
+  "Colombo (GEN)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 6.33,
+   "gol": 0,
+   "ass": 1
+  },
+  "Locatelli (JUV)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 6.33,
+   "gol": 0,
+   "ass": 1
+  },
+  "Zaccagni (LAZ)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 6.33,
+   "gol": 0,
+   "ass": 1
+  },
+  "Coulibaly L. (LEC)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 6.33,
+   "gol": 0,
+   "ass": 1
+  },
+  "Rrahmani (NAP)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 6.33,
+   "gol": 0,
+   "ass": 1
+  },
+  "Lobotka (NAP)": {
+   "pg": 3,
+   "mv": 6.33,
+   "fm": 6.33,
+   "gol": 0,
+   "ass": 0
+  },
+  "Mancini (ROM)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 6.33,
+   "gol": 0,
+   "ass": 1
+  },
+  "Cristante (ROM)": {
+   "pg": 3,
+   "mv": 6.33,
+   "fm": 6.33,
+   "gol": 0,
+   "ass": 0
+  },
+  "Hainaut (VEN)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 6.33,
+   "gol": 0,
+   "ass": 1
+  },
+  "Couto (COM)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 6.33,
+   "gol": 0,
+   "ass": 1
+  },
+  "Chalobah T. (COM)": {
+   "pg": 3,
+   "mv": 6.33,
+   "fm": 6.33,
+   "gol": 0,
+   "ass": 0
+  },
+  "Cinquegrano (SAS)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 6.33,
+   "gol": 0,
+   "ass": 1
+  },
+  "Lulli (ROM)": {
+   "pg": 3,
+   "mv": 6.33,
+   "fm": 6.33,
+   "gol": 0,
+   "ass": 0
+  },
+  "Caqueret (COM)": {
+   "pg": 2,
+   "mv": 6.25,
+   "fm": 6.25,
+   "gol": 0,
+   "ass": 0
+  },
+  "Zerbin (FRO)": {
+   "pg": 2,
+   "mv": 6.25,
+   "fm": 6.25,
+   "gol": 0,
+   "ass": 0
+  },
+  "Belahyane (LAZ)": {
+   "pg": 2,
+   "mv": 6.25,
+   "fm": 6.25,
+   "gol": 0,
+   "ass": 0
+  },
+  "Rovella (LAZ)": {
+   "pg": 2,
+   "mv": 6.25,
+   "fm": 6.25,
+   "gol": 0,
+   "ass": 0
+  },
+  "Jashari (MIL)": {
+   "pg": 2,
+   "mv": 6.25,
+   "fm": 6.25,
+   "gol": 0,
+   "ass": 0
+  },
+  "Njie (FIO)": {
+   "pg": 2,
+   "mv": 6.25,
+   "fm": 6.25,
+   "gol": 0,
+   "ass": 0
+  },
+  "Correia T. (VEN)": {
+   "pg": 2,
+   "mv": 6.25,
+   "fm": 6.25,
+   "gol": 0,
+   "ass": 0
+  },
+  "Scalvini (ATA)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 6.17,
+   "gol": 0,
+   "ass": 0
+  },
+  "Kolasinac (ATA)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 6.17,
+   "gol": 0,
+   "ass": 0
+  },
+  "Rodriguez Ju. (CAG)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 6.17,
+   "gol": 0,
+   "ass": 0
+  },
+  "Fazzini (CAG)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 6.17,
+   "gol": 0,
+   "ass": 1
+  },
+  "Perrone (COM)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 6.17,
+   "gol": 0,
+   "ass": 0
+  },
+  "Calvani (FRO)": {
+   "pg": 3,
+   "mv": 6.5,
+   "fm": 6.17,
+   "gol": 0,
+   "ass": 0
+  },
+  "Sucic P. (INT)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 6.17,
+   "gol": 0,
+   "ass": 0
+  },
+  "Musah (MIL)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 6.17,
+   "gol": 0,
+   "ass": 0
+  },
+  "Di Lorenzo (NAP)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 6.17,
+   "gol": 0,
+   "ass": 1
+  },
+  "Valeri (PAR)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 6.17,
+   "gol": 0,
+   "ass": 0
+  },
+  "Konè M. (ROM)": {
+   "pg": 3,
+   "mv": 6.33,
+   "fm": 6.17,
+   "gol": 0,
+   "ass": 0
+  },
+  "Castro S. (ROM)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 6.17,
+   "gol": 0,
+   "ass": 0
+  },
+  "Matic (SAS)": {
+   "pg": 3,
+   "mv": 6.33,
+   "fm": 6.17,
+   "gol": 0,
+   "ass": 0
+  },
+  "Laurientè (SAS)": {
+   "pg": 3,
+   "mv": 6.33,
+   "fm": 6.17,
+   "gol": 0,
+   "ass": 0
+  },
+  "Fitz-Jim (TOR)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 6.17,
+   "gol": 0,
+   "ass": 0
+  },
+  "Busio (VEN)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 6.17,
+   "gol": 0,
+   "ass": 1
+  },
+  "Fortini (TOR)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 6.17,
+   "gol": 0,
+   "ass": 0
+  },
+  "Sulemana I. (SAS)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Helland (BOL)": {
+   "pg": 2,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Holm (BOL)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Zortea (BOL)": {
+   "pg": 2,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Ferguson (BOL)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Pobega (BOL)": {
+   "pg": 2,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Kofler (CAG)": {
+   "pg": 2,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Obert (CAG)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Felici (CAG)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Borrelli (CAG)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Mendy P. (CAG)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Ramon (COM)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Fadera (CAG)": {
+   "pg": 2,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Liberali (COM)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Monterisi (FRO)": {
+   "pg": 2,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Hasa (FRO)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Fini (FRO)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Ghedjemis (FRO)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Amorim (GEN)": {
+   "pg": 2,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Messias (GEN)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Akanji (INT)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 1
+  },
+  "Bastoni (INT)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Stones (INT)": {
+   "pg": 2,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Pavard (INT)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Luis Henrique (INT)": {
+   "pg": 2,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Bonny (INT)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "McKennie (JUV)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Zhegrova (JUV)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Pedraza (LAZ)": {
+   "pg": 2,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Marusic (LAZ)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Taylor K. (LAZ)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Noslin (LAZ)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Gabbia (MIL)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Pavlovic (MIL)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Bartesaghi (MIL)": {
+   "pg": 2,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Modric (MIL)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Bakoune (MON)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Mota (MON)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Santos A. (NAP)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Ndiaye (PAR)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Valenti (PAR)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Britschgi (PAR)": {
+   "pg": 2,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Diallo O. (PAR)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Koulierakis (ROM)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Lipani (SAS)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Bakola (SAS)": {
+   "pg": 2,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Thorstvedt (SAS)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Bowie (SAS)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Ismajli (TOR)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Solet (UDI)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Abankwah (UDI)": {
+   "pg": 3,
+   "mv": 6.17,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Bertola (UDI)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Molina N. (ROM)": {
+   "pg": 2,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Romero D. (PAR)": {
+   "pg": 2,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Obrador (SAS)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Jones C. (INT)": {
+   "pg": 2,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Woltemade (JUV)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Braganca (TOR)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Patterson (TOR)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Fernandez T. (VEN)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 6.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Zappacosta (ATA)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 5.83,
+   "gol": 0,
+   "ass": 0
+  },
+  "De Ketelaere (ATA)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 5.83,
+   "gol": 0,
+   "ass": 0
+  },
+  "Cambiaghi (BOL)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 5.83,
+   "gol": 0,
+   "ass": 0
+  },
+  "Zè Pedro (CAG)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 5.83,
+   "gol": 0,
+   "ass": 0
+  },
+  "Winks (CAG)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 5.83,
+   "gol": 0,
+   "ass": 0
+  },
+  "Cittadini (FRO)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 5.83,
+   "gol": 0,
+   "ass": 0
+  },
+  "Baldanzi (GEN)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 5.83,
+   "gol": 0,
+   "ass": 0
+  },
+  "Boga (JUV)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 5.83,
+   "gol": 0,
+   "ass": 0
+  },
+  "Floriani Mussolini (LAZ)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 5.83,
+   "gol": 0,
+   "ass": 0
+  },
+  "Veiga D. (LEC)": {
+   "pg": 3,
+   "mv": 5.67,
+   "fm": 5.83,
+   "gol": 0,
+   "ass": 1
+  },
+  "Maleh (LEC)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 5.83,
+   "gol": 0,
+   "ass": 0
+  },
+  "N'Dri (LEC)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 5.83,
+   "gol": 0,
+   "ass": 0
+  },
+  "Birindelli (MON)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 5.83,
+   "gol": 0,
+   "ass": 0
+  },
+  "Delprato (PAR)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 5.83,
+   "gol": 0,
+   "ass": 0
+  },
+  "Ordonez C. (PAR)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 5.83,
+   "gol": 0,
+   "ass": 0
+  },
+  "Coco (TOR)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 5.83,
+   "gol": 0,
+   "ass": 0
+  },
+  "Ebosse (UDI)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 5.83,
+   "gol": 0,
+   "ass": 0
+  },
+  "Vojvoda (UDI)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 5.83,
+   "gol": 0,
+   "ass": 0
+  },
+  "Miller L. (UDI)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 5.83,
+   "gol": 0,
+   "ass": 0
+  },
+  "Lucumì (JUV)": {
+   "pg": 2,
+   "mv": 6.0,
+   "fm": 5.75,
+   "gol": 0,
+   "ass": 0
+  },
+  "Alhassane (BOL)": {
+   "pg": 2,
+   "mv": 5.75,
+   "fm": 5.75,
+   "gol": 0,
+   "ass": 0
+  },
+  "Dominguez B. (SAS)": {
+   "pg": 2,
+   "mv": 5.75,
+   "fm": 5.75,
+   "gol": 0,
+   "ass": 0
+  },
+  "Orsolini (BOL)": {
+   "pg": 2,
+   "mv": 5.75,
+   "fm": 5.75,
+   "gol": 0,
+   "ass": 0
+  },
+  "Cichella (FRO)": {
+   "pg": 2,
+   "mv": 5.75,
+   "fm": 5.75,
+   "gol": 0,
+   "ass": 0
+  },
+  "Kelly L. (JUV)": {
+   "pg": 2,
+   "mv": 5.75,
+   "fm": 5.75,
+   "gol": 0,
+   "ass": 0
+  },
+  "Estupinan (MIL)": {
+   "pg": 2,
+   "mv": 6.0,
+   "fm": 5.75,
+   "gol": 0,
+   "ass": 0
+  },
+  "McTominay (NAP)": {
+   "pg": 2,
+   "mv": 5.75,
+   "fm": 5.75,
+   "gol": 0,
+   "ass": 0
+  },
+  "Lang (NAP)": {
+   "pg": 2,
+   "mv": 5.75,
+   "fm": 5.75,
+   "gol": 0,
+   "ass": 0
+  },
+  "Bernabè (PAR)": {
+   "pg": 2,
+   "mv": 5.75,
+   "fm": 5.75,
+   "gol": 0,
+   "ass": 0
+  },
+  "N'Dicka (ROM)": {
+   "pg": 2,
+   "mv": 5.75,
+   "fm": 5.75,
+   "gol": 0,
+   "ass": 0
+  },
+  "Idzes (SAS)": {
+   "pg": 2,
+   "mv": 6.0,
+   "fm": 5.75,
+   "gol": 0,
+   "ass": 0
+  },
+  "Zarraga (UDI)": {
+   "pg": 2,
+   "mv": 5.75,
+   "fm": 5.75,
+   "gol": 0,
+   "ass": 0
+  },
+  "Gueye (UDI)": {
+   "pg": 2,
+   "mv": 5.75,
+   "fm": 5.75,
+   "gol": 0,
+   "ass": 0
+  },
+  "Franjic (VEN)": {
+   "pg": 2,
+   "mv": 5.75,
+   "fm": 5.75,
+   "gol": 0,
+   "ass": 0
+  },
+  "Basic (VEN)": {
+   "pg": 2,
+   "mv": 5.75,
+   "fm": 5.75,
+   "gol": 0,
+   "ass": 0
+  },
+  "Terzic (FRO)": {
+   "pg": 2,
+   "mv": 5.75,
+   "fm": 5.75,
+   "gol": 0,
+   "ass": 0
+  },
+  "Forson O. (MON)": {
+   "pg": 2,
+   "mv": 5.75,
+   "fm": 5.75,
+   "gol": 0,
+   "ass": 0
+  },
+  "Kossounou (ATA)": {
+   "pg": 3,
+   "mv": 5.67,
+   "fm": 5.67,
+   "gol": 0,
+   "ass": 0
+  },
+  "Gaetano (ATA)": {
+   "pg": 3,
+   "mv": 5.67,
+   "fm": 5.67,
+   "gol": 0,
+   "ass": 1
+  },
+  "Deiola (CAG)": {
+   "pg": 3,
+   "mv": 6.0,
+   "fm": 5.67,
+   "gol": 0,
+   "ass": 0
+  },
+  "Oulai (FIO)": {
+   "pg": 3,
+   "mv": 5.67,
+   "fm": 5.67,
+   "gol": 0,
+   "ass": 0
+  },
+  "Brescianini (FIO)": {
+   "pg": 3,
+   "mv": 5.67,
+   "fm": 5.67,
+   "gol": 0,
+   "ass": 0
+  },
+  "Frendrup (GEN)": {
+   "pg": 3,
+   "mv": 5.67,
+   "fm": 5.67,
+   "gol": 0,
+   "ass": 0
+  },
+  "Celik (JUV)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 5.67,
+   "gol": 0,
+   "ass": 0
+  },
+  "Douglas Luiz (JUV)": {
+   "pg": 3,
+   "mv": 5.67,
+   "fm": 5.67,
+   "gol": 0,
+   "ass": 0
+  },
+  "Provstgaard (LAZ)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 5.67,
+   "gol": 0,
+   "ass": 0
+  },
+  "Cancellieri (LAZ)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 5.67,
+   "gol": 0,
+   "ass": 0
+  },
+  "Isaksen (LAZ)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 5.67,
+   "gol": 0,
+   "ass": 0
+  },
+  "Pierotti (LEC)": {
+   "pg": 3,
+   "mv": 5.67,
+   "fm": 5.67,
+   "gol": 0,
+   "ass": 0
+  },
+  "Loftus-Cheek (MIL)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 5.67,
+   "gol": 0,
+   "ass": 0
+  },
+  "Kouadio (MON)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 5.67,
+   "gol": 0,
+   "ass": 0
+  },
+  "Carboni A. (MON)": {
+   "pg": 3,
+   "mv": 5.67,
+   "fm": 5.67,
+   "gol": 0,
+   "ass": 0
+  },
+  "Spinazzola (NAP)": {
+   "pg": 3,
+   "mv": 5.67,
+   "fm": 5.67,
+   "gol": 0,
+   "ass": 0
+  },
+  "Gineitis (TOR)": {
+   "pg": 3,
+   "mv": 5.5,
+   "fm": 5.67,
+   "gol": 0,
+   "ass": 1
+  },
+  "Haps (VEN)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 5.67,
+   "gol": 0,
+   "ass": 0
+  },
+  "Perez K. (VEN)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 5.67,
+   "gol": 0,
+   "ass": 0
+  },
+  "Tourè E. (PAR)": {
+   "pg": 3,
+   "mv": 5.67,
+   "fm": 5.67,
+   "gol": 0,
+   "ass": 0
+  },
+  "Bernasconi (ATA)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Pasalic (ATA)": {
+   "pg": 3,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Amondarain (BOL)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Moro N. (BOL)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Rowe (ATA)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Odgaard (BOL)": {
+   "pg": 3,
+   "mv": 5.67,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Smolcic I. (COM)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Rodriguez Je. (COM)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Viery (FIO)": {
+   "pg": 2,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Fabbian (PAR)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Vasquez (GEN)": {
+   "pg": 3,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Ellertsson (GEN)": {
+   "pg": 3,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Meichtry (GEN)": {
+   "pg": 2,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Vitinha O. (GEN)": {
+   "pg": 3,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Cambiaso (JUV)": {
+   "pg": 1,
+   "mv": 6.0,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Alajbegovic (JUV)": {
+   "pg": 2,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Yildiz (JUV)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Dele-Bashiru (LAZ)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Gallo (LEC)": {
+   "pg": 2,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Ndaba (LEC)": {
+   "pg": 2,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Folorunsho (MON)": {
+   "pg": 2,
+   "mv": 5.75,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Neres (NAP)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Troilo (PAR)": {
+   "pg": 3,
+   "mv": 5.67,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Cremaschi (PAR)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Keita M. (PAR)": {
+   "pg": 3,
+   "mv": 5.67,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Almqvist (PAR)": {
+   "pg": 2,
+   "mv": 5.75,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Frigan (PAR)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Elphege (PAR)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Ilkhan (TOR)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Aboukhlal (TOR)": {
+   "pg": 2,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Kulenovic (TOR)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Kabasele (UDI)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Unai Gomez (UDI)": {
+   "pg": 2,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Sohm (VEN)": {
+   "pg": 2,
+   "mv": 5.75,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Adams A. (VEN)": {
+   "pg": 3,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Lauberbach (VEN)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Rrahmani Al. (VEN)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Sow (GEN)": {
+   "pg": 3,
+   "mv": 5.67,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Schmid (FRO)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Foe Ondoa (MON)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Elmas (ATA)": {
+   "pg": 2,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Fatah (LEC)": {
+   "pg": 2,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Drobnic (PAR)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Theate (BOL)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Gagliardini (CAG)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Monteiro J. (LEC)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Diego Carlos (PAR)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Beto (FIO)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Gnonto (FIO)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.5,
+   "gol": 0,
+   "ass": 0
+  },
+  "Fagioli (FIO)": {
+   "pg": 3,
+   "mv": 5.5,
+   "fm": 5.33,
+   "gol": 0,
+   "ass": 0
+  },
+  "Marcandalli (GEN)": {
+   "pg": 3,
+   "mv": 5.33,
+   "fm": 5.33,
+   "gol": 0,
+   "ass": 0
+  },
+  "Ostigard (GEN)": {
+   "pg": 3,
+   "mv": 5.83,
+   "fm": 5.33,
+   "gol": 0,
+   "ass": 0
+  },
+  "Siebert (LEC)": {
+   "pg": 3,
+   "mv": 5.5,
+   "fm": 5.33,
+   "gol": 0,
+   "ass": 0
+  },
+  "Ngom (LEC)": {
+   "pg": 3,
+   "mv": 5.5,
+   "fm": 5.33,
+   "gol": 0,
+   "ass": 0
+  },
+  "Stulic (LEC)": {
+   "pg": 3,
+   "mv": 5.33,
+   "fm": 5.33,
+   "gol": 0,
+   "ass": 0
+  },
+  "Lucchesi (MON)": {
+   "pg": 3,
+   "mv": 5.67,
+   "fm": 5.33,
+   "gol": 0,
+   "ass": 0
+  },
+  "Vlasic (TOR)": {
+   "pg": 3,
+   "mv": 5.33,
+   "fm": 5.33,
+   "gol": 0,
+   "ass": 0
+  },
+  "Joao Mario (FIO)": {
+   "pg": 2,
+   "mv": 5.25,
+   "fm": 5.25,
+   "gol": 0,
+   "ass": 0
+  },
+  "Geubbels (LEC)": {
+   "pg": 2,
+   "mv": 5.25,
+   "fm": 5.25,
+   "gol": 0,
+   "ass": 0
+  },
+  "Heggem (BOL)": {
+   "pg": 3,
+   "mv": 5.33,
+   "fm": 5.17,
+   "gol": 0,
+   "ass": 0
+  },
+  "Ndour (FIO)": {
+   "pg": 3,
+   "mv": 5.17,
+   "fm": 5.17,
+   "gol": 0,
+   "ass": 0
+  },
+  "Marin R. (NAP)": {
+   "pg": 3,
+   "mv": 5.33,
+   "fm": 5.17,
+   "gol": 0,
+   "ass": 0
+  },
+  "Bellanova (ATA)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Pongracic (FIO)": {
+   "pg": 1,
+   "mv": 5.0,
+   "fm": 5.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Ranieri L. (FIO)": {
+   "pg": 1,
+   "mv": 5.0,
+   "fm": 5.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Valdepenas (FIO)": {
+   "pg": 2,
+   "mv": 5.0,
+   "fm": 5.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Dodò (FIO)": {
+   "pg": 1,
+   "mv": 5.0,
+   "fm": 5.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Atta (FIO)": {
+   "pg": 3,
+   "mv": 5.0,
+   "fm": 5.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Sabelli (GEN)": {
+   "pg": 1,
+   "mv": 5.0,
+   "fm": 5.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Gaspar K. (LEC)": {
+   "pg": 3,
+   "mv": 5.33,
+   "fm": 5.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Colombo L. (MON)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Olivera (NAP)": {
+   "pg": 1,
+   "mv": 5.0,
+   "fm": 5.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Ilic (LEC)": {
+   "pg": 2,
+   "mv": 5.25,
+   "fm": 5.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Casadei (TOR)": {
+   "pg": 1,
+   "mv": 5.0,
+   "fm": 5.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Bayo V. (UDI)": {
+   "pg": 2,
+   "mv": 5.25,
+   "fm": 5.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Bella-Kotchap (VEN)": {
+   "pg": 2,
+   "mv": 5.0,
+   "fm": 5.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Moreno M. (VEN)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Schingtienne (VEN)": {
+   "pg": 3,
+   "mv": 5.17,
+   "fm": 5.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Kevin Carlos (CAG)": {
+   "pg": 1,
+   "mv": 5.5,
+   "fm": 5.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Moreira (MIL)": {
+   "pg": 1,
+   "mv": 5.0,
+   "fm": 5.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Mout (MON)": {
+   "pg": 1,
+   "mv": 5.0,
+   "fm": 5.0,
+   "gol": 0,
+   "ass": 0
+  },
+  "Badiashile (NAP)": {
+   "pg": 1,
+   "mv": 5.0,
+   "fm": 5.0,
+   "gol": 0,
+   "ass": 0
+  }
+ }
+}

@@ -70,6 +70,14 @@ export default function PlayerCard({
               <span className="text-ink-300">{dec(p.indice, 1)}</span>
               {' · FVM #'}
               <span className="text-ink-300">{int(p.rankFvm)}</span>
+              {p.aggiunto && (
+                <span
+                  title="Tesserato dopo l esportazione del workbook: prezzo consigliato, fascia e priorita sono stimati sul giocatore di pari ruolo piu vicino"
+                  className="ml-1.5 rounded border border-sky-400/40 bg-sky-400/10 px-1 text-[10px] font-semibold text-sky-300"
+                >
+                  fuori workbook
+                </span>
+              )}
             </div>
           </div>
         </div>
@@ -208,12 +216,12 @@ export default function PlayerCard({
             hint="fantamedia 25/26 riportata verso 5,50 in base alle presenze"
           />
           <Riga
-            label="2026/27"
+            label={p.giornate ? `2026/27 (${p.giornate}a giornata)` : '2026/27'}
             value={p.s26.pg ? `${dec(p.s26.fm ?? 0)} FM` : '-'}
             hint={
               p.s26.pg
-                ? `${int(p.s26.pg)}/2 presenze, media voto ${dec(p.s26.mv ?? 0)}, ${int(p.s26.gol)}G ${int(p.s26.ass)}A`
-                : 'nessuna presenza nelle prime due giornate'
+                ? `${int(p.s26.pg)}/${p.giornate || '?'} presenze, media voto ${dec(p.s26.mv ?? 0)}, ${int(p.s26.gol)}G ${int(p.s26.ass)}A`
+                : `nessuna presenza nelle prime ${p.giornate || 0} giornate`
             }
           />
           <Riga label="Gerarchia" value={p.gerarchia} hint={p.nota} />

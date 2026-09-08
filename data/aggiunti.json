@@ -1,0 +1,63 @@
+{
+ "_nota": "Giocatori tesserati dalle squadre di Serie A dopo la chiusura del mercato, quando il workbook era gia' stato esportato. Il mercato degli svincolati resta aperto tutto l'anno, quindi questa lista puo' crescere.",
+ "_comeSiUsa": "Serve l'essenziale: nome come lo scrive Fantacalcio.it, squadra esatta come nel listone, ruolo Classic (P/D/C/A), ruolo Mantra per esteso, quotazione e prezzo consigliato. Fascia, indice, priorita' e rank si ereditano dal giocatore di pari ruolo col prezzo consigliato piu' vicino, cosi' il nuovo arrivato si colloca dove starebbe senza rinumerare nessuno. Dopo ogni modifica: npm run ingest.",
+ "_aggiornato": "2026-09-08",
+ "_fonte": "https://www.fantacalcio-online.com/it/consigli-fantacalcio/formazioni-tipo-serie-a-2026-2027",
+ "aggiunti": [
+  {
+   "nome": "El Shaarawy",
+   "squadra": "Genoa",
+   "r": "A",
+   "rm": "Esterno alto / Attaccante",
+   "qtA": 11,
+   "fvm": 40,
+   "cons": 11,
+   "gerarchia": "Ballottaggio",
+   "nota": "Nuovo - svincolato tesserato il 3 settembre, condizione da ritrovare"
+  },
+  {
+   "nome": "Rodriguez R.",
+   "squadra": "Torino",
+   "r": "D",
+   "rm": "Terzino sinistro / Esterno basso",
+   "qtA": 6,
+   "fvm": 12,
+   "cons": 6,
+   "gerarchia": "Ballottaggio",
+   "nota": "Nuovo - svincolato tesserato il 3 settembre, ritorno in granata"
+  },
+  {
+   "nome": "Ehizibue",
+   "squadra": "Genoa",
+   "r": "D",
+   "rm": "Terzino destro / Esterno basso",
+   "qtA": 6,
+   "fvm": 12,
+   "cons": 6,
+   "gerarchia": "Ballottaggio",
+   "nota": "Nuovo - svincolato tesserato il 3 settembre"
+  },
+  {
+   "nome": "Sierro",
+   "squadra": "Parma",
+   "r": "C",
+   "rm": "Mediano / Centrale",
+   "qtA": 4,
+   "fvm": 8,
+   "cons": 4,
+   "gerarchia": "Riserva",
+   "nota": "Nuovo - svincolato tesserato il 4 settembre, ancora senza quotazione ufficiale"
+  },
+  {
+   "nome": "Mohammed",
+   "squadra": "Venezia",
+   "r": "D",
+   "rm": "Difensore centrale",
+   "qtA": 3,
+   "fvm": 5,
+   "cons": 3,
+   "gerarchia": "Riserva",
+   "nota": "Nuovo - tesserato a mercato chiuso, ancora senza quotazione ufficiale"
+  }
+ ]
+}

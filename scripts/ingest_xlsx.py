@@ -21,6 +21,8 @@ Ci sono due file accanto, che non sono fonti alternative ma correzioni:
   economico sembra una riserva.
 - data/infortuni.json, gli infortuni successivi alla data del workbook.
 - data/priorita.json, la priorita' personale dove non si e' d'accordo col workbook.
+- data/statistiche.json, le statistiche 26/27 di giornate successive al workbook.
+- data/aggiunti.json, chi e' stato tesserato dopo la chiusura del mercato.
 """
 from __future__ import annotations
 
@@ -40,6 +42,8 @@ CEDUTI = ROOT / "data" / "ceduti.txt"
 FORMAZIONI = ROOT / "data" / "formazioni-tipo.json"
 INFORTUNI = ROOT / "data" / "infortuni.json"
 PRIORITA = ROOT / "data" / "priorita.json"
+STATISTICHE = ROOT / "data" / "statistiche.json"
+AGGIUNTI = ROOT / "data" / "aggiunti.json"
 
 # Nei fogli di reparto la riga 1 e' il titolo, la 2 il conteggio, la 3 l'header.
 HEADER_ROW = 3
@@ -113,6 +117,23 @@ COLS = [
 ]
 
 
+GIORNATE_HEADER = re.compile(r"su\s+(\d+)")
+
+
+def giornate_del_workbook(ws) -> int:
+    """Quante giornate copre la colonna PG 26/27, letta dall'intestazione.
+
+    Il workbook la scrive "PG 26/27 (su 2)": leggerla invece di cablare il 2
+    tiene i conti giusti quando arriva un export piu' recente.
+    """
+    for c in header_of(ws):
+        if c.startswith("PG 26/27"):
+            m = GIORNATE_HEADER.search(c)
+            if m:
+                return int(m.group(1))
+    return 0
+
+
 def leggi_reparto(ws, ruolo: str) -> list[dict]:
     header = header_of(ws)
     missing = [c for c in COLS if c not in header]
@@ -120,6 +141,7 @@ def leggi_reparto(ws, ruolo: str) -> list[dict]:
         sys.exit(f"Foglio '{ws.title}': colonne mancanti {missing}")
     idx = {c: header.index(c) for c in COLS}
     g = lambda row, c: row[idx[c]]  # noqa: E731
+    giornate = giornate_del_workbook(ws)
 
     out = []
     for row in ws.iter_rows(min_row=HEADER_ROW + 1, values_only=True):
@@ -176,6 +198,7 @@ def leggi_reparto(ws, ruolo: str) -> list[dict]:
             "infDettaglio": txt(g(row, "Dettaglio infortunio / stato")),
             "s25": s25,
             "s26": s26,
+            "giornate": giornate,
         })
     return out
 
@@ -400,6 +423,103 @@ def applica_infortuni(giocatori: list[dict]) -> tuple[int, list[str]]:
     return applicati, ignoti
 
 
+# --- statistiche di giornate successive al workbook --------------------------
+
+
+def applica_statistiche(giocatori: list[dict]) -> tuple[int, int, list[str]]:
+    """Sovrascrive il blocco 26/27 con dati piu' recenti.
+
+    La copertura non e' mai totale — le fonti pubblicano i giocatori che hanno
+    preso un voto, non tutta la rosa — quindi ogni giocatore porta con se' a
+    quante giornate si riferiscono i suoi numeri, e la dashboard lo dice invece
+    di far credere che siano tutti allineati.
+    """
+    if not STATISTICHE.exists():
+        return 0, 0, []
+
+    dati = json.loads(STATISTICHE.read_text(encoding="utf-8"))
+    giornate = int(dati.get("_giornate") or 0)
+    per_chiave = {p["chiave"]: p for p in giocatori}
+    ignoti: list[str] = []
+    applicate = 0
+
+    for chiave, s in (dati.get("statistiche") or {}).items():
+        p = per_chiave.get(chiave)
+        if p is None:
+            ignoti.append(chiave)
+            continue
+        p["s26"] = {
+            "pg": num0(s.get("pg")),
+            "mv": num(s.get("mv")),
+            "fm": num(s.get("fm")),
+            "gol": num0(s.get("gol")),
+            "ass": num0(s.get("ass")),
+        }
+        p["giornate"] = giornate
+        applicate += 1
+
+    return applicate, giornate, ignoti
+
+
+# --- giocatori tesserati dopo la chiusura del mercato ------------------------
+
+
+def applica_aggiunti(giocatori: list[dict]) -> list[dict]:
+    """Aggiunge chi e' arrivato dopo la data del workbook.
+
+    Il workbook non ha una riga per loro e non si puo' inventarla: il file
+    porta l'essenziale (ruolo, squadra, quotazione, gerarchia) e il resto —
+    fascia, indice, priorita' — si eredita dal giocatore di pari ruolo con il
+    prezzo consigliato piu' vicino. Cosi' il nuovo arrivato si colloca dove
+    starebbe, senza rinumerare nessun altro.
+    """
+    if not AGGIUNTI.exists():
+        return []
+
+    dati = json.loads(AGGIUNTI.read_text(encoding="utf-8"))
+    nuovi = []
+
+    for voce in dati.get("aggiunti") or []:
+        ruolo = voce["r"]
+        cons = num0(voce.get("cons"))
+        pari = [p for p in giocatori if p["r"] == ruolo]
+        if not pari:
+            continue
+        vicino = min(pari, key=lambda p: abs(p["cons"] - cons))
+        nuovi.append({
+            "r": ruolo,
+            "nome": voce["nome"],
+            "squadra": voce["squadra"],
+            "rm": voce.get("rm", ""),
+            "prio": vicino["prio"],
+            "indice": vicino["indice"],
+            "qtI": num0(voce.get("qtA")),
+            "qtA": num0(voce.get("qtA")),
+            "fvm": num0(voce.get("fvm")),
+            "cons": cons,
+            "max": num0(voce.get("max")) or round(cons * 1.2),
+            "fascia": vicino["fascia"],
+            "gerarchia": voce.get("gerarchia", "Riserva"),
+            "nota": voce.get("nota", ""),
+            "rig": None,
+            "piaz": None,
+            "fmPond": 5.5,
+            "nuovo": True,
+            "abb": "",
+            "abbTras": 0,
+            "rankFvm": vicino["rankFvm"],
+            "infDettaglio": "",
+            "s25": None,
+            "s26": {"pg": 0, "mv": None, "fm": None, "gol": 0, "ass": 0},
+            # Le giornate vere si sistemano dopo, sulla copertura piu' recente:
+            # ereditarle dal vicino direbbe "0 presenze su 2" a chi ne ha saltate 3.
+            "giornate": 0,
+            "aggiunto": True,
+        })
+
+    return nuovi
+
+
 # --- priorita' personale ------------------------------------------------------
 
 
@@ -561,8 +681,31 @@ def main() -> None:
         via = set(ceduti)
         giocatori = [p for p in giocatori if p["chiave"] not in via]
 
+    # Chi e' arrivato dopo la chiusura del mercato entra ora, con id sopra a
+    # quelli del workbook: gli id gia' assegnati non si spostano.
+    aggiunti = applica_aggiunti(giocatori)
+    n_aggiunti = len(aggiunti)
+    prossimo = max((p["id"] for p in giocatori), default=0) + 1
+    for i, p in enumerate(aggiunti, prossimo):
+        cod = sigle.get(p["squadra"]) or p["squadra"][:3].upper()
+        p["id"] = i
+        p["cod"] = cod
+        p["chiave"] = f"{p['nome']} ({cod})"
+        p["fasciaIdx"] = FASCE.index(p["fascia"]) if p["fascia"] in FASCE else len(FASCE)
+        p.pop("infDettaglio", None)
+    giocatori.extend(aggiunti)
+
     formazioni, form_persi = applica_formazioni(giocatori)
     n_inf, inf_ignoti = applica_infortuni(giocatori)
+    n_stat, giornate_stat, stat_ignoti = applica_statistiche(giocatori)
+    # Chi non ha statistiche proprie (i nuovi arrivati) prende comunque il
+    # conteggio giornate piu' aggiornato del listone: zero presenze su tre e'
+    # un'informazione, zero presenze su zero no.
+    copertura = max((p.get("giornate") or 0 for p in giocatori), default=0)
+    for p in giocatori:
+        if not p.get("giornate"):
+            p["giornate"] = copertura
+
     n_prio, prio_ignoti = applica_priorita(giocatori)
     if prio_ignoti:
         sys.exit(
@@ -625,6 +768,13 @@ def main() -> None:
         print(f"  {n_inf} infortuni aggiornati da data/infortuni.json")
     if n_prio:
         print(f"  {n_prio} priorita' riscritte da data/priorita.json")
+    if n_stat:
+        print(f"  {n_stat} statistiche 26/27 aggiornate alla {giornate_stat}a giornata")
+    if stat_ignoti:
+        print(f"  {len(stat_ignoti)} chiavi di statistiche.json non nel listone: "
+              f"{', '.join(stat_ignoti[:5])}")
+    if n_aggiunti:
+        print(f"  {n_aggiunti} tesserati dopo il mercato da data/aggiunti.json")
     if formazioni:
         due = sum(1 for p in giocatori if p["fonti"] >= 2)
         una = sum(1 for p in giocatori if p["fonti"] == 1)

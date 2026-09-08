@@ -362,7 +362,43 @@ La differenza di trattamento e' voluta: la priorita' e' una decisione che vuoi r
 in un file, la nota e' una cosa che scrivi in tre secondi mentre l'asta va avanti e non puoi
 permetterti di aprire un editor.
 
-## 12. Cose minori
+## 12. Aggiornamento all'8 settembre 2026
+
+Il workbook e' fermo al 1 settembre, dopo 2 giornate. Tre correzioni lo portano all'8 settembre,
+dopo la 3a.
+
+**Statistiche 26/27** — `data/statistiche.json`, 344 giocatori aggiornati alla 3a giornata da
+[fantacalcio.it](https://www.fantacalcio.it/statistiche-serie-a). La copertura non e' totale (le
+fonti pubblicano chi ha preso un voto), quindi ogni giocatore porta con se' a quante giornate si
+riferiscono i suoi numeri e la scheda lo scrive: 349 sono alla 3a, 183 restano alla 2a. L'ingest
+legge il numero di giornate dall'intestazione del workbook invece di cablarlo.
+
+**Movimenti di mercato** — il mercato degli svincolati resta aperto tutto l'anno:
+
+- **usciti**, in `ceduti.txt`: Paleari (Torino, all'AEK Larnaca), Borrelli (Cagliari, Rizespor),
+  Anjorin (Torino, Goztepe), Koutsoupias (Frosinone, Anderlecht);
+- **entrati**, in `aggiunti.json`: El Shaarawy e Ehizibue al Genoa, Ricardo Rodriguez al Torino,
+  Sierro al Parma, Mohammed al Venezia.
+
+Il listone passa da 531 a 532 giocatori. Per gli entrati il workbook non ha una riga, quindi fascia,
+indice e priorita' si ereditano dal giocatore di pari ruolo col prezzo consigliato piu' vicino, e la
+scheda li marca **fuori workbook** perche' quei valori sono stimati. Prendono id sopra a quelli del
+workbook: le assegnazioni gia' fatte non si spostano.
+
+**Infortuni** — `infortuni.json` passa da 1 a 58 voci, da
+[Sky Sport](https://sport.sky.it/calcio/serie-a/2026/09/08/serie-a-indisponibili-infortunati-squalificati-giornata-4).
+Le novita' che pesano di piu' all'asta:
+
+| Giocatore | Prima | Adesso |
+| --- | --- | --- |
+| Locatelli (JUV) | sano | operato al menisco, rientro nel 2027 |
+| Thuram K. (JUV) | in dubbio | operato al ginocchio, rientro a inizio 2027 |
+| Pulisic (MIL) | sano | edema osseo, rientro dopo la sosta |
+| Dimarco (INT) | sano | distorsione al ginocchio, in dubbio |
+| Yildiz (JUV) | rientro fine novembre | rientro a inizio dicembre |
+| Pellegrini Lu. e Patric (LAZ) | riserve | fuori lista Serie A, non schierabili |
+
+## 13. Cose minori
 
 - Il plugin `autoIngest` non stampa piu' un falso `ingest fallito (-2)` su macOS: il comando `python`
   non esiste, e l'avviso usciva prima che scattasse il fallback su `python3`.

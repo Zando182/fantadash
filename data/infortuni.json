@@ -1,12 +1,355 @@
 {
  "_nota": "Aggiornamenti sugli infortuni successivi alla data del workbook. Sovrascrivono quanto dice il foglio Infortunati per lo stesso giocatore. Lo stato deve usare il vocabolario del workbook, perche' e' quello che pesa nello Score: 'Infortunato - lungo stop' (rientro da ottobre in poi), 'Infortunato - rientro entro settembre', 'In dubbio per la prossima'.",
- "_aggiornato": "2026-09-02",
+ "_aggiornato": "2026-09-08",
+ "_fonte": "https://sport.sky.it/calcio/serie-a/2026/09/08/serie-a-indisponibili-infortunati-squalificati-giornata-4",
  "infortuni": [
   {
    "chiave": "Thuram K. (JUV)",
    "stato": "Infortunato - lungo stop",
-   "dettaglio": "Operato al ginocchio: rientro previsto a febbraio 2027. Salta piu' di mezzo campionato, all'asta vale molto meno del prezzo consigliato.",
-   "nota": "INFORTUNATO (lungo stop) - rientro a febbraio 2027"
+   "dettaglio": "Operato al ginocchio: rientro previsto a inizio 2027. Salta piu' di mezzo campionato, all'asta vale molto meno del prezzo consigliato.",
+   "nota": "INFORTUNATO (lungo stop) - rientro a inizio 2027"
+  },
+  {
+   "chiave": "Locatelli (JUV)",
+   "stato": "Infortunato - lungo stop",
+   "dettaglio": "Operato al menisco esterno: il suo 2026 e' finito, rientro nel 2027.",
+   "nota": "INFORTUNATO (lungo stop) - rientro nel 2027"
+  },
+  {
+   "chiave": "Yildiz (JUV)",
+   "stato": "Infortunato - lungo stop",
+   "dettaglio": "Operato al piede: rientro previsto a inizio dicembre.",
+   "nota": "INFORTUNATO (lungo stop) - rientro a dicembre"
+  },
+  {
+   "chiave": "Ekhator (JUV)",
+   "stato": "Infortunato - lungo stop",
+   "dettaglio": "Lesione di medio grado del semitendinoso: rientro nella prima meta' di novembre.",
+   "nota": "INFORTUNATO (lungo stop) - rientro a novembre"
+  },
+  {
+   "chiave": "Cabal (JUV)",
+   "stato": "Infortunato - lungo stop",
+   "dettaglio": "Lesione di basso grado del semimembranoso: rientro a ottobre.",
+   "nota": "INFORTUNATO (lungo stop) - rientro a ottobre"
+  },
+  {
+   "chiave": "Cambiaso (JUV)",
+   "stato": "Infortunato - rientro entro settembre",
+   "dettaglio": "Leggera distorsione alla caviglia: rientro nella seconda meta' di settembre.",
+   "nota": "Infortunato - rientro entro settembre"
+  },
+  {
+   "chiave": "McKennie (JUV)",
+   "stato": "In dubbio per la prossima",
+   "dettaglio": "Affaticamento muscolare: in forte dubbio per la 4a giornata.",
+   "nota": "In dubbio / da valutare"
+  },
+  {
+   "chiave": "Boga (JUV)",
+   "stato": "In dubbio per la prossima",
+   "dettaglio": "Problema muscolare: convocazione in dubbio.",
+   "nota": "In dubbio / da valutare"
+  },
+  {
+   "chiave": "Sarr P. (JUV)",
+   "stato": "In dubbio per la prossima",
+   "dettaglio": "In recupero da un problema muscolare: convocazione in dubbio.",
+   "nota": "In dubbio / da valutare"
+  },
+  {
+   "chiave": "Dimarco (INT)",
+   "stato": "In dubbio per la prossima",
+   "dettaglio": "Lieve distorsione al ginocchio, non convocato in Champions: da valutare.",
+   "nota": "In dubbio / da valutare"
+  },
+  {
+   "chiave": "Spence (INT)",
+   "stato": "In dubbio per la prossima",
+   "dettaglio": "In recupero dopo il Mondiale: possibile rientro alla 5a giornata.",
+   "nota": "In dubbio / da valutare"
+  },
+  {
+   "chiave": "Pulisic (MIL)",
+   "stato": "Infortunato - lungo stop",
+   "dettaglio": "Edema osseo: rientro probabile dopo la sosta.",
+   "nota": "INFORTUNATO (lungo stop) - rientro dopo la sosta"
+  },
+  {
+   "chiave": "Gabbia (MIL)",
+   "stato": "In dubbio per la prossima",
+   "dettaglio": "Problema alla caviglia, ma recuperabile.",
+   "nota": "In dubbio / da valutare"
+  },
+  {
+   "chiave": "McTominay (NAP)",
+   "stato": "Infortunato - rientro entro settembre",
+   "dettaglio": "Operato per una lieve aritmia benigna: rientro dopo la sosta.",
+   "nota": "Infortunato - rientro dopo la sosta"
+  },
+  {
+   "chiave": "Buongiorno (NAP)",
+   "stato": "Infortunato - rientro entro settembre",
+   "dettaglio": "Operato al menisco: rientro dopo la sosta.",
+   "nota": "Infortunato - rientro dopo la sosta"
+  },
+  {
+   "chiave": "Marianucci (NAP)",
+   "stato": "Infortunato - lungo stop",
+   "dettaglio": "Lesione di alto grado del collaterale mediale: rientro nella seconda meta' di ottobre.",
+   "nota": "INFORTUNATO (lungo stop) - rientro a ottobre"
+  },
+  {
+   "chiave": "Piotrowski (UDI)",
+   "stato": "Infortunato - lungo stop",
+   "dettaglio": "Lieve aritmia benigna: intervento di ablazione cardiaca.",
+   "nota": "INFORTUNATO (lungo stop)"
+  },
+  {
+   "chiave": "Zaniolo (UDI)",
+   "stato": "Infortunato - lungo stop",
+   "dettaglio": "Lesione al bicipite femorale destro: rientro nella prima meta' di ottobre.",
+   "nota": "INFORTUNATO (lungo stop) - rientro a ottobre"
+  },
+  {
+   "chiave": "Solet (UDI)",
+   "stato": "In dubbio per la prossima",
+   "dettaglio": "Problema all'adduttore, in attesa di accertamenti.",
+   "nota": "In dubbio / da valutare"
+  },
+  {
+   "chiave": "Palma (UDI)",
+   "stato": "Infortunato - rientro entro settembre",
+   "dettaglio": "Lesione dell'adduttore lungo della gamba destra: rientro a fine settembre.",
+   "nota": "Infortunato - rientro entro settembre"
+  },
+  {
+   "chiave": "Orsolini (BOL)",
+   "stato": "Infortunato - lungo stop",
+   "dettaglio": "Problema al flessore della coscia sinistra: rientro nella prima meta' di ottobre.",
+   "nota": "INFORTUNATO (lungo stop) - rientro a ottobre"
+  },
+  {
+   "chiave": "Rovella (LAZ)",
+   "stato": "In dubbio per la prossima",
+   "dettaglio": "Leggera lesione al polpaccio: in forte dubbio.",
+   "nota": "In dubbio / da valutare"
+  },
+  {
+   "chiave": "Dele-Bashiru (LAZ)",
+   "stato": "Infortunato - lungo stop",
+   "dettaglio": "Lesione del retto femorale: possibile rientro dopo la sosta.",
+   "nota": "INFORTUNATO (lungo stop) - rientro dopo la sosta"
+  },
+  {
+   "chiave": "Cataldi (LAZ)",
+   "stato": "Infortunato - rientro entro settembre",
+   "dettaglio": "Pubalgia: salta il Milan.",
+   "nota": "Infortunato - rientro entro settembre"
+  },
+  {
+   "chiave": "Marusic (LAZ)",
+   "stato": "Infortunato - lungo stop",
+   "dettaglio": "Lesione al flessore: rientro nella prima meta' di ottobre.",
+   "nota": "INFORTUNATO (lungo stop) - rientro a ottobre"
+  },
+  {
+   "chiave": "Pinamonti (LAZ)",
+   "stato": "In dubbio per la prossima",
+   "dettaglio": "Botta alla caviglia, ma dovrebbe recuperare.",
+   "nota": "In dubbio / da valutare"
+  },
+  {
+   "chiave": "Pellegrini Lu. (LAZ)",
+   "stato": "Infortunato - lungo stop",
+   "dettaglio": "Fuori dalla lista Serie A: non e' schierabile.",
+   "nota": "FUORI LISTA - non convocabile in campionato"
+  },
+  {
+   "chiave": "Patric (LAZ)",
+   "stato": "Infortunato - lungo stop",
+   "dettaglio": "Fuori dalla lista Serie A: non e' schierabile.",
+   "nota": "FUORI LISTA - non convocabile in campionato"
+  },
+  {
+   "chiave": "Hien (ATA)",
+   "stato": "Infortunato - lungo stop",
+   "dettaglio": "Lesione muscolare: rientro a ottobre.",
+   "nota": "INFORTUNATO (lungo stop) - rientro a ottobre"
+  },
+  {
+   "chiave": "Sulemana K. (ATA)",
+   "stato": "Infortunato - lungo stop",
+   "dettaglio": "Lesione al collaterale del ginocchio: rientro nella seconda meta' di ottobre.",
+   "nota": "INFORTUNATO (lungo stop) - rientro a ottobre"
+  },
+  {
+   "chiave": "Pessina (MON)",
+   "stato": "Infortunato - lungo stop",
+   "dettaglio": "Lesione alla rotula: rientro a novembre.",
+   "nota": "INFORTUNATO (lungo stop) - rientro a novembre"
+  },
+  {
+   "chiave": "Idrissi R. (CAG)",
+   "stato": "Infortunato - lungo stop",
+   "dettaglio": "Lesione del crociato anteriore: rientro a novembre.",
+   "nota": "INFORTUNATO (lungo stop) - rientro a novembre"
+  },
+  {
+   "chiave": "Parisi (FIO)",
+   "stato": "Infortunato - lungo stop",
+   "dettaglio": "Lesione del crociato anteriore: rientro a fine novembre.",
+   "nota": "INFORTUNATO (lungo stop) - rientro a novembre"
+  },
+  {
+   "chiave": "Konè I. (SAS)",
+   "stato": "Infortunato - lungo stop",
+   "dettaglio": "Frattura di tibia e perone: rientro a gennaio 2027.",
+   "nota": "INFORTUNATO (lungo stop) - rientro a gennaio 2027"
+  },
+  {
+   "chiave": "Nicolussi Caviglia (PAR)",
+   "stato": "Infortunato - lungo stop",
+   "dettaglio": "Sindrome pubalgica: possibile rientro a fine novembre.",
+   "nota": "INFORTUNATO (lungo stop) - rientro a novembre"
+  },
+  {
+   "chiave": "Adorante (VEN)",
+   "stato": "Infortunato - lungo stop",
+   "dettaglio": "Operato alla schiena: rientro a fine ottobre.",
+   "nota": "INFORTUNATO (lungo stop) - rientro a ottobre"
+  },
+  {
+   "chiave": "Sverko (VEN)",
+   "stato": "Infortunato - lungo stop",
+   "dettaglio": "Problemi all'anca: rientro a fine ottobre.",
+   "nota": "INFORTUNATO (lungo stop) - rientro a ottobre"
+  },
+  {
+   "chiave": "Addai (COM)",
+   "stato": "Infortunato - rientro entro settembre",
+   "dettaglio": "Rottura del tendine d'Achille: rientro dopo la sosta.",
+   "nota": "Infortunato - rientro dopo la sosta"
+  },
+  {
+   "chiave": "El Azzouzi O. (BOL)",
+   "stato": "Infortunato - rientro entro settembre",
+   "dettaglio": "Lesione al bicipite femorale: rientro a fine settembre.",
+   "nota": "Infortunato - rientro entro settembre"
+  },
+  {
+   "chiave": "Geubbels (LEC)",
+   "stato": "In dubbio per la prossima",
+   "dettaglio": "Trauma distorsivo alla caviglia: dovrebbe saltare anche il Monza.",
+   "nota": "In dubbio / da valutare"
+  },
+  {
+   "chiave": "Zanoli (UDI)",
+   "stato": "Infortunato - rientro entro settembre",
+   "dettaglio": "Riabilitazione post crociato: rientro dopo la sosta.",
+   "nota": "Infortunato - rientro dopo la sosta"
+  },
+  {
+   "chiave": "Volpato (SAS)",
+   "stato": "In dubbio per la prossima",
+   "dettaglio": "Problema muscolare: rientro difficile per la 4a giornata.",
+   "nota": "In dubbio / da valutare"
+  },
+  {
+   "chiave": "Walukiewicz (SAS)",
+   "stato": "In dubbio per la prossima",
+   "dettaglio": "Problema muscolare: in forte dubbio.",
+   "nota": "In dubbio / da valutare"
+  },
+  {
+   "chiave": "Casadei (TOR)",
+   "stato": "In dubbio per la prossima",
+   "dettaglio": "Affaticamento muscolare: da valutare.",
+   "nota": "In dubbio / da valutare"
+  },
+  {
+   "chiave": "Coco (TOR)",
+   "stato": "In dubbio per la prossima",
+   "dettaglio": "Problema al ginocchio: da valutare.",
+   "nota": "In dubbio / da valutare"
+  },
+  {
+   "chiave": "Mina (CAG)",
+   "stato": "In dubbio per la prossima",
+   "dettaglio": "Affaticamento al polpaccio, potrebbe recuperare.",
+   "nota": "In dubbio / da valutare"
+  },
+  {
+   "chiave": "Oulai (FIO)",
+   "stato": "In dubbio per la prossima",
+   "dettaglio": "Problema al retto femorale: recupero difficile per la 4a giornata.",
+   "nota": "In dubbio / da valutare"
+  },
+  {
+   "chiave": "Bella-Kotchap (VEN)",
+   "stato": "In dubbio per la prossima",
+   "dettaglio": "Problema muscolare: in forte dubbio.",
+   "nota": "In dubbio / da valutare"
+  },
+  {
+   "chiave": "Basic (VEN)",
+   "stato": "In dubbio per la prossima",
+   "dettaglio": "Affaticamento alla fascia plantare: in forte dubbio.",
+   "nota": "In dubbio / da valutare"
+  },
+  {
+   "chiave": "Franjic (VEN)",
+   "stato": "In dubbio per la prossima",
+   "dettaglio": "Problema alla spalla: out contro la Fiorentina.",
+   "nota": "In dubbio / da valutare"
+  },
+  {
+   "chiave": "Ziolkowski (MON)",
+   "stato": "In dubbio per la prossima",
+   "dettaglio": "Fascite plantare: in forte dubbio.",
+   "nota": "In dubbio / da valutare"
+  },
+  {
+   "chiave": "Ngonge (MON)",
+   "stato": "In dubbio per la prossima",
+   "dettaglio": "Problema fisico non specificato: da valutare.",
+   "nota": "In dubbio / da valutare"
+  },
+  {
+   "chiave": "Ciurria (MON)",
+   "stato": "In dubbio per la prossima",
+   "dettaglio": "Problema fisico: da valutare.",
+   "nota": "In dubbio / da valutare"
+  },
+  {
+   "chiave": "Varela G. (MON)",
+   "stato": "In dubbio per la prossima",
+   "dettaglio": "Problema all'adduttore: dovrebbe saltare la 4a giornata.",
+   "nota": "In dubbio / da valutare"
+  },
+  {
+   "chiave": "Bernabè (PAR)",
+   "stato": "In dubbio per la prossima",
+   "dettaglio": "Affaticamento muscolare: da valutare.",
+   "nota": "In dubbio / da valutare"
+  },
+  {
+   "chiave": "Boloca (SAS)",
+   "stato": "In dubbio per la prossima",
+   "dettaglio": "Artroscopia di pulizia meniscale: da valutare.",
+   "nota": "In dubbio / da valutare"
+  },
+  {
+   "chiave": "Pieragnolo (SAS)",
+   "stato": "In dubbio per la prossima",
+   "dettaglio": "Ricostruzione del crociato anteriore: da valutare.",
+   "nota": "In dubbio / da valutare"
+  },
+  {
+   "chiave": "Candè (SAS)",
+   "stato": "Infortunato - rientro entro settembre",
+   "dettaglio": "Rottura del crociato: rientro dopo la sosta.",
+   "nota": "Infortunato - rientro dopo la sosta"
   }
  ]
 }

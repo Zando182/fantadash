@@ -19,3 +19,9 @@ Vaz (ROM)
 Fofana Y. (MIL)
 Norton-Cuffy (GEN)
 Ratkov (LAZ)
+
+# --- 8 settembre 2026: partiti dopo la chiusura del mercato ---
+Paleari (TOR)
+Borrelli (CAG)
+Anjorin (TOR)
+Koutsoupias (FRO)

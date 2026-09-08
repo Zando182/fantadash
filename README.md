@@ -471,6 +471,30 @@ possiede chi. Si cancellano tutte da Impostazioni, "Azzera note".
 Un avvertimento: le note sono legate all'id del giocatore, quindi valgono lo stesso avviso delle
 assegnazioni — sostituendo il workbook gli id cambiano. Esporta il backup prima.
 
+### Statistiche di giornate successive
+
+Il workbook fotografa il campionato a una certa giornata — lo dichiara nella colonna `PG 26/27 (su 2)`
+e l'ingest legge quel numero invece di cablarlo. **`data/statistiche.json`** porta i dati di giornate
+piu' recenti: presenze, media voto, fantamedia, gol e assist per chiave giocatore, piu' `_giornate`
+che dice a che punto sono.
+
+La copertura non e' mai totale — le fonti pubblicano chi ha preso un voto, non tutta la rosa — quindi
+**ogni giocatore porta con se' a quante giornate si riferiscono i suoi numeri**, e la scheda lo scrive
+("2026/27 (3a giornata)"). Chi non e' elencato tiene i dati del workbook e lo dichiara. Una chiave
+sconosciuta qui non ferma l'ingest ma viene stampata: e' un import in blocco, e le fonti includono
+anche giocatori che nel frattempo hanno lasciato la Serie A.
+
+### Chi arriva a mercato chiuso
+
+Il mercato degli svincolati resta aperto tutto l'anno, e il workbook non ha una riga per chi firma
+dopo. **`data/aggiunti.json`** serve a quello: nome, squadra, ruolo Classic e Mantra, quotazione e
+prezzo consigliato.
+
+Il resto — fascia, indice, priorita', rank — **si eredita dal giocatore di pari ruolo con il prezzo
+consigliato piu' vicino**: il nuovo arrivato si colloca dove starebbe, senza rinumerare nessun altro.
+Nella scheda porta il marcatore **fuori workbook**, perche' quei valori sono stimati e non letti.
+Prende id sopra a quelli del workbook, quindi le assegnazioni gia' fatte non si spostano.
+
 ### Infortuni successivi al workbook
 
 Il foglio `Infortunati` e' fermo al 1 settembre, il pronto soccorso no.
@@ -624,7 +648,9 @@ data/ceduti.txt              chi ha lasciato la Serie A dopo la data del workboo
 data/formazioni-tipo.json    undici titolari probabili da due fonti, con URL e data
 data/infortuni.json          infortuni successivi alla data del workbook
 data/priorita.json           la tua priorita' dove non concordi col listone
-scripts/ingest_xlsx.py       workbook + i quattro file di correzione -> listone.json
+data/statistiche.json        statistiche 26/27 di giornate successive al workbook
+data/aggiunti.json           chi e' stato tesserato a mercato chiuso
+scripts/ingest_xlsx.py       workbook + i sei file di correzione -> listone.json
 scripts/serve.mjs            server statico senza dipendenze per dist/
 vite.config.ts               plugin autoIngest: rigenera il listone al volo
 src/lib/listone.ts           caricamento listone, ricerca, filtri, matrice calendario

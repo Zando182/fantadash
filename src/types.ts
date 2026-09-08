@@ -115,6 +115,10 @@ export interface Player {
 
   s25: Stagione25 | null
   s26: Stagione26
+  /** A quante giornate 2026/27 si riferisce `s26`. */
+  giornate: number
+  /** Non era nel workbook: arrivato dopo, con prezzi stimati. */
+  aggiunto?: boolean
   inf?: Infortunio
 }
 

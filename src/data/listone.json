@@ -2,7 +2,7 @@
  "stagione": "FANTACALCIO CLASSIC - SERIE A 2026/27",
  "descrizione": "Listone, priorita, abbinamenti di calendario e foglio d'asta. Dati: Fantacalcio.it, aggiornati al 1 settembre 2026. Solo giocatori nelle rose ufficiali di Serie A.",
  "sorgente": "Fantacalcio_Classic_202627_Listone_e_Asta.xlsx",
- "generatoIl": "2026-09-03T08:38:01+00:00",
+ "generatoIl": "2026-09-08T18:23:59+00:00",
  "parametri": {
   "budget": 500,
   "squadre": 10,
@@ -99,9 +99,9 @@
   "totale": 2
  },
  "conteggi": {
-  "P": 64,
-  "D": 188,
-  "C": 192,
+  "P": 63,
+  "D": 191,
+  "C": 191,
   "A": 87
  },
  "fasce": [
@@ -1130,12 +1130,13 @@
     "squadra": "Roma"
    },
    "s26": {
-    "pg": 2,
-    "mv": 8.25,
-    "fm": 15.5,
+    "pg": 3,
+    "mv": 7.5,
+    "fm": 12.33,
     "gol": 5,
     "ass": 0
    },
+   "giornate": 3,
    "id": 1,
    "cod": "ROM",
    "chiave": "Malen (ROM)",
@@ -1177,12 +1178,13 @@
     "squadra": "Inter"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.5,
-    "gol": 0,
+    "pg": 3,
+    "mv": 6.33,
+    "fm": 8,
+    "gol": 2,
     "ass": 0
    },
+   "giornate": 3,
    "id": 2,
    "cod": "INT",
    "chiave": "Martinez L. (INT)",
@@ -1224,12 +1226,13 @@
     "squadra": "Napoli"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 7.75,
-    "gol": 1,
+    "pg": 3,
+    "mv": 6.5,
+    "fm": 8.5,
+    "gol": 2,
     "ass": 0
    },
+   "giornate": 3,
    "id": 3,
    "cod": "NAP",
    "chiave": "Hojlund (NAP)",
@@ -1271,12 +1274,13 @@
     "squadra": "Inter"
    },
    "s26": {
-    "pg": 1,
-    "mv": 5.5,
-    "fm": 5.5,
-    "gol": 0,
+    "pg": 2,
+    "mv": 6.25,
+    "fm": 7.75,
+    "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 4,
    "cod": "INT",
    "chiave": "Thuram (INT)",
@@ -1318,12 +1322,13 @@
     "squadra": "Como"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.75,
-    "fm": 9.75,
+    "pg": 3,
+    "mv": 6.33,
+    "fm": 8.33,
     "gol": 2,
     "ass": 0
    },
+   "giornate": 3,
    "id": 5,
    "cod": "COM",
    "chiave": "Douvikas (COM)",
@@ -1365,12 +1370,13 @@
     "squadra": "Sassuolo"
    },
    "s26": {
-    "pg": 1,
-    "mv": 7,
-    "fm": 10,
+    "pg": 2,
+    "mv": 6.75,
+    "fm": 8.25,
     "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 6,
    "cod": "SAS",
    "chiave": "Berardi (SAS)",
@@ -1412,12 +1418,13 @@
     "squadra": "Atalanta"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 5.83,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 7,
    "cod": "ATA",
    "chiave": "Scamacca (ATA)",
@@ -1459,12 +1466,13 @@
     "squadra": "Udinese"
    },
    "s26": {
-    "pg": 1,
+    "pg": 2,
     "mv": 6.5,
-    "fm": 6.5,
+    "fm": 7,
     "gol": 0,
-    "ass": 0
+    "ass": 1
    },
+   "giornate": 3,
    "id": 8,
    "cod": "UDI",
    "chiave": "Davis K. (UDI)",
@@ -1486,7 +1494,7 @@
    "max": 65,
    "fascia": "1a fascia",
    "gerarchia": "Ballottaggio",
-   "nota": "INFORTUNATO (lungo stop) - presenze finora: 1/2",
+   "nota": "INFORTUNATO (lungo stop) - rientro a dicembre",
    "rig": 2,
    "piaz": 1,
    "fmPond": 7.3,
@@ -1512,13 +1520,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 9,
    "cod": "JUV",
    "chiave": "Yildiz (JUV)",
    "fasciaIdx": 1,
    "inf": {
     "stato": "Infortunato - lungo stop",
-    "dettaglio": "Operato il 31/8: frattura base V metatarso piede sinistro. Stop ~3 mesi, rientro fine novembre."
+    "dettaglio": "Operato al piede: rientro previsto a inizio dicembre."
    },
    "fonti": 1,
    "abbId": 15
@@ -1557,12 +1566,13 @@
     "squadra": "Fiorentina"
    },
    "s26": {
-    "pg": 1,
-    "mv": 6,
-    "fm": 6,
+    "pg": 2,
+    "mv": 6.25,
+    "fm": 6.75,
     "gol": 0,
-    "ass": 0
+    "ass": 1
    },
+   "giornate": 3,
    "id": 10,
    "cod": "COM",
    "chiave": "Kean (COM)",
@@ -1604,12 +1614,13 @@
     "squadra": "Atalanta"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 7.5,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 6.67,
     "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 11,
    "cod": "ATA",
    "chiave": "Krstovic (ATA)",
@@ -1641,12 +1652,13 @@
    "rankFvm": 5,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 6.5,
-    "fm": 8,
+    "pg": 3,
+    "mv": 6,
+    "fm": 7,
     "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 12,
    "cod": "MIL",
    "chiave": "Ramos G. (MIL)",
@@ -1688,12 +1700,13 @@
     "squadra": "Roma"
    },
    "s26": {
-    "pg": 2,
-    "mv": 7.5,
-    "fm": 9,
+    "pg": 3,
+    "mv": 7.33,
+    "fm": 8.67,
     "gol": 0,
-    "ass": 3
+    "ass": 4
    },
+   "giornate": 3,
    "id": 13,
    "cod": "ROM",
    "chiave": "Dybala (ROM)",
@@ -1735,12 +1748,13 @@
     "squadra": "Sassuolo"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 6,
+    "pg": 3,
+    "mv": 6.33,
+    "fm": 6.17,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 14,
    "cod": "SAS",
    "chiave": "Laurientè (SAS)",
@@ -1782,12 +1796,13 @@
     "squadra": "Torino"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.5,
-    "fm": 5.5,
+    "pg": 3,
+    "mv": 5.67,
+    "fm": 5.67,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 15,
    "cod": "TOR",
    "chiave": "Simeone (TOR)",
@@ -1829,12 +1844,13 @@
     "squadra": "Inter"
    },
    "s26": {
-    "pg": 2,
-    "mv": 7,
-    "fm": 9,
+    "pg": 3,
+    "mv": 6.67,
+    "fm": 8,
     "gol": 1,
     "ass": 1
    },
+   "giornate": 3,
    "id": 16,
    "cod": "INT",
    "chiave": "Esposito F.P. (INT)",
@@ -1876,12 +1892,13 @@
     "squadra": "Atalanta"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 5.83,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 17,
    "cod": "ATA",
    "chiave": "De Ketelaere (ATA)",
@@ -1913,12 +1930,13 @@
    "rankFvm": 8,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 5.5,
-    "fm": 5.5,
+    "pg": 3,
+    "mv": 5.17,
+    "fm": 5.17,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 18,
    "cod": "JUV",
    "chiave": "Kolo Muani (JUV)",
@@ -1960,12 +1978,13 @@
     "squadra": "Genoa"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 6,
+    "fm": 6.33,
     "gol": 0,
-    "ass": 0
+    "ass": 1
    },
+   "giornate": 3,
    "id": 19,
    "cod": "GEN",
    "chiave": "Colombo (GEN)",
@@ -2013,6 +2032,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 20,
    "cod": "SAS",
    "chiave": "Esposito Se. (SAS)",
@@ -2054,12 +2074,13 @@
     "squadra": "Bologna"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6,
-    "fm": 6,
+    "pg": 3,
+    "mv": 6.17,
+    "fm": 6.17,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 21,
    "cod": "ROM",
    "chiave": "Castro S. (ROM)",
@@ -2101,12 +2122,13 @@
     "squadra": "Roma"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.5,
-    "fm": 8,
-    "gol": 1,
-    "ass": 0
+    "pg": 3,
+    "mv": 6.83,
+    "fm": 9.17,
+    "gol": 2,
+    "ass": 1
    },
+   "giornate": 3,
    "id": 22,
    "cod": "ROM",
    "chiave": "Soulè (ROM)",
@@ -2128,7 +2150,7 @@
    "max": 44,
    "fascia": "1a fascia",
    "gerarchia": "Titolare",
-   "nota": "Nuovo - RISCHIA il posto (0/2)",
+   "nota": "In dubbio / da valutare",
    "rig": null,
    "piaz": null,
    "fmPond": 6.62,
@@ -2148,17 +2170,22 @@
     "squadra": "Sassuolo"
    },
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 5,
+    "fm": 5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 23,
    "cod": "LAZ",
    "chiave": "Pinamonti (LAZ)",
    "fasciaIdx": 1,
    "fonti": 2,
+   "inf": {
+    "stato": "In dubbio per la prossima",
+    "dettaglio": "Botta alla caviglia, ma dovrebbe recuperare."
+   },
    "abbId": 1
   },
   {
@@ -2195,12 +2222,13 @@
     "squadra": "Parma"
    },
    "s26": {
-    "pg": 2,
-    "mv": 4.75,
-    "fm": 4.5,
-    "gol": 0,
+    "pg": 3,
+    "mv": 5.33,
+    "fm": 6.17,
+    "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 24,
    "cod": "FIO",
    "chiave": "Pellegrino M. (FIO)",
@@ -2248,6 +2276,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 25,
    "cod": "INT",
    "chiave": "Bonny (INT)",
@@ -2289,12 +2318,13 @@
     "squadra": "Torino"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.5,
-    "fm": 8,
-    "gol": 1,
+    "pg": 3,
+    "mv": 6.67,
+    "fm": 8.67,
+    "gol": 2,
     "ass": 0
    },
+   "giornate": 3,
    "id": 26,
    "cod": "TOR",
    "chiave": "Adams C. (TOR)",
@@ -2336,12 +2366,13 @@
     "squadra": "Napoli"
    },
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 6,
     "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 27,
    "cod": "NAP",
    "chiave": "Santos A. (NAP)",
@@ -2373,12 +2404,13 @@
    "rankFvm": 9,
    "s25": null,
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 6,
+    "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 28,
    "cod": "JUV",
    "chiave": "Woltemade (JUV)",
@@ -2426,6 +2458,7 @@
     "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 29,
    "cod": "ATA",
    "chiave": "Raspadori (ATA)",
@@ -2467,12 +2500,13 @@
     "squadra": "Genoa"
    },
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 5.5,
     "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 30,
    "cod": "GEN",
    "chiave": "Vitinha O. (GEN)",
@@ -2514,12 +2548,13 @@
     "squadra": "Lazio"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.75,
-    "gol": 0,
+    "pg": 3,
+    "mv": 6.17,
+    "fm": 7.17,
+    "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 31,
    "cod": "CAG",
    "chiave": "Maldini (CAG)",
@@ -2561,12 +2596,13 @@
     "squadra": "Roma"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.25,
-    "fm": 5.25,
-    "gol": 0,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 6.67,
+    "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 32,
    "cod": "BOL",
    "chiave": "Dovbyk (BOL)",
@@ -2608,12 +2644,13 @@
     "squadra": "Napoli"
    },
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 5.5,
+    "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 33,
    "cod": "NAP",
    "chiave": "Neres (NAP)",
@@ -2655,12 +2692,13 @@
     "squadra": "Lecce"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.25,
-    "fm": 5.25,
+    "pg": 3,
+    "mv": 5.33,
+    "fm": 5.33,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 34,
    "cod": "LEC",
    "chiave": "Stulic (LEC)",
@@ -2682,7 +2720,7 @@
    "max": 30,
    "fascia": "2a fascia",
    "gerarchia": "Riserva",
-   "nota": "Riserva (2/2)",
+   "nota": "In dubbio / da valutare",
    "rig": null,
    "piaz": null,
    "fmPond": 6.36,
@@ -2702,65 +2740,23 @@
     "squadra": "Juventus"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6,
-    "fm": 6,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 5.83,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 35,
    "cod": "JUV",
    "chiave": "Boga (JUV)",
    "fasciaIdx": 2,
    "fonti": 0,
+   "inf": {
+    "stato": "In dubbio per la prossima",
+    "dettaglio": "Problema muscolare: convocazione in dubbio."
+   },
    "abbId": 15
-  },
-  {
-   "r": "A",
-   "nome": "Borrelli",
-   "squadra": "Cagliari",
-   "rm": "Punta centrale",
-   "prio": 36,
-   "indice": 17.8,
-   "qtI": 4,
-   "qtA": 4,
-   "fvm": 9,
-   "cons": 13,
-   "max": 16,
-   "fascia": "3a fascia",
-   "gerarchia": "Riserva",
-   "nota": "Riserva (1/2)",
-   "rig": null,
-   "piaz": null,
-   "fmPond": 6.46,
-   "nuovo": false,
-   "abb": "Scamacca (ATA)",
-   "abbTras": 6,
-   "rankFvm": 71,
-   "s25": {
-    "pg": 26,
-    "mv": 5.92,
-    "fm": 6.46,
-    "gol": 5,
-    "ass": 1,
-    "rig": "0/0",
-    "amm": 4,
-    "esp": 0,
-    "squadra": "Cagliari"
-   },
-   "s26": {
-    "pg": 1,
-    "mv": 6,
-    "fm": 6,
-    "gol": 0,
-    "ass": 0
-   },
-   "id": 36,
-   "cod": "CAG",
-   "chiave": "Borrelli (CAG)",
-   "fasciaIdx": 3,
-   "fonti": 0,
-   "abbId": 7
   },
   {
    "r": "A",
@@ -2802,6 +2798,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 37,
    "cod": "NAP",
    "chiave": "Giovane (NAP)",
@@ -2843,12 +2840,13 @@
     "squadra": "Verona"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.5,
-    "fm": 5.5,
+    "pg": 3,
+    "mv": 6,
+    "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 38,
    "cod": "SAS",
    "chiave": "Bowie (SAS)",
@@ -2890,12 +2888,13 @@
     "squadra": "Como"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 6.75,
-    "gol": 0,
+    "pg": 3,
+    "mv": 6.67,
+    "fm": 9,
+    "gol": 2,
     "ass": 1
    },
+   "giornate": 3,
    "id": 39,
    "cod": "COM",
    "chiave": "Diao (COM)",
@@ -2937,12 +2936,13 @@
     "squadra": "Lazio"
    },
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 6,
+    "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 40,
    "cod": "LAZ",
    "chiave": "Noslin (LAZ)",
@@ -2984,12 +2984,13 @@
     "squadra": "Fiorentina"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.5,
-    "fm": 5.5,
-    "gol": 0,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 6.67,
+    "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 41,
    "cod": "BOL",
    "chiave": "Piccoli (BOL)",
@@ -3027,6 +3028,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 42,
    "cod": "CAG",
    "chiave": "Kevin Carlos (CAG)",
@@ -3048,7 +3050,7 @@
    "max": 17,
    "fascia": "3a fascia",
    "gerarchia": "Riserva",
-   "nota": "INFORTUNATO (lungo stop) - Nuovo - presenze finora: 0/2",
+   "nota": "INFORTUNATO (lungo stop) - rientro a novembre",
    "rig": null,
    "piaz": null,
    "fmPond": 6.28,
@@ -3074,13 +3076,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 43,
    "cod": "JUV",
    "chiave": "Ekhator (JUV)",
    "fasciaIdx": 3,
    "inf": {
     "stato": "Infortunato - lungo stop",
-    "dettaglio": "Lesione di medio grado del semitendinoso. Possibile rientro da fine ottobre."
+    "dettaglio": "Lesione di medio grado del semitendinoso: rientro nella prima meta' di novembre."
    },
    "fonti": 0,
    "abbId": 15
@@ -3125,6 +3128,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 44,
    "cod": "CAG",
    "chiave": "Nzola (CAG)",
@@ -3146,7 +3150,7 @@
    "max": 26,
    "fascia": "2a fascia",
    "gerarchia": "Titolare",
-   "nota": "Infortunato - Nuovo - presenze finora: 2/2",
+   "nota": "In dubbio / da valutare",
    "rig": 1,
    "piaz": null,
    "fmPond": 5.5,
@@ -3162,13 +3166,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 45,
    "cod": "LEC",
    "chiave": "Geubbels (LEC)",
    "fasciaIdx": 2,
    "inf": {
-    "stato": "Infortunato - rientro entro settembre",
-    "dettaglio": "Distorsione alla caviglia (31/8). Salta la trasferta di Cagliari, tempi da valutare."
+    "stato": "In dubbio per la prossima",
+    "dettaglio": "Trauma distorsivo alla caviglia: dovrebbe saltare anche il Monza."
    },
    "fonti": 2,
    "abbId": 47
@@ -3213,6 +3218,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 46,
    "cod": "MON",
    "chiave": "Cutrone (MON)",
@@ -3244,12 +3250,13 @@
    "rankFvm": 32,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 5.5,
-    "fm": 5.5,
+    "pg": 3,
+    "mv": 5.67,
+    "fm": 5.67,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 47,
    "cod": "PAR",
    "chiave": "Tourè E. (PAR)",
@@ -3271,7 +3278,7 @@
    "max": 14,
    "fascia": "3a fascia",
    "gerarchia": "Riserva",
-   "nota": "INFORTUNATO (lungo stop) - presenze finora: 0/2",
+   "nota": "INFORTUNATO (lungo stop) - rientro a ottobre",
    "rig": null,
    "piaz": null,
    "fmPond": 6.12,
@@ -3297,13 +3304,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 48,
    "cod": "ATA",
    "chiave": "Sulemana K. (ATA)",
    "fasciaIdx": 3,
    "inf": {
     "stato": "Infortunato - lungo stop",
-    "dettaglio": "Lesione collaterale mediale ginocchio sinistro (8/8). Rientro da inizio ottobre."
+    "dettaglio": "Lesione al collaterale del ginocchio: rientro nella seconda meta' di ottobre."
    },
    "fonti": 0,
    "abbId": 56
@@ -3332,12 +3340,13 @@
    "rankFvm": 35,
    "s25": null,
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 5.5,
     "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 49,
    "cod": "VEN",
    "chiave": "Adams A. (VEN)",
@@ -3385,6 +3394,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 50,
    "cod": "TOR",
    "chiave": "Zapata D. (TOR)",
@@ -3432,6 +3442,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 51,
    "cod": "NAP",
    "chiave": "Lang (NAP)",
@@ -3453,7 +3464,7 @@
    "max": 37,
    "fascia": "1a fascia",
    "gerarchia": "Titolare",
-   "nota": "Infortunato - Nuovo - presenze finora: 2/2",
+   "nota": "In dubbio / da valutare",
    "rig": 3,
    "piaz": null,
    "fmPond": 5.5,
@@ -3469,13 +3480,14 @@
     "gol": 2,
     "ass": 0
    },
+   "giornate": 3,
    "id": 52,
    "cod": "MON",
    "chiave": "Varela G. (MON)",
    "fasciaIdx": 1,
    "inf": {
-    "stato": "Infortunato - rientro entro settembre",
-    "dettaglio": "Fastidio all'adduttore (30/8). Salta la trasferta di Parma, tempi da valutare."
+    "stato": "In dubbio per la prossima",
+    "dettaglio": "Problema all'adduttore: dovrebbe saltare la 4a giornata."
    },
    "fonti": 2,
    "abbId": 34
@@ -3520,6 +3532,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 53,
    "cod": "TOR",
    "chiave": "Kulenovic (TOR)",
@@ -3567,6 +3580,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 54,
    "cod": "PAR",
    "chiave": "Elphege (PAR)",
@@ -3608,12 +3622,13 @@
     "squadra": "Lecce"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 5.83,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 55,
    "cod": "LEC",
    "chiave": "N'Dri (LEC)",
@@ -3651,6 +3666,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 56,
    "cod": "FRO",
    "chiave": "Bobcek (FRO)",
@@ -3692,12 +3708,13 @@
     "squadra": "Cagliari"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 6,
+    "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 57,
    "cod": "CAG",
    "chiave": "Mendy P. (CAG)",
@@ -3719,7 +3736,7 @@
    "max": 19,
    "fascia": "2a fascia",
    "gerarchia": "Riserva",
-   "nota": "Nuovo - Riserva (0/2)",
+   "nota": "In dubbio / da valutare",
    "rig": null,
    "piaz": null,
    "fmPond": 5.84,
@@ -3745,11 +3762,16 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 58,
    "cod": "MON",
    "chiave": "Ngonge (MON)",
    "fasciaIdx": 2,
    "fonti": 1,
+   "inf": {
+    "stato": "In dubbio per la prossima",
+    "dettaglio": "Problema fisico non specificato: da valutare."
+   },
    "abbId": 34
   },
   {
@@ -3776,12 +3798,13 @@
    "rankFvm": 26,
    "s25": null,
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 5.5,
+    "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 59,
    "cod": "FIO",
    "chiave": "Beto (FIO)",
@@ -3813,12 +3836,13 @@
    "rankFvm": 41,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 6.25,
-    "gol": 0,
+    "pg": 3,
+    "mv": 6.5,
+    "fm": 7.5,
+    "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 60,
    "cod": "VEN",
    "chiave": "Yeboah J. (VEN)",
@@ -3850,12 +3874,13 @@
    "rankFvm": 32,
    "s25": null,
    "s26": {
-    "pg": 1,
-    "mv": 6.5,
-    "fm": 6.5,
+    "pg": 2,
+    "mv": 6,
+    "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 61,
    "cod": "PAR",
    "chiave": "Romero D. (PAR)",
@@ -3887,12 +3912,13 @@
    "rankFvm": 46,
    "s25": null,
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 6,
+    "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 62,
    "cod": "FRO",
    "chiave": "Ghedjemis (FRO)",
@@ -3914,7 +3940,7 @@
    "max": 14,
    "fascia": "3a fascia",
    "gerarchia": "Riserva",
-   "nota": "INFORTUNATO (lungo stop) - Nuovo - presenze finora: 0/2",
+   "nota": "INFORTUNATO (lungo stop) - rientro a ottobre",
    "rig": 3,
    "piaz": null,
    "fmPond": 5.5,
@@ -3930,13 +3956,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 63,
    "cod": "VEN",
    "chiave": "Adorante (VEN)",
    "fasciaIdx": 3,
    "inf": {
     "stato": "Infortunato - lungo stop",
-    "dettaglio": "Operato alla schiena a fine luglio. Fuori per buona parte dell'andata, rientro da ottobre."
+    "dettaglio": "Operato alla schiena: rientro a fine ottobre."
    },
    "fonti": 0,
    "abbId": 31
@@ -3975,12 +4002,13 @@
     "squadra": "Napoli"
    },
    "s26": {
-    "pg": 1,
-    "mv": 6.5,
-    "fm": 6.5,
+    "pg": 2,
+    "mv": 6,
+    "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 64,
    "cod": "NAP",
    "chiave": "Lucca (NAP)",
@@ -4028,6 +4056,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 65,
    "cod": "UDI",
    "chiave": "Gueye (UDI)",
@@ -4075,6 +4104,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 66,
    "cod": "MIL",
    "chiave": "Camarda (MIL)",
@@ -4106,12 +4136,13 @@
    "rankFvm": 40,
    "s25": null,
    "s26": {
-    "pg": 1,
-    "mv": 5.5,
-    "fm": 5.5,
-    "gol": 0,
+    "pg": 2,
+    "mv": 6,
+    "fm": 7.5,
+    "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 68,
    "cod": "GEN",
    "chiave": "Osmajic (GEN)",
@@ -4143,12 +4174,13 @@
    "rankFvm": 41,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 6.75,
-    "fm": 9.5,
-    "gol": 2,
+    "pg": 3,
+    "mv": 7,
+    "fm": 10.83,
+    "gol": 4,
     "ass": 0
    },
+   "giornate": 3,
    "id": 69,
    "cod": "FRO",
    "chiave": "Raimondo (FRO)",
@@ -4180,12 +4212,13 @@
    "rankFvm": 44,
    "s25": null,
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 5.5,
+    "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 71,
    "cod": "FIO",
    "chiave": "Gnonto (FIO)",
@@ -4217,12 +4250,13 @@
    "rankFvm": 45,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 6.75,
-    "fm": 7.25,
-    "gol": 0,
+    "pg": 3,
+    "mv": 6.83,
+    "fm": 8.17,
+    "gol": 1,
     "ass": 1
    },
+   "giornate": 3,
    "id": 72,
    "cod": "FRO",
    "chiave": "Kvernadze (FRO)",
@@ -4264,12 +4298,13 @@
     "squadra": "Udinese"
    },
    "s26": {
-    "pg": 1,
-    "mv": 5,
+    "pg": 2,
+    "mv": 5.25,
     "fm": 5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 73,
    "cod": "UDI",
    "chiave": "Bayo V. (UDI)",
@@ -4301,12 +4336,13 @@
    "rankFvm": 73,
    "s25": null,
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 6,
+    "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 74,
    "cod": "MON",
    "chiave": "Mota (MON)",
@@ -4344,6 +4380,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 75,
    "cod": "MON",
    "chiave": "Zeballos (MON)",
@@ -4391,6 +4428,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 76,
    "cod": "JUV",
    "chiave": "Milik (JUV)",
@@ -4422,12 +4460,13 @@
    "rankFvm": 55,
    "s25": null,
    "s26": {
-    "pg": 1,
+    "pg": 2,
     "mv": 5.5,
     "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 77,
    "cod": "LEC",
    "chiave": "Fatah (LEC)",
@@ -4459,12 +4498,13 @@
    "rankFvm": 57,
    "s25": null,
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 5.5,
+    "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 78,
    "cod": "VEN",
    "chiave": "Rrahmani Al. (VEN)",
@@ -4502,6 +4542,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 79,
    "cod": "FRO",
    "chiave": "Birligea (FRO)",
@@ -4533,12 +4574,13 @@
    "rankFvm": 64,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 6.25,
-    "gol": 0,
+    "pg": 3,
+    "mv": 6.5,
+    "fm": 7.5,
+    "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 80,
    "cod": "PAR",
    "chiave": "Lontani (PAR)",
@@ -4576,6 +4618,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 81,
    "cod": "CAG",
    "chiave": "Mutandwa (CAG)",
@@ -4607,12 +4650,13 @@
    "rankFvm": 80,
    "s25": null,
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 5.5,
+    "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 82,
    "cod": "PAR",
    "chiave": "Frigan (PAR)",
@@ -4650,6 +4694,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 83,
    "cod": "GEN",
    "chiave": "Havel (GEN)",
@@ -4687,6 +4732,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 84,
    "cod": "MON",
    "chiave": "Robinson J. (MON)",
@@ -4734,6 +4780,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 85,
    "cod": "CAG",
    "chiave": "Trepy (CAG)",
@@ -4775,6 +4822,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 86,
    "cod": "GEN",
    "chiave": "Robinho Junior (GEN)",
@@ -4812,6 +4860,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 87,
    "cod": "PAR",
    "chiave": "De Martis (PAR)",
@@ -4843,12 +4892,13 @@
    "rankFvm": 87,
    "s25": null,
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 5.5,
+    "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 88,
    "cod": "VEN",
    "chiave": "Lauberbach (VEN)",
@@ -4886,6 +4936,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 89,
    "cod": "VEN",
    "chiave": "Lisman (VEN)",
@@ -4927,12 +4978,13 @@
     "squadra": "Inter"
    },
    "s26": {
-    "pg": 2,
-    "mv": 7,
-    "fm": 9.75,
+    "pg": 3,
+    "mv": 6.67,
+    "fm": 8.5,
     "gol": 2,
     "ass": 0
    },
+   "giornate": 3,
    "id": 90,
    "cod": "INT",
    "chiave": "Calhanoglu (INT)",
@@ -4974,12 +5026,13 @@
     "squadra": "Como"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.75,
-    "gol": 0,
+    "pg": 3,
+    "mv": 6.17,
+    "fm": 7.17,
+    "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 91,
    "cod": "COM",
    "chiave": "Paz N. (COM)",
@@ -5001,7 +5054,7 @@
    "max": 48,
    "fascia": "1a fascia",
    "gerarchia": "Titolare",
-   "nota": "Infortunato - presenze finora: 2/2",
+   "nota": "INFORTUNATO (lungo stop) - rientro a ottobre",
    "rig": 1,
    "piaz": 1,
    "fmPond": 6.76,
@@ -5027,13 +5080,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 92,
    "cod": "BOL",
    "chiave": "Orsolini (BOL)",
    "fasciaIdx": 1,
    "inf": {
-    "stato": "Infortunato - rientro entro settembre",
-    "dettaglio": "Risentimento ai flessori della coscia sinistra (31/8). Esami in corso, salta il Sassuolo."
+    "stato": "Infortunato - lungo stop",
+    "dettaglio": "Problema al flessore della coscia sinistra: rientro nella prima meta' di ottobre."
    },
    "fonti": 2,
    "abbId": 93
@@ -5052,7 +5106,7 @@
    "max": 55,
    "fascia": "1a fascia",
    "gerarchia": "Titolare",
-   "nota": "INFORTUNATO (lungo stop) - presenze finora: 2/2",
+   "nota": "Infortunato - rientro dopo la sosta",
    "rig": null,
    "piaz": null,
    "fmPond": 7.26,
@@ -5078,13 +5132,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 93,
    "cod": "NAP",
    "chiave": "McTominay (NAP)",
    "fasciaIdx": 1,
    "inf": {
-    "stato": "Infortunato - lungo stop",
-    "dettaglio": "Ablazione per una lieve aritmia benigna (1/9). Rientro da inizio ottobre."
+    "stato": "Infortunato - rientro entro settembre",
+    "dettaglio": "Operato per una lieve aritmia benigna: rientro dopo la sosta."
    },
    "fonti": 2,
    "abbId": 92
@@ -5103,7 +5158,7 @@
    "max": 44,
    "fascia": "1a fascia",
    "gerarchia": "Titolare",
-   "nota": "RISCHIA il posto (0/2)",
+   "nota": "INFORTUNATO (lungo stop) - rientro dopo la sosta",
    "rig": 2,
    "piaz": 2,
    "fmPond": 7.07,
@@ -5129,11 +5184,16 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 94,
    "cod": "MIL",
    "chiave": "Pulisic (MIL)",
    "fasciaIdx": 1,
    "fonti": 2,
+   "inf": {
+    "stato": "Infortunato - lungo stop",
+    "dettaglio": "Edema osseo: rientro probabile dopo la sosta."
+   },
    "abbId": 90
   },
   {
@@ -5170,12 +5230,13 @@
     "squadra": "Napoli"
    },
    "s26": {
-    "pg": 2,
-    "mv": 7,
-    "fm": 9,
+    "pg": 3,
+    "mv": 6.67,
+    "fm": 8,
     "gol": 1,
     "ass": 1
    },
+   "giornate": 3,
    "id": 95,
    "cod": "NAP",
    "chiave": "De Bruyne (NAP)",
@@ -5217,12 +5278,13 @@
     "squadra": "Milan"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.75,
-    "fm": 8.75,
+    "pg": 3,
+    "mv": 6.17,
+    "fm": 7.5,
     "gol": 1,
     "ass": 1
    },
+   "giornate": 3,
    "id": 96,
    "cod": "MIL",
    "chiave": "Rabiot (MIL)",
@@ -5264,12 +5326,13 @@
     "squadra": "Como"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 6.25,
+    "pg": 3,
+    "mv": 6.33,
+    "fm": 6.33,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 97,
    "cod": "COM",
    "chiave": "Da Cunha (COM)",
@@ -5311,12 +5374,13 @@
     "squadra": "Como"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.5,
-    "fm": 8,
-    "gol": 1,
+    "pg": 3,
+    "mv": 6.67,
+    "fm": 8.5,
+    "gol": 2,
     "ass": 0
    },
+   "giornate": 3,
    "id": 98,
    "cod": "COM",
    "chiave": "Baturina (COM)",
@@ -5358,12 +5422,13 @@
     "squadra": "Torino"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.25,
-    "fm": 5.25,
+    "pg": 3,
+    "mv": 5.33,
+    "fm": 5.33,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 99,
    "cod": "TOR",
    "chiave": "Vlasic (TOR)",
@@ -5385,7 +5450,7 @@
    "max": 30,
    "fascia": "2a fascia",
    "gerarchia": "Titolare",
-   "nota": "Infortunato - presenze finora: 1/2",
+   "nota": "INFORTUNATO (lungo stop) - rientro a ottobre",
    "rig": 3,
    "piaz": 1,
    "fmPond": 6.77,
@@ -5411,13 +5476,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 100,
    "cod": "UDI",
    "chiave": "Zaniolo (UDI)",
    "fasciaIdx": 2,
    "inf": {
-    "stato": "Infortunato - rientro entro settembre",
-    "dettaglio": "Lesione al bicipite femorale destro (1a giornata). Stop ~25 giorni, rientro seconda meta di settembre."
+    "stato": "Infortunato - lungo stop",
+    "dettaglio": "Lesione al bicipite femorale destro: rientro nella prima meta' di ottobre."
    },
    "fonti": 2,
    "abbId": 94
@@ -5456,12 +5522,13 @@
     "squadra": "Udinese"
    },
    "s26": {
-    "pg": 2,
-    "mv": 4.5,
-    "fm": 4.5,
+    "pg": 3,
+    "mv": 5,
+    "fm": 5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 101,
    "cod": "FIO",
    "chiave": "Atta (FIO)",
@@ -5503,12 +5570,13 @@
     "squadra": "Lazio"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 6.17,
+    "fm": 6.33,
     "gol": 0,
-    "ass": 0
+    "ass": 1
    },
+   "giornate": 3,
    "id": 102,
    "cod": "LAZ",
    "chiave": "Zaccagni (LAZ)",
@@ -5550,12 +5618,13 @@
     "squadra": "Inter"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.75,
-    "fm": 8.25,
+    "pg": 3,
+    "mv": 6.67,
+    "fm": 7.67,
     "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 103,
    "cod": "INT",
    "chiave": "Zielinski (INT)",
@@ -5597,12 +5666,13 @@
     "squadra": "Inter"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.5,
-    "fm": 7,
+    "pg": 3,
+    "mv": 6.17,
+    "fm": 6.5,
     "gol": 0,
     "ass": 1
    },
+   "giornate": 3,
    "id": 104,
    "cod": "INT",
    "chiave": "Barella (INT)",
@@ -5644,12 +5714,13 @@
     "squadra": "Milan"
    },
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 6,
     "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 105,
    "cod": "MIL",
    "chiave": "Modric (MIL)",
@@ -5671,7 +5742,7 @@
    "max": 28,
    "fascia": "2a fascia",
    "gerarchia": "Titolare",
-   "nota": "In dubbio / da valutare - presenze finora: 1/2",
+   "nota": "In dubbio / da valutare",
    "rig": null,
    "piaz": null,
    "fmPond": 6.68,
@@ -5697,13 +5768,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 106,
    "cod": "JUV",
    "chiave": "McKennie (JUV)",
    "fasciaIdx": 2,
    "inf": {
     "stato": "In dubbio per la prossima",
-    "dettaglio": "Affaticamento muscolare dal 27/8. Gia assente col Parma, convocazione a rischio."
+    "dettaglio": "Affaticamento muscolare: in forte dubbio per la 4a giornata."
    },
    "fonti": 2,
    "abbId": 99
@@ -5742,12 +5814,13 @@
     "squadra": "Juventus"
    },
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 6.5,
-    "fm": 7,
+    "fm": 6.83,
     "gol": 0,
     "ass": 1
    },
+   "giornate": 3,
    "id": 107,
    "cod": "JUV",
    "chiave": "Conceicao (JUV)",
@@ -5789,12 +5862,13 @@
     "squadra": "Udinese"
    },
    "s26": {
-    "pg": 2,
-    "mv": 7,
-    "fm": 9,
+    "pg": 3,
+    "mv": 6.5,
+    "fm": 7.83,
     "gol": 1,
     "ass": 1
    },
+   "giornate": 3,
    "id": 108,
    "cod": "UDI",
    "chiave": "Ekkelenkamp (UDI)",
@@ -5836,12 +5910,13 @@
     "squadra": "Bologna"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.5,
-    "fm": 6.5,
+    "pg": 3,
+    "mv": 6.33,
+    "fm": 6.33,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 109,
    "cod": "BOL",
    "chiave": "Bernardeschi (BOL)",
@@ -5863,7 +5938,7 @@
    "max": 18,
    "fascia": "2a fascia",
    "gerarchia": "Titolare",
-   "nota": "Titolare confermato (2/2)",
+   "nota": "In dubbio / da valutare",
    "rig": 4,
    "piaz": 1,
    "fmPond": 6.48,
@@ -5889,11 +5964,16 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 110,
    "cod": "PAR",
    "chiave": "Bernabè (PAR)",
    "fasciaIdx": 2,
    "fonti": 2,
+   "inf": {
+    "stato": "In dubbio per la prossima",
+    "dettaglio": "Affaticamento muscolare: da valutare."
+   },
    "abbId": 120
   },
   {
@@ -5930,12 +6010,13 @@
     "squadra": "Napoli"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.5,
-    "fm": 5.25,
-    "gol": 0,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 6.67,
+    "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 111,
    "cod": "NAP",
    "chiave": "Politano (NAP)",
@@ -5977,12 +6058,13 @@
     "squadra": "Atalanta"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.5,
-    "fm": 8,
+    "pg": 3,
+    "mv": 6.33,
+    "fm": 7.33,
     "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 112,
    "cod": "ATA",
    "chiave": "Samardzic (ATA)",
@@ -6030,6 +6112,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 113,
    "cod": "ATA",
    "chiave": "Rowe (ATA)",
@@ -6071,12 +6154,13 @@
     "squadra": "Roma"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.5,
-    "fm": 6.25,
+    "pg": 3,
+    "mv": 6.33,
+    "fm": 6.17,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 114,
    "cod": "ROM",
    "chiave": "Konè M. (ROM)",
@@ -6118,12 +6202,13 @@
     "squadra": "Atalanta"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.75,
-    "gol": 0,
+    "pg": 3,
+    "mv": 6.17,
+    "fm": 7.17,
+    "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 115,
    "cod": "ATA",
    "chiave": "Ederson D.S. (ATA)",
@@ -6171,6 +6256,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 116,
    "cod": "COM",
    "chiave": "Rodriguez Je. (COM)",
@@ -6192,7 +6278,7 @@
    "max": 18,
    "fascia": "2a fascia",
    "gerarchia": "Ballottaggio",
-   "nota": "In ballottaggio (2/2)",
+   "nota": "INFORTUNATO (lungo stop) - rientro nel 2027",
    "rig": 3,
    "piaz": 2,
    "fmPond": 6.19,
@@ -6212,17 +6298,22 @@
     "squadra": "Juventus"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.5,
-    "fm": 6.75,
+    "pg": 3,
+    "mv": 6.17,
+    "fm": 6.33,
     "gol": 0,
     "ass": 1
    },
+   "giornate": 3,
    "id": 117,
    "cod": "JUV",
    "chiave": "Locatelli (JUV)",
    "fasciaIdx": 2,
    "fonti": 2,
+   "inf": {
+    "stato": "Infortunato - lungo stop",
+    "dettaglio": "Operato al menisco esterno: il suo 2026 e' finito, rientro nel 2027."
+   },
    "abbId": 99
   },
   {
@@ -6259,12 +6350,13 @@
     "squadra": "Napoli"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.25,
-    "fm": 5.25,
+    "pg": 3,
+    "mv": 5.33,
+    "fm": 5.33,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 118,
    "cod": "NAP",
    "chiave": "Zambo Anguissa (NAP)",
@@ -6286,7 +6378,7 @@
    "max": 10,
    "fascia": "3a fascia",
    "gerarchia": "Riserva",
-   "nota": "Infortunato - presenze finora: 0/2",
+   "nota": "Infortunato - rientro entro settembre",
    "rig": 2,
    "piaz": 3,
    "fmPond": 6.41,
@@ -6312,13 +6404,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 119,
    "cod": "LAZ",
    "chiave": "Cataldi (LAZ)",
    "fasciaIdx": 3,
    "inf": {
     "stato": "Infortunato - rientro entro settembre",
-    "dettaglio": "Ernia bilaterale, saltata la preparazione. Recuperabile da meta settembre."
+    "dettaglio": "Pubalgia: salta il Milan."
    },
    "fonti": 0,
    "abbId": 114
@@ -6357,12 +6450,13 @@
     "squadra": "Sassuolo"
    },
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 6,
     "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 120,
    "cod": "SAS",
    "chiave": "Thorstvedt (SAS)",
@@ -6394,12 +6488,13 @@
    "rankFvm": 9,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 6.75,
-    "fm": 8.25,
+    "pg": 3,
+    "mv": 6.5,
+    "fm": 7.5,
     "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 121,
    "cod": "ROM",
    "chiave": "Mora (ROM)",
@@ -6441,12 +6536,13 @@
     "squadra": "Milan"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.5,
-    "fm": 7,
+    "pg": 3,
+    "mv": 6.17,
+    "fm": 6.5,
     "gol": 0,
     "ass": 1
    },
+   "giornate": 3,
    "id": 122,
    "cod": "MIL",
    "chiave": "Saelemaekers (MIL)",
@@ -6488,12 +6584,13 @@
     "squadra": "Lazio"
    },
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 6,
     "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 123,
    "cod": "LAZ",
    "chiave": "Taylor K. (LAZ)",
@@ -6535,12 +6632,13 @@
     "squadra": "Como"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6,
-    "fm": 6,
+    "pg": 3,
+    "mv": 6.17,
+    "fm": 6.17,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 124,
    "cod": "COM",
    "chiave": "Perrone (COM)",
@@ -6582,12 +6680,13 @@
     "squadra": "Fiorentina"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.25,
-    "fm": 5.25,
-    "gol": 0,
+    "pg": 3,
+    "mv": 6,
+    "fm": 7,
+    "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 125,
    "cod": "TOR",
    "chiave": "Mandragora (TOR)",
@@ -6629,12 +6728,13 @@
     "squadra": "Lazio"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6,
-    "fm": 6,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 5.67,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 126,
    "cod": "LAZ",
    "chiave": "Isaksen (LAZ)",
@@ -6676,12 +6776,13 @@
     "squadra": "Fiorentina"
    },
    "s26": {
-    "pg": 1,
-    "mv": 4.5,
-    "fm": 4,
-    "gol": 0,
+    "pg": 2,
+    "mv": 5.75,
+    "fm": 7,
+    "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 127,
    "cod": "LAZ",
    "chiave": "Gudmundsson A. (LAZ)",
@@ -6729,6 +6830,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 128,
    "cod": "ROM",
    "chiave": "Pellegrini Lo. (ROM)",
@@ -6750,7 +6852,7 @@
    "max": 13,
    "fascia": "3a fascia",
    "gerarchia": "Titolare",
-   "nota": "INFORTUNATO (lungo stop) - presenze finora: 0/2",
+   "nota": "INFORTUNATO (lungo stop) - rientro a gennaio 2027",
    "rig": null,
    "piaz": null,
    "fmPond": 6.63,
@@ -6776,13 +6878,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 129,
    "cod": "SAS",
    "chiave": "Konè I. (SAS)",
    "fasciaIdx": 3,
    "inf": {
     "stato": "Infortunato - lungo stop",
-    "dettaglio": "Rottura di tibia e perone ai Mondiali di giugno. Punta a rientrare a dicembre."
+    "dettaglio": "Frattura di tibia e perone: rientro a gennaio 2027."
    },
    "fonti": 0,
    "abbId": 90
@@ -6821,12 +6924,13 @@
     "squadra": "Inter"
    },
    "s26": {
-    "pg": 2,
-    "mv": 7.25,
-    "fm": 10.25,
-    "gol": 2,
+    "pg": 3,
+    "mv": 7.17,
+    "fm": 10.17,
+    "gol": 3,
     "ass": 0
    },
+   "giornate": 3,
    "id": 130,
    "cod": "LAZ",
    "chiave": "Frattesi (LAZ)",
@@ -6868,12 +6972,13 @@
     "squadra": "Cagliari"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 6.25,
+    "pg": 3,
+    "mv": 5.67,
+    "fm": 5.67,
     "gol": 0,
     "ass": 1
    },
+   "giornate": 3,
    "id": 131,
    "cod": "ATA",
    "chiave": "Gaetano (ATA)",
@@ -6905,12 +7010,13 @@
    "rankFvm": 51,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 6.75,
+    "pg": 3,
+    "mv": 6.33,
+    "fm": 6.67,
     "gol": 0,
     "ass": 1
    },
+   "giornate": 3,
    "id": 132,
    "cod": "FRO",
    "chiave": "Calò (FRO)",
@@ -6932,7 +7038,7 @@
    "max": 16,
    "fascia": "3a fascia",
    "gerarchia": "Titolare",
-   "nota": "In dubbio / da valutare - presenze finora: 1/2",
+   "nota": "In dubbio / da valutare",
    "rig": null,
    "piaz": null,
    "fmPond": 6.45,
@@ -6958,13 +7064,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 133,
    "cod": "TOR",
    "chiave": "Casadei (TOR)",
    "fasciaIdx": 3,
    "inf": {
     "stato": "In dubbio per la prossima",
-    "dettaglio": "Affaticamento muscolare: fuori col Sassuolo, a rischio anche a Firenze."
+    "dettaglio": "Affaticamento muscolare: da valutare."
    },
    "fonti": 2,
    "abbId": 106
@@ -7003,12 +7110,13 @@
     "squadra": "Genoa"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 5.83,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 134,
    "cod": "GEN",
    "chiave": "Baldanzi (GEN)",
@@ -7030,7 +7138,7 @@
    "max": 14,
    "fascia": "3a fascia",
    "gerarchia": "Ballottaggio",
-   "nota": "INFORTUNATO (lungo stop) - rientro a febbraio 2027",
+   "nota": "INFORTUNATO (lungo stop) - rientro a inizio 2027",
    "rig": null,
    "piaz": null,
    "fmPond": 6.4,
@@ -7056,13 +7164,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 135,
    "cod": "JUV",
    "chiave": "Thuram K. (JUV)",
    "fasciaIdx": 3,
    "inf": {
     "stato": "Infortunato - lungo stop",
-    "dettaglio": "Operato al ginocchio: rientro previsto a febbraio 2027. Salta piu' di mezzo campionato, all'asta vale molto meno del prezzo consigliato."
+    "dettaglio": "Operato al ginocchio: rientro previsto a inizio 2027. Salta piu' di mezzo campionato, all'asta vale molto meno del prezzo consigliato."
    },
    "fonti": 0,
    "abbId": 99
@@ -7107,6 +7216,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 136,
    "cod": "LEC",
    "chiave": "Berisha M. (LEC)",
@@ -7148,12 +7258,13 @@
     "squadra": "Bologna"
    },
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 6,
-    "fm": 5.75,
+    "fm": 5.83,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 137,
    "cod": "BOL",
    "chiave": "Cambiaghi (BOL)",
@@ -7175,7 +7286,7 @@
    "max": 14,
    "fascia": "3a fascia",
    "gerarchia": "Titolare",
-   "nota": "Titolare confermato (2/2)",
+   "nota": "In dubbio / da valutare",
    "rig": null,
    "piaz": null,
    "fmPond": 6.36,
@@ -7195,17 +7306,22 @@
     "squadra": "Sassuolo"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.75,
-    "fm": 8,
+    "pg": 3,
+    "mv": 6.67,
+    "fm": 7.5,
     "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 138,
    "cod": "SAS",
    "chiave": "Volpato (SAS)",
    "fasciaIdx": 3,
    "fonti": 0,
+   "inf": {
+    "stato": "In dubbio per la prossima",
+    "dettaglio": "Problema muscolare: rientro difficile per la 4a giornata."
+   },
    "abbId": 103
   },
   {
@@ -7242,12 +7358,13 @@
     "squadra": "Bologna"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
+    "pg": 3,
+    "mv": 5.67,
     "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 139,
    "cod": "BOL",
    "chiave": "Odgaard (BOL)",
@@ -7295,6 +7412,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 140,
    "cod": "INT",
    "chiave": "Mkhitaryan (INT)",
@@ -7316,7 +7434,7 @@
    "max": 11,
    "fascia": "3a fascia",
    "gerarchia": "Titolare",
-   "nota": "INFORTUNATO (lungo stop) - Nuovo - presenze finora: 0/2",
+   "nota": "INFORTUNATO (lungo stop) - rientro a novembre",
    "rig": 1,
    "piaz": 1,
    "fmPond": 5.5,
@@ -7332,13 +7450,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 141,
    "cod": "MON",
    "chiave": "Pessina (MON)",
    "fasciaIdx": 3,
    "inf": {
     "stato": "Infortunato - lungo stop",
-    "dettaglio": "Lussazione della rotula del ginocchio destro. Prova a rientrare da inizio novembre."
+    "dettaglio": "Lesione alla rotula: rientro a novembre."
    },
    "fonti": 1,
    "abbId": 136
@@ -7367,12 +7486,13 @@
    "rankFvm": 110,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 6,
+    "fm": 6.17,
     "gol": 0,
-    "ass": 0
+    "ass": 1
    },
+   "giornate": 3,
    "id": 142,
    "cod": "VEN",
    "chiave": "Busio (VEN)",
@@ -7414,12 +7534,13 @@
     "squadra": "Lazio"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.5,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 5.67,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 143,
    "cod": "LAZ",
    "chiave": "Cancellieri (LAZ)",
@@ -7461,12 +7582,13 @@
     "squadra": "Atalanta"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 6.75,
+    "pg": 3,
+    "mv": 6,
+    "fm": 6.33,
     "gol": 0,
     "ass": 1
    },
+   "giornate": 3,
    "id": 144,
    "cod": "ATA",
    "chiave": "Zalewski (ATA)",
@@ -7508,12 +7630,13 @@
     "squadra": "Como"
    },
    "s26": {
-    "pg": 1,
-    "mv": 6,
-    "fm": 6,
+    "pg": 2,
+    "mv": 6.25,
+    "fm": 6.25,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 145,
    "cod": "COM",
    "chiave": "Caqueret (COM)",
@@ -7555,12 +7678,13 @@
     "squadra": "Roma"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.5,
-    "fm": 6.5,
+    "pg": 3,
+    "mv": 6.33,
+    "fm": 6.33,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 146,
    "cod": "ROM",
    "chiave": "Cristante (ROM)",
@@ -7582,7 +7706,7 @@
    "max": 13,
    "fascia": "3a fascia",
    "gerarchia": "Titolare",
-   "nota": "Nuovo - Titolare confermato (2/2)",
+   "nota": "In dubbio / da valutare",
    "rig": null,
    "piaz": null,
    "fmPond": 6.36,
@@ -7608,11 +7732,16 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 147,
    "cod": "VEN",
    "chiave": "Basic (VEN)",
    "fasciaIdx": 3,
    "fonti": 2,
+   "inf": {
+    "stato": "In dubbio per la prossima",
+    "dettaglio": "Affaticamento alla fascia plantare: in forte dubbio."
+   },
    "abbId": 141
   },
   {
@@ -7655,6 +7784,7 @@
     "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 148,
    "cod": "ROM",
    "chiave": "Pisilli (ROM)",
@@ -7696,12 +7826,13 @@
     "squadra": "Atalanta"
    },
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 5.5,
     "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 149,
    "cod": "ATA",
    "chiave": "Pasalic (ATA)",
@@ -7743,12 +7874,13 @@
     "squadra": "Milan"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 5.67,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 150,
    "cod": "MIL",
    "chiave": "Loftus-Cheek (MIL)",
@@ -7790,12 +7922,13 @@
     "squadra": "Inter"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.5,
-    "fm": 6.5,
+    "pg": 3,
+    "mv": 6.17,
+    "fm": 6.17,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 151,
    "cod": "INT",
    "chiave": "Sucic P. (INT)",
@@ -7837,12 +7970,13 @@
     "squadra": "Lecce"
    },
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 6,
-    "fm": 6.5,
+    "fm": 6.33,
     "gol": 0,
     "ass": 1
    },
+   "giornate": 3,
    "id": 152,
    "cod": "LEC",
    "chiave": "Coulibaly L. (LEC)",
@@ -7884,12 +8018,13 @@
     "squadra": "Inter"
    },
    "s26": {
-    "pg": 1,
-    "mv": 7,
-    "fm": 9,
+    "pg": 2,
+    "mv": 6.5,
+    "fm": 7.5,
     "gol": 0,
     "ass": 2
    },
+   "giornate": 3,
    "id": 153,
    "cod": "INT",
    "chiave": "Diouf (INT)",
@@ -7931,12 +8066,13 @@
     "squadra": "Fiorentina"
    },
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 5.5,
-    "fm": 5.25,
+    "fm": 5.33,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 154,
    "cod": "FIO",
    "chiave": "Fagioli (FIO)",
@@ -7978,12 +8114,13 @@
     "squadra": "Genoa"
    },
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 6,
     "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 155,
    "cod": "GEN",
    "chiave": "Messias (GEN)",
@@ -8025,12 +8162,13 @@
     "squadra": "Cagliari"
    },
    "s26": {
-    "pg": 1,
-    "mv": 6,
-    "fm": 6,
+    "pg": 2,
+    "mv": 5.75,
+    "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 156,
    "cod": "MON",
    "chiave": "Folorunsho (MON)",
@@ -8062,12 +8200,13 @@
    "rankFvm": 21,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 5.25,
-    "fm": 5.25,
+    "pg": 3,
+    "mv": 5.33,
+    "fm": 5.33,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 157,
    "cod": "FIO",
    "chiave": "Mastantuono (FIO)",
@@ -8109,12 +8248,13 @@
     "squadra": "Lecce"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 5.67,
+    "fm": 5.67,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 158,
    "cod": "LEC",
    "chiave": "Pierotti (LEC)",
@@ -8146,12 +8286,13 @@
    "rankFvm": 54,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
+    "pg": 3,
+    "mv": 5.83,
     "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 159,
    "cod": "FRO",
    "chiave": "Schmid (FRO)",
@@ -8193,12 +8334,13 @@
     "squadra": "Napoli"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 6.25,
+    "pg": 3,
+    "mv": 6.33,
+    "fm": 6.33,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 160,
    "cod": "NAP",
    "chiave": "Lobotka (NAP)",
@@ -8220,7 +8362,7 @@
    "max": 12,
    "fascia": "3a fascia",
    "gerarchia": "Titolare",
-   "nota": "INFORTUNATO (lungo stop) - presenze finora: 0/2",
+   "nota": "INFORTUNATO (lungo stop) - rientro a novembre",
    "rig": null,
    "piaz": 2,
    "fmPond": 5.98,
@@ -8246,13 +8388,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 161,
    "cod": "PAR",
    "chiave": "Nicolussi Caviglia (PAR)",
    "fasciaIdx": 3,
    "inf": {
     "stato": "Infortunato - lungo stop",
-    "dettaglio": "Operato a fine agosto alla coscia destra. Ipotesi rientro da novembre."
+    "dettaglio": "Sindrome pubalgica: possibile rientro a fine novembre."
    },
    "fonti": 0,
    "abbId": 129
@@ -8291,12 +8434,13 @@
     "squadra": "Fiorentina"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5,
-    "fm": 5,
+    "pg": 3,
+    "mv": 5.17,
+    "fm": 5.17,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 162,
    "cod": "FIO",
    "chiave": "Ndour (FIO)",
@@ -8344,6 +8488,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 163,
    "cod": "COM",
    "chiave": "Ricci S. (COM)",
@@ -8385,12 +8530,13 @@
     "squadra": "Napoli"
    },
    "s26": {
-    "pg": 1,
-    "mv": 7.5,
-    "fm": 11.5,
+    "pg": 2,
+    "mv": 6.5,
+    "fm": 8.25,
     "gol": 1,
     "ass": 1
    },
+   "giornate": 3,
    "id": 164,
    "cod": "NAP",
    "chiave": "Vergara (NAP)",
@@ -8438,6 +8584,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 165,
    "cod": "LEC",
    "chiave": "Gandelman (LEC)",
@@ -8479,12 +8626,13 @@
     "squadra": "Fiorentina"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.5,
-    "fm": 5.25,
+    "pg": 3,
+    "mv": 6,
+    "fm": 6.17,
     "gol": 0,
-    "ass": 0
+    "ass": 1
    },
+   "giornate": 3,
    "id": 166,
    "cod": "CAG",
    "chiave": "Fazzini (CAG)",
@@ -8526,12 +8674,13 @@
     "squadra": "Bologna"
    },
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 5.5,
+    "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 167,
    "cod": "BOL",
    "chiave": "Moro N. (BOL)",
@@ -8573,12 +8722,13 @@
     "squadra": "Sassuolo"
    },
    "s26": {
-    "pg": 1,
+    "pg": 2,
     "mv": 6,
     "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 168,
    "cod": "CAG",
    "chiave": "Fadera (CAG)",
@@ -8620,12 +8770,13 @@
     "squadra": "Bologna"
    },
    "s26": {
-    "pg": 1,
+    "pg": 2,
     "mv": 6,
     "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 169,
    "cod": "BOL",
    "chiave": "Pobega (BOL)",
@@ -8667,12 +8818,13 @@
     "squadra": "Napoli"
    },
    "s26": {
-    "pg": 1,
+    "pg": 2,
     "mv": 5.5,
     "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 170,
    "cod": "ATA",
    "chiave": "Elmas (ATA)",
@@ -8714,12 +8866,13 @@
     "squadra": "Parma"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.5,
+    "pg": 3,
+    "mv": 5.67,
     "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 171,
    "cod": "PAR",
    "chiave": "Keita M. (PAR)",
@@ -8757,6 +8910,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 172,
    "cod": "FIO",
    "chiave": "Goncalves P. (FIO)",
@@ -8798,12 +8952,13 @@
     "squadra": "Genoa"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6,
-    "fm": 6,
+    "pg": 3,
+    "mv": 5.67,
+    "fm": 5.67,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 173,
    "cod": "GEN",
    "chiave": "Frendrup (GEN)",
@@ -8845,12 +9000,13 @@
     "squadra": "Udinese"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.5,
-    "fm": 6.5,
-    "gol": 0,
+    "pg": 3,
+    "mv": 6.67,
+    "fm": 7.5,
+    "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 174,
    "cod": "UDI",
    "chiave": "Karlstrom (UDI)",
@@ -8892,12 +9048,13 @@
     "squadra": "Fiorentina"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.5,
-    "fm": 5.5,
+    "pg": 3,
+    "mv": 5.67,
+    "fm": 5.67,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 175,
    "cod": "FIO",
    "chiave": "Brescianini (FIO)",
@@ -8945,6 +9102,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 176,
    "cod": "INT",
    "chiave": "Luis Henrique (INT)",
@@ -8976,12 +9134,13 @@
    "rankFvm": 23,
    "s25": null,
    "s26": {
-    "pg": 1,
+    "pg": 2,
     "mv": 6,
     "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 177,
    "cod": "INT",
    "chiave": "Jones C. (INT)",
@@ -9019,6 +9178,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 178,
    "cod": "ATA",
    "chiave": "Kessiè (ATA)",
@@ -9050,12 +9210,13 @@
    "rankFvm": 26,
    "s25": null,
    "s26": {
-    "pg": 1,
-    "mv": 7.5,
-    "fm": 10.5,
+    "pg": 2,
+    "mv": 7,
+    "fm": 8.5,
     "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 180,
    "cod": "JUV",
    "chiave": "Gonzalez N. (JUV)",
@@ -9087,12 +9248,13 @@
    "rankFvm": 26,
    "s25": null,
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 5,
+    "fm": 5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 181,
    "cod": "MIL",
    "chiave": "Moreira (MIL)",
@@ -9134,12 +9296,13 @@
     "squadra": "Torino"
    },
    "s26": {
-    "pg": 1,
-    "mv": 6.5,
-    "fm": 6.5,
+    "pg": 2,
+    "mv": 6.25,
+    "fm": 6.25,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 182,
    "cod": "FIO",
    "chiave": "Njie (FIO)",
@@ -9181,12 +9344,13 @@
     "squadra": "Sassuolo"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 6,
+    "pg": 3,
+    "mv": 6.33,
+    "fm": 6.17,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 183,
    "cod": "SAS",
    "chiave": "Matic (SAS)",
@@ -9208,7 +9372,7 @@
    "max": 11,
    "fascia": "3a fascia",
    "gerarchia": "Ballottaggio",
-   "nota": "In ballottaggio (2/2)",
+   "nota": "INFORTUNATO (lungo stop)",
    "rig": null,
    "piaz": null,
    "fmPond": 5.95,
@@ -9234,11 +9398,16 @@
     "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 184,
    "cod": "UDI",
    "chiave": "Piotrowski (UDI)",
    "fasciaIdx": 3,
    "fonti": 2,
+   "inf": {
+    "stato": "Infortunato - lungo stop",
+    "dettaglio": "Lieve aritmia benigna: intervento di ablazione cardiaca."
+   },
    "abbId": 142
   },
   {
@@ -9281,6 +9450,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 185,
    "cod": "TOR",
    "chiave": "Oristanio (TOR)",
@@ -9322,12 +9492,13 @@
     "squadra": "Genoa"
    },
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 5.5,
     "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 186,
    "cod": "GEN",
    "chiave": "Ellertsson (GEN)",
@@ -9349,7 +9520,7 @@
    "max": 8,
    "fascia": "3a fascia",
    "gerarchia": "Riserva",
-   "nota": "Infortunato - presenze finora: 0/2",
+   "nota": "Infortunato - rientro dopo la sosta",
    "rig": null,
    "piaz": null,
    "fmPond": 6,
@@ -9375,13 +9546,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 187,
    "cod": "COM",
    "chiave": "Addai (COM)",
    "fasciaIdx": 3,
    "inf": {
     "stato": "Infortunato - rientro entro settembre",
-    "dettaglio": "Rottura del tendine d'Achille. Prova a rientrare dalla seconda meta di settembre."
+    "dettaglio": "Rottura del tendine d'Achille: rientro dopo la sosta."
    },
    "fonti": 0,
    "abbId": 148
@@ -9410,12 +9582,13 @@
    "rankFvm": 32,
    "s25": null,
    "s26": {
-    "pg": 1,
+    "pg": 2,
     "mv": 5.5,
     "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 188,
    "cod": "JUV",
    "chiave": "Alajbegovic (JUV)",
@@ -9463,6 +9636,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 189,
    "cod": "ROM",
    "chiave": "De Roon (ROM)",
@@ -9484,7 +9658,7 @@
    "max": 12,
    "fascia": "3a fascia",
    "gerarchia": "Riserva",
-   "nota": "Infortunato - presenze finora: 2/2",
+   "nota": "In dubbio / da valutare",
    "rig": null,
    "piaz": 1,
    "fmPond": 5.56,
@@ -9510,13 +9684,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 190,
    "cod": "LAZ",
    "chiave": "Rovella (LAZ)",
    "fasciaIdx": 3,
    "inf": {
-    "stato": "Infortunato - rientro entro settembre",
-    "dettaglio": "Guaio muscolare al polpaccio (30/8). Assente nel prossimo turno."
+    "stato": "In dubbio per la prossima",
+    "dettaglio": "Leggera lesione al polpaccio: in forte dubbio."
    },
    "fonti": 2,
    "abbId": 114
@@ -9555,12 +9730,13 @@
     "squadra": "Bologna"
    },
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 6,
     "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 191,
    "cod": "BOL",
    "chiave": "Ferguson (BOL)",
@@ -9602,12 +9778,13 @@
     "squadra": "Atalanta"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 6.25,
+    "pg": 3,
+    "mv": 6.17,
+    "fm": 6.17,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 192,
    "cod": "MIL",
    "chiave": "Musah (MIL)",
@@ -9649,12 +9826,13 @@
     "squadra": "Torino"
    },
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 5.5,
-    "fm": 5.75,
+    "fm": 5.67,
     "gol": 0,
     "ass": 1
    },
+   "giornate": 3,
    "id": 193,
    "cod": "TOR",
    "chiave": "Gineitis (TOR)",
@@ -9696,12 +9874,13 @@
     "squadra": "Fiorentina"
    },
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 5.5,
+    "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 194,
    "cod": "PAR",
    "chiave": "Fabbian (PAR)",
@@ -9743,12 +9922,13 @@
     "squadra": "Cagliari"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6,
+    "pg": 3,
+    "mv": 6.17,
     "fm": 6.5,
     "gol": 0,
     "ass": 1
    },
+   "giornate": 3,
    "id": 195,
    "cod": "CAG",
    "chiave": "Adopo (CAG)",
@@ -9790,12 +9970,13 @@
     "squadra": "Juventus"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6,
-    "fm": 6.5,
-    "gol": 0,
+    "pg": 3,
+    "mv": 6.33,
+    "fm": 7.67,
+    "gol": 1,
     "ass": 1
    },
+   "giornate": 3,
    "id": 196,
    "cod": "SAS",
    "chiave": "Adzic (SAS)",
@@ -9833,6 +10014,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 197,
    "cod": "COM",
    "chiave": "Milla (COM)",
@@ -9880,6 +10062,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 198,
    "cod": "CAG",
    "chiave": "Felici (CAG)",
@@ -9927,6 +10110,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 199,
    "cod": "NAP",
    "chiave": "Gilmour (NAP)",
@@ -9974,6 +10158,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 200,
    "cod": "MON",
    "chiave": "Tourè I. (MON)",
@@ -10015,12 +10200,13 @@
     "squadra": "Udinese"
    },
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 6,
-    "fm": 6,
+    "fm": 5.83,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 201,
    "cod": "UDI",
    "chiave": "Miller L. (UDI)",
@@ -10068,6 +10254,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 202,
    "cod": "JUV",
    "chiave": "Zhegrova (JUV)",
@@ -10109,12 +10296,13 @@
     "squadra": "Cagliari"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.5,
+    "pg": 3,
+    "mv": 6,
+    "fm": 5.67,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 203,
    "cod": "CAG",
    "chiave": "Deiola (CAG)",
@@ -10136,7 +10324,7 @@
    "max": 10,
    "fascia": "3a fascia",
    "gerarchia": "Riserva",
-   "nota": "Infortunato - presenze finora: 1/2",
+   "nota": "INFORTUNATO (lungo stop) - rientro dopo la sosta",
    "rig": null,
    "piaz": null,
    "fmPond": 5.78,
@@ -10162,13 +10350,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 204,
    "cod": "LAZ",
    "chiave": "Dele-Bashiru (LAZ)",
    "fasciaIdx": 3,
    "inf": {
-    "stato": "Infortunato - rientro entro settembre",
-    "dettaglio": "Guaio muscolare alla gamba (24/8). Si confida di riaverlo da meta settembre."
+    "stato": "Infortunato - lungo stop",
+    "dettaglio": "Lesione del retto femorale: possibile rientro dopo la sosta."
    },
    "fonti": 0,
    "abbId": 114
@@ -10213,6 +10402,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 205,
    "cod": "FRO",
    "chiave": "Zerbin (FRO)",
@@ -10254,12 +10444,13 @@
     "squadra": "Verona"
    },
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 5.5,
+    "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 206,
    "cod": "CAG",
    "chiave": "Gagliardini (CAG)",
@@ -10307,6 +10498,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 207,
    "cod": "TOR",
    "chiave": "Ilkhan (TOR)",
@@ -10348,12 +10540,13 @@
     "squadra": "Genoa"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 6.25,
+    "pg": 3,
+    "mv": 6.33,
+    "fm": 6.67,
     "gol": 0,
-    "ass": 0
+    "ass": 1
    },
+   "giornate": 3,
    "id": 208,
    "cod": "FRO",
    "chiave": "Masini (FRO)",
@@ -10395,12 +10588,13 @@
     "squadra": "Pisa"
    },
    "s26": {
-    "pg": 1,
-    "mv": 6.5,
-    "fm": 7.5,
+    "pg": 2,
+    "mv": 6.25,
+    "fm": 6.75,
     "gol": 0,
     "ass": 1
    },
+   "giornate": 3,
    "id": 209,
    "cod": "MON",
    "chiave": "Akinsanmiro (MON)",
@@ -10448,6 +10642,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 210,
    "cod": "SAS",
    "chiave": "Dominguez B. (SAS)",
@@ -10479,12 +10674,13 @@
    "rankFvm": 73,
    "s25": null,
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 6.5,
-    "fm": 8,
+    "fm": 7.5,
     "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 211,
    "cod": "CAG",
    "chiave": "Romano (CAG)",
@@ -10522,6 +10718,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 212,
    "cod": "BOL",
    "chiave": "Mbangula (BOL)",
@@ -10553,12 +10750,13 @@
    "rankFvm": 99,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 7.25,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 6.83,
     "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 213,
    "cod": "MON",
    "chiave": "Colpani (MON)",
@@ -10600,12 +10798,13 @@
     "squadra": "Sassuolo"
    },
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 6,
+    "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 214,
    "cod": "SAS",
    "chiave": "Lipani (SAS)",
@@ -10647,12 +10846,13 @@
     "squadra": "Parma"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6,
-    "fm": 6,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 5.83,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 215,
    "cod": "PAR",
    "chiave": "Ordonez C. (PAR)",
@@ -10690,6 +10890,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 216,
    "cod": "MIL",
    "chiave": "Hutchinson (MIL)",
@@ -10711,7 +10912,7 @@
    "max": 14,
    "fascia": "3a fascia",
    "gerarchia": "Riserva",
-   "nota": "Nuovo - Riserva (0/2)",
+   "nota": "In dubbio / da valutare",
    "rig": null,
    "piaz": null,
    "fmPond": 5.5,
@@ -10727,11 +10928,16 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 217,
    "cod": "JUV",
    "chiave": "Sarr P. (JUV)",
    "fasciaIdx": 3,
    "fonti": 1,
+   "inf": {
+    "stato": "In dubbio per la prossima",
+    "dettaglio": "In recupero da un problema muscolare: convocazione in dubbio."
+   },
    "abbId": 99
   },
   {
@@ -10768,12 +10974,13 @@
     "squadra": "Parma"
    },
    "s26": {
-    "pg": 1,
-    "mv": 6,
-    "fm": 6,
+    "pg": 2,
+    "mv": 5.75,
+    "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 218,
    "cod": "PAR",
    "chiave": "Almqvist (PAR)",
@@ -10805,12 +11012,13 @@
    "rankFvm": 61,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 6,
+    "pg": 3,
+    "mv": 6.17,
     "fm": 6.5,
     "gol": 0,
     "ass": 1
    },
+   "giornate": 3,
    "id": 219,
    "cod": "TOR",
    "chiave": "Cacciamani (TOR)",
@@ -10842,12 +11050,13 @@
    "rankFvm": 61,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 7.75,
-    "gol": 1,
+    "pg": 3,
+    "mv": 6.5,
+    "fm": 8.33,
+    "gol": 2,
     "ass": 0
    },
+   "giornate": 3,
    "id": 220,
    "cod": "MIL",
    "chiave": "Cissè A. (MIL)",
@@ -10879,12 +11088,13 @@
    "rankFvm": 63,
    "s25": null,
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 5.5,
+    "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 221,
    "cod": "LEC",
    "chiave": "Monteiro J. (LEC)",
@@ -10916,12 +11126,13 @@
    "rankFvm": 93,
    "s25": null,
    "s26": {
-    "pg": 1,
+    "pg": 2,
     "mv": 5.5,
     "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 222,
    "cod": "UDI",
    "chiave": "Unai Gomez (UDI)",
@@ -10963,12 +11174,13 @@
     "squadra": "Milan"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.75,
-    "fm": 7.25,
+    "pg": 3,
+    "mv": 6.67,
+    "fm": 7.33,
     "gol": 0,
-    "ass": 1
+    "ass": 2
    },
+   "giornate": 3,
    "id": 223,
    "cod": "MIL",
    "chiave": "Chukwueze (MIL)",
@@ -11000,12 +11212,13 @@
    "rankFvm": 99,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 5.67,
+    "fm": 5.67,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 224,
    "cod": "JUV",
    "chiave": "Douglas Luiz (JUV)",
@@ -11037,12 +11250,13 @@
    "rankFvm": 99,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.5,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 5.67,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 225,
    "cod": "VEN",
    "chiave": "Perez K. (VEN)",
@@ -11090,6 +11304,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 226,
    "cod": "MIL",
    "chiave": "Jashari (MIL)",
@@ -11127,6 +11342,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 227,
    "cod": "COM",
    "chiave": "Liberali (COM)",
@@ -11158,12 +11374,13 @@
    "rankFvm": 76,
    "s25": null,
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 6,
+    "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 228,
    "cod": "TOR",
    "chiave": "Braganca (TOR)",
@@ -11205,12 +11422,13 @@
     "squadra": "Cagliari"
    },
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 6,
+    "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 229,
    "cod": "SAS",
    "chiave": "Sulemana I. (SAS)",
@@ -11258,6 +11476,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 230,
    "cod": "SAS",
    "chiave": "Bakola (SAS)",
@@ -11299,12 +11518,13 @@
     "squadra": "Cremonese"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6,
-    "fm": 6,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 5.83,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 231,
    "cod": "LEC",
    "chiave": "Maleh (LEC)",
@@ -11346,12 +11566,13 @@
     "squadra": "Bologna"
    },
    "s26": {
-    "pg": 1,
-    "mv": 6,
-    "fm": 6,
+    "pg": 2,
+    "mv": 5.75,
+    "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 232,
    "cod": "VEN",
    "chiave": "Sohm (VEN)",
@@ -11383,12 +11604,13 @@
    "rankFvm": 85,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 6,
-    "fm": 6,
+    "pg": 3,
+    "mv": 6.17,
+    "fm": 6.17,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 233,
    "cod": "TOR",
    "chiave": "Fitz-Jim (TOR)",
@@ -11430,12 +11652,13 @@
     "squadra": "Juventus"
    },
    "s26": {
-    "pg": 1,
-    "mv": 7,
-    "fm": 10,
+    "pg": 2,
+    "mv": 6.75,
+    "fm": 8.75,
     "gol": 1,
-    "ass": 0
+    "ass": 1
    },
+   "giornate": 3,
    "id": 234,
    "cod": "JUV",
    "chiave": "Koopmeiners (JUV)",
@@ -11457,7 +11680,7 @@
    "max": 12,
    "fascia": "3a fascia",
    "gerarchia": "Ballottaggio",
-   "nota": "Nuovo - In ballottaggio (2/2)",
+   "nota": "In dubbio / da valutare",
    "rig": null,
    "piaz": null,
    "fmPond": 5.5,
@@ -11467,17 +11690,22 @@
    "rankFvm": 85,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 5.5,
-    "fm": 5.5,
+    "pg": 3,
+    "mv": 5.67,
+    "fm": 5.67,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 235,
    "cod": "FIO",
    "chiave": "Oulai (FIO)",
    "fasciaIdx": 3,
    "fonti": 1,
+   "inf": {
+    "stato": "In dubbio per la prossima",
+    "dettaglio": "Problema al retto femorale: recupero difficile per la 4a giornata."
+   },
    "abbId": 91
   },
   {
@@ -11514,12 +11742,13 @@
     "squadra": "Torino"
    },
    "s26": {
-    "pg": 1,
-    "mv": 5.5,
+    "pg": 2,
+    "mv": 5.25,
     "fm": 5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 236,
    "cod": "LEC",
    "chiave": "Ilic (LEC)",
@@ -11561,12 +11790,13 @@
     "squadra": "Lecce"
    },
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 5.5,
-    "fm": 5.25,
+    "fm": 5.33,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 237,
    "cod": "LEC",
    "chiave": "Ngom (LEC)",
@@ -11608,12 +11838,13 @@
     "squadra": "Genoa"
    },
    "s26": {
-    "pg": 1,
-    "mv": 6.5,
-    "fm": 6.5,
+    "pg": 2,
+    "mv": 6,
+    "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 238,
    "cod": "GEN",
    "chiave": "Amorim (GEN)",
@@ -11645,12 +11876,13 @@
    "rankFvm": 99,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 5.67,
+    "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 239,
    "cod": "GEN",
    "chiave": "Sow (GEN)",
@@ -11682,12 +11914,13 @@
    "rankFvm": 99,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 5.5,
-    "fm": 5.5,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 5.83,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 240,
    "cod": "CAG",
    "chiave": "Winks (CAG)",
@@ -11729,12 +11962,13 @@
     "squadra": "Genoa"
    },
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 6,
     "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 241,
    "cod": "FRO",
    "chiave": "Fini (FRO)",
@@ -11776,12 +12010,13 @@
     "squadra": "Lazio"
    },
    "s26": {
-    "pg": 1,
-    "mv": 6,
-    "fm": 6,
+    "pg": 2,
+    "mv": 6.25,
+    "fm": 6.25,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 242,
    "cod": "LAZ",
    "chiave": "Belahyane (LAZ)",
@@ -11813,12 +12048,13 @@
    "rankFvm": 118,
    "s25": null,
    "s26": {
-    "pg": 1,
-    "mv": 5.5,
-    "fm": 5.5,
+    "pg": 2,
+    "mv": 5.75,
+    "fm": 5.75,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 243,
    "cod": "FRO",
    "chiave": "Cichella (FRO)",
@@ -11856,6 +12092,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 244,
    "cod": "PAR",
    "chiave": "Diallo O. (PAR)",
@@ -11903,6 +12140,7 @@
     "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 245,
    "cod": "LEC",
    "chiave": "Gorter (LEC)",
@@ -11940,6 +12178,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 246,
    "cod": "CAG",
    "chiave": "Massolin (CAG)",
@@ -11977,49 +12216,13 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 247,
    "cod": "MON",
    "chiave": "Mout (MON)",
    "fasciaIdx": 3,
    "fonti": 0,
    "abbId": 136
-  },
-  {
-   "r": "C",
-   "nome": "Koutsoupias",
-   "squadra": "Frosinone",
-   "rm": "Centrale",
-   "prio": 159,
-   "indice": 4.3,
-   "qtI": 4,
-   "qtA": 4,
-   "fvm": 11,
-   "cons": 8,
-   "max": 10,
-   "fascia": "3a fascia",
-   "gerarchia": "Ballottaggio",
-   "nota": "Nuovo - In ballottaggio (0/2)",
-   "rig": null,
-   "piaz": null,
-   "fmPond": 5.5,
-   "nuovo": true,
-   "abb": "Samardzic (ATA)",
-   "abbTras": 5,
-   "rankFvm": 135,
-   "s25": null,
-   "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
-    "gol": 0,
-    "ass": 0
-   },
-   "id": 248,
-   "cod": "FRO",
-   "chiave": "Koutsoupias (FRO)",
-   "fasciaIdx": 3,
-   "fonti": 0,
-   "abbId": 112
   },
   {
    "r": "C",
@@ -12051,6 +12254,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 249,
    "cod": "GEN",
    "chiave": "Meichtry (GEN)",
@@ -12088,6 +12292,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 250,
    "cod": "GEN",
    "chiave": "Traorè Hj. (GEN)",
@@ -12135,6 +12340,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 251,
    "cod": "GEN",
    "chiave": "Venturino (GEN)",
@@ -12172,6 +12378,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 252,
    "cod": "BOL",
    "chiave": "Amondarain (BOL)",
@@ -12193,7 +12400,7 @@
    "max": 8,
    "fascia": "3a fascia",
    "gerarchia": "Riserva",
-   "nota": "Infortunato - Nuovo - presenze finora: 1/2",
+   "nota": "Infortunato - rientro entro settembre",
    "rig": null,
    "piaz": null,
    "fmPond": 5.5,
@@ -12209,13 +12416,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 253,
    "cod": "BOL",
    "chiave": "El Azzouzi O. (BOL)",
    "fasciaIdx": 3,
    "inf": {
     "stato": "Infortunato - rientro entro settembre",
-    "dettaglio": "Lesione al bicipite femorale sinistro. Rientro dalla seconda meta di settembre."
+    "dettaglio": "Lesione al bicipite femorale: rientro a fine settembre."
    },
    "fonti": 0,
    "abbId": 93
@@ -12250,59 +12458,13 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 254,
    "cod": "FRO",
    "chiave": "Grillitsch (FRO)",
    "fasciaIdx": 3,
    "fonti": 2,
    "abbId": 112
-  },
-  {
-   "r": "C",
-   "nome": "Anjorin",
-   "squadra": "Torino",
-   "rm": "Centrale / Trequartista",
-   "prio": 166,
-   "indice": 3.8,
-   "qtI": 1,
-   "qtA": 1,
-   "fvm": 4,
-   "cons": 4,
-   "max": 5,
-   "fascia": "4a fascia",
-   "gerarchia": "Riserva",
-   "nota": "Riserva (0/2)",
-   "rig": null,
-   "piaz": null,
-   "fmPond": 5.58,
-   "nuovo": false,
-   "abb": "McKennie (JUV)",
-   "abbTras": 0,
-   "rankFvm": 174,
-   "s25": {
-    "pg": 9,
-    "mv": 5.78,
-    "fm": 5.72,
-    "gol": 0,
-    "ass": 0,
-    "rig": "0/0",
-    "amm": 1,
-    "esp": 0,
-    "squadra": "Torino"
-   },
-   "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
-    "gol": 0,
-    "ass": 0
-   },
-   "id": 255,
-   "cod": "TOR",
-   "chiave": "Anjorin (TOR)",
-   "fasciaIdx": 4,
-   "fonti": 0,
-   "abbId": 106
   },
   {
    "r": "C",
@@ -12338,12 +12500,13 @@
     "squadra": "Udinese"
    },
    "s26": {
-    "pg": 1,
-    "mv": 6,
-    "fm": 6,
+    "pg": 2,
+    "mv": 5.75,
+    "fm": 5.75,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 256,
    "cod": "UDI",
    "chiave": "Zarraga (UDI)",
@@ -12391,6 +12554,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 257,
    "cod": "TOR",
    "chiave": "Aboukhlal (TOR)",
@@ -12438,6 +12602,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 258,
    "cod": "LEC",
    "chiave": "Kaba (LEC)",
@@ -12469,12 +12634,13 @@
    "rankFvm": 154,
    "s25": null,
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 6,
+    "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 259,
    "cod": "VEN",
    "chiave": "Fernandez T. (VEN)",
@@ -12512,6 +12678,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 260,
    "cod": "INT",
    "chiave": "Stankovic A. (INT)",
@@ -12533,7 +12700,7 @@
    "max": 6,
    "fascia": "4a fascia",
    "gerarchia": "Riserva",
-   "nota": "Infortunato - presenze finora: 0/2",
+   "nota": "In dubbio / da valutare",
    "rig": null,
    "piaz": null,
    "fmPond": 5.52,
@@ -12559,13 +12726,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 261,
    "cod": "SAS",
    "chiave": "Boloca (SAS)",
    "fasciaIdx": 4,
    "inf": {
-    "stato": "Infortunato - rientro entro settembre",
-    "dettaglio": "Problema al ginocchio, fuori causa a inizio campionato. Rientro da fine settembre."
+    "stato": "In dubbio per la prossima",
+    "dettaglio": "Artroscopia di pulizia meniscale: da valutare."
    },
    "fonti": 0,
    "abbId": 90
@@ -12600,6 +12768,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 262,
    "cod": "UDI",
    "chiave": "Chakvetadze (UDI)",
@@ -12625,7 +12794,7 @@
    "max": 6,
    "fascia": "4a fascia",
    "gerarchia": "Riserva",
-   "nota": "In dubbio / da valutare - Nuovo - presenze finora: 0/2",
+   "nota": "In dubbio / da valutare",
    "rig": null,
    "piaz": null,
    "fmPond": 5.5,
@@ -12641,13 +12810,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 263,
    "cod": "MON",
    "chiave": "Ciurria (MON)",
    "fasciaIdx": 4,
    "inf": {
     "stato": "In dubbio per la prossima",
-    "dettaglio": "Noie fisiche: forfait contro il Parma. Da valutare."
+    "dettaglio": "Problema fisico: da valutare."
    },
    "fonti": 0,
    "abbId": 136
@@ -12682,6 +12852,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 264,
    "cod": "FRO",
    "chiave": "Gelli F. (FRO)",
@@ -12719,6 +12890,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 265,
    "cod": "FRO",
    "chiave": "Hasa (FRO)",
@@ -12756,6 +12928,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 266,
    "cod": "UDI",
    "chiave": "Jovanovic (UDI)",
@@ -12793,6 +12966,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 267,
    "cod": "LAZ",
    "chiave": "Przyborek (LAZ)",
@@ -12840,6 +13014,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 268,
    "cod": "PAR",
    "chiave": "Cremaschi (PAR)",
@@ -12887,6 +13062,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 269,
    "cod": "VEN",
    "chiave": "Helgason (VEN)",
@@ -12918,12 +13094,13 @@
    "rankFvm": 174,
    "s25": null,
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 5.5,
+    "fm": 5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 270,
    "cod": "MON",
    "chiave": "Colombo L. (MON)",
@@ -12961,6 +13138,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 271,
    "cod": "VEN",
    "chiave": "Duncan (VEN)",
@@ -13008,6 +13186,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 272,
    "cod": "CAG",
    "chiave": "Liteta (CAG)",
@@ -13045,6 +13224,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 273,
    "cod": "FRO",
    "chiave": "Kone B. (FRO)",
@@ -13082,6 +13262,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 274,
    "cod": "MON",
    "chiave": "Foe Ondoa (MON)",
@@ -13119,6 +13300,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 275,
    "cod": "CAG",
    "chiave": "Ciervo (CAG)",
@@ -13156,6 +13338,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 276,
    "cod": "MIL",
    "chiave": "Comotto (MIL)",
@@ -13193,6 +13376,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 277,
    "cod": "VEN",
    "chiave": "Dagasso (VEN)",
@@ -13230,6 +13414,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 278,
    "cod": "FRO",
    "chiave": "El Azzouzi A. (FRO)",
@@ -13277,6 +13462,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 279,
    "cod": "LEC",
    "chiave": "Fofana Sa. (LEC)",
@@ -13308,12 +13494,13 @@
    "rankFvm": 185,
    "s25": null,
    "s26": {
-    "pg": 1,
-    "mv": 6,
-    "fm": 6,
+    "pg": 2,
+    "mv": 5.75,
+    "fm": 5.75,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 280,
    "cod": "MON",
    "chiave": "Forson O. (MON)",
@@ -13351,6 +13538,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 281,
    "cod": "LEC",
    "chiave": "Laerke (LEC)",
@@ -13388,6 +13576,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 282,
    "cod": "COM",
    "chiave": "Lahdo (COM)",
@@ -13409,7 +13598,7 @@
    "max": 41,
    "fascia": "1a fascia",
    "gerarchia": "Titolare",
-   "nota": "Titolare confermato (2/2)",
+   "nota": "In dubbio / da valutare",
    "rig": null,
    "piaz": 2,
    "fmPond": 7.64,
@@ -13429,17 +13618,22 @@
     "squadra": "Inter"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 6.25,
+    "pg": 3,
+    "mv": 6.33,
+    "fm": 6.67,
     "gol": 0,
-    "ass": 0
+    "ass": 1
    },
+   "giornate": 3,
    "id": 283,
    "cod": "INT",
    "chiave": "Dimarco (INT)",
    "fasciaIdx": 1,
    "fonti": 2,
+   "inf": {
+    "stato": "In dubbio per la prossima",
+    "dettaglio": "Lieve distorsione al ginocchio, non convocato in Champions: da valutare."
+   },
    "abbId": 288
   },
   {
@@ -13476,12 +13670,13 @@
     "squadra": "Roma"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.75,
-    "fm": 7.25,
+    "pg": 3,
+    "mv": 6.83,
+    "fm": 7.17,
     "gol": 0,
     "ass": 1
    },
+   "giornate": 3,
    "id": 284,
    "cod": "ROM",
    "chiave": "Wesley (ROM)",
@@ -13523,12 +13718,13 @@
     "squadra": "Juventus"
    },
    "s26": {
-    "pg": 2,
-    "mv": 7,
-    "fm": 8.5,
+    "pg": 3,
+    "mv": 6.67,
+    "fm": 7.67,
     "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 285,
    "cod": "JUV",
    "chiave": "Bremer (JUV)",
@@ -13570,12 +13766,13 @@
     "squadra": "Genoa"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.5,
-    "fm": 6,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 5.33,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 286,
    "cod": "GEN",
    "chiave": "Ostigard (GEN)",
@@ -13597,7 +13794,7 @@
    "max": 16,
    "fascia": "3a fascia",
    "gerarchia": "Titolare",
-   "nota": "Titolare confermato (2/2)",
+   "nota": "In dubbio / da valutare",
    "rig": 2,
    "piaz": null,
    "fmPond": 6.4,
@@ -13617,17 +13814,22 @@
     "squadra": "Udinese"
    },
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 6,
     "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 287,
    "cod": "UDI",
    "chiave": "Solet (UDI)",
    "fasciaIdx": 3,
    "fonti": 2,
+   "inf": {
+    "stato": "In dubbio per la prossima",
+    "dettaglio": "Problema all'adduttore, in attesa di accertamenti."
+   },
    "abbId": 286
   },
   {
@@ -13664,12 +13866,13 @@
     "squadra": "Milan"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
+    "pg": 3,
+    "mv": 6.17,
     "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 288,
    "cod": "MIL",
    "chiave": "Pavlovic (MIL)",
@@ -13711,12 +13914,13 @@
     "squadra": "Roma"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.5,
-    "fm": 7,
+    "pg": 3,
+    "mv": 6,
+    "fm": 6.33,
     "gol": 0,
     "ass": 1
    },
+   "giornate": 3,
    "id": 289,
    "cod": "ROM",
    "chiave": "Mancini (ROM)",
@@ -13758,12 +13962,13 @@
     "squadra": "Inter"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.5,
-    "fm": 5.25,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 6,
     "gol": 0,
-    "ass": 0
+    "ass": 1
    },
+   "giornate": 3,
    "id": 290,
    "cod": "INT",
    "chiave": "Akanji (INT)",
@@ -13805,12 +14010,13 @@
     "squadra": "Inter"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.75,
-    "fm": 8.25,
+    "pg": 3,
+    "mv": 6.67,
+    "fm": 7.67,
     "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 291,
    "cod": "INT",
    "chiave": "Bisseck (INT)",
@@ -13852,12 +14058,13 @@
     "squadra": "Napoli"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 6.75,
+    "pg": 3,
+    "mv": 6,
+    "fm": 6.33,
     "gol": 0,
     "ass": 1
    },
+   "giornate": 3,
    "id": 292,
    "cod": "NAP",
    "chiave": "Rrahmani (NAP)",
@@ -13899,12 +14106,13 @@
     "squadra": "Juventus"
    },
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 6.5,
     "fm": 6.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 293,
    "cod": "JUV",
    "chiave": "Kalulu (JUV)",
@@ -13946,12 +14154,13 @@
     "squadra": "Inter"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 6.25,
+    "pg": 3,
+    "mv": 6,
+    "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 294,
    "cod": "INT",
    "chiave": "Bastoni (INT)",
@@ -13993,12 +14202,13 @@
     "squadra": "Roma"
    },
    "s26": {
-    "pg": 1,
-    "mv": 6,
-    "fm": 6,
+    "pg": 2,
+    "mv": 5.75,
+    "fm": 5.75,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 295,
    "cod": "ROM",
    "chiave": "N'Dicka (ROM)",
@@ -14044,12 +14254,13 @@
     "squadra": "Napoli"
    },
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 6,
-    "fm": 5.75,
+    "fm": 6.17,
     "gol": 0,
-    "ass": 0
+    "ass": 1
    },
+   "giornate": 3,
    "id": 296,
    "cod": "NAP",
    "chiave": "Di Lorenzo (NAP)",
@@ -14091,12 +14302,13 @@
     "squadra": "Napoli"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 5.67,
+    "fm": 5.67,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 297,
    "cod": "NAP",
    "chiave": "Spinazzola (NAP)",
@@ -14138,12 +14350,13 @@
     "squadra": "Atalanta"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6,
-    "fm": 6,
+    "pg": 3,
+    "mv": 6.17,
+    "fm": 6.17,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 298,
    "cod": "ATA",
    "chiave": "Scalvini (ATA)",
@@ -14185,12 +14398,13 @@
     "squadra": "Roma"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.5,
-    "fm": 6.25,
-    "gol": 0,
+    "pg": 3,
+    "mv": 6.67,
+    "fm": 7.5,
+    "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 299,
    "cod": "ROM",
    "chiave": "Hermoso (ROM)",
@@ -14232,12 +14446,13 @@
     "squadra": "Parma"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6,
-    "fm": 6,
+    "pg": 3,
+    "mv": 6.17,
+    "fm": 6.17,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 300,
    "cod": "PAR",
    "chiave": "Valeri (PAR)",
@@ -14269,12 +14484,13 @@
    "rankFvm": 3,
    "s25": null,
    "s26": {
-    "pg": 1,
+    "pg": 2,
     "mv": 6,
     "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 301,
    "cod": "ROM",
    "chiave": "Molina N. (ROM)",
@@ -14322,6 +14538,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 302,
    "cod": "COM",
    "chiave": "Kempf (COM)",
@@ -14343,7 +14560,7 @@
    "max": 10,
    "fascia": "3a fascia",
    "gerarchia": "Titolare",
-   "nota": "In dubbio / da valutare - presenze finora: 0/2",
+   "nota": "In dubbio / da valutare",
    "rig": 3,
    "piaz": null,
    "fmPond": 6.17,
@@ -14369,13 +14586,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 303,
    "cod": "CAG",
    "chiave": "Mina (CAG)",
    "fasciaIdx": 3,
    "inf": {
     "stato": "In dubbio per la prossima",
-    "dettaglio": "Affaticamento al polpaccio (29/8). Out con l'Inter, a rischio anche col Lecce."
+    "dettaglio": "Affaticamento al polpaccio, potrebbe recuperare."
    },
    "fonti": 2,
    "abbId": 298
@@ -14414,12 +14632,13 @@
     "squadra": "Como"
    },
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 6,
     "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 304,
    "cod": "COM",
    "chiave": "Ramon (COM)",
@@ -14461,12 +14680,13 @@
     "squadra": "Genoa"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 5.5,
+    "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 305,
    "cod": "GEN",
    "chiave": "Vasquez (GEN)",
@@ -14508,12 +14728,13 @@
     "squadra": "Atalanta"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6,
-    "fm": 6,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 5.83,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 306,
    "cod": "ATA",
    "chiave": "Zappacosta (ATA)",
@@ -14555,12 +14776,13 @@
     "squadra": "Bologna"
    },
    "s26": {
-    "pg": 1,
-    "mv": 6,
-    "fm": 6,
+    "pg": 2,
+    "mv": 6.25,
+    "fm": 6.75,
     "gol": 0,
-    "ass": 0
+    "ass": 1
    },
+   "giornate": 3,
    "id": 307,
    "cod": "BOL",
    "chiave": "Miranda J. (BOL)",
@@ -14602,12 +14824,13 @@
     "squadra": "Como"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6,
-    "fm": 6,
+    "pg": 3,
+    "mv": 6.33,
+    "fm": 6.67,
     "gol": 0,
-    "ass": 0
+    "ass": 1
    },
+   "giornate": 3,
    "id": 308,
    "cod": "COM",
    "chiave": "Valle (COM)",
@@ -14655,6 +14878,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 309,
    "cod": "ATA",
    "chiave": "Kristensen T. (ATA)",
@@ -14700,12 +14924,13 @@
     "squadra": "Como"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.5,
-    "fm": 6.5,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 5.83,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 310,
    "cod": "UDI",
    "chiave": "Vojvoda (UDI)",
@@ -14747,12 +14972,13 @@
     "squadra": "Verona"
    },
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 6.5,
+    "fm": 7.5,
     "gol": 0,
-    "ass": 0
+    "ass": 1
    },
+   "giornate": 3,
    "id": 311,
    "cod": "TOR",
    "chiave": "Belghali (TOR)",
@@ -14794,12 +15020,13 @@
     "squadra": "Roma"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 5.67,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 312,
    "cod": "JUV",
    "chiave": "Celik (JUV)",
@@ -14841,12 +15068,13 @@
     "squadra": "Como"
    },
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 5.5,
+    "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 313,
    "cod": "PAR",
    "chiave": "Diego Carlos (PAR)",
@@ -14888,12 +15116,13 @@
     "squadra": "Inter"
    },
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 6.5,
+    "fm": 7.5,
     "gol": 0,
-    "ass": 0
+    "ass": 1
    },
+   "giornate": 3,
    "id": 314,
    "cod": "INT",
    "chiave": "Carlos Augusto (INT)",
@@ -14941,6 +15170,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 315,
    "cod": "ROM",
    "chiave": "Rensch (ROM)",
@@ -14986,12 +15216,13 @@
     "squadra": "Lazio"
    },
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 6.5,
     "fm": 6.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 316,
    "cod": "MIL",
    "chiave": "Gila (MIL)",
@@ -15039,6 +15270,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 317,
    "cod": "MIL",
    "chiave": "Bartesaghi (MIL)",
@@ -15080,12 +15312,13 @@
     "squadra": "Udinese"
    },
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 5.5,
+    "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 318,
    "cod": "UDI",
    "chiave": "Kabasele (UDI)",
@@ -15133,6 +15366,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 319,
    "cod": "ATA",
    "chiave": "Bernasconi (ATA)",
@@ -15174,12 +15408,13 @@
     "squadra": "Parma"
    },
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 6,
-    "fm": 5.75,
+    "fm": 5.83,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 320,
    "cod": "PAR",
    "chiave": "Delprato (PAR)",
@@ -15227,6 +15462,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 321,
    "cod": "FIO",
    "chiave": "Dodò (FIO)",
@@ -15268,12 +15504,13 @@
     "squadra": "Lecce"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6,
-    "fm": 7.5,
+    "pg": 3,
+    "mv": 5.67,
+    "fm": 6.67,
     "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 323,
    "cod": "LEC",
    "chiave": "Tiago Gabriel (LEC)",
@@ -15315,12 +15552,13 @@
     "squadra": "Juventus"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 6.25,
+    "pg": 3,
+    "mv": 6.17,
+    "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 324,
    "cod": "BOL",
    "chiave": "Holm (BOL)",
@@ -15342,7 +15580,7 @@
    "max": 10,
    "fascia": "3a fascia",
    "gerarchia": "Ballottaggio",
-   "nota": "INFORTUNATO (lungo stop) - presenze finora: 1/2",
+   "nota": "INFORTUNATO (lungo stop) - rientro a ottobre",
    "rig": null,
    "piaz": null,
    "fmPond": 5.97,
@@ -15368,13 +15606,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 325,
    "cod": "LAZ",
    "chiave": "Marusic (LAZ)",
    "fasciaIdx": 3,
    "inf": {
     "stato": "Infortunato - lungo stop",
-    "dettaglio": "Lesione muscolare alla coscia (24/8). Ipotesi rientro da inizio ottobre."
+    "dettaglio": "Lesione al flessore: rientro nella prima meta' di ottobre."
    },
    "fonti": 2,
    "abbId": 289
@@ -15419,6 +15658,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 326,
    "cod": "SAS",
    "chiave": "Obrador (SAS)",
@@ -15440,7 +15680,7 @@
    "max": 8,
    "fascia": "3a fascia",
    "gerarchia": "Titolare",
-   "nota": "Rischia il posto (1/2)",
+   "nota": "Infortunato - rientro entro settembre",
    "rig": null,
    "piaz": null,
    "fmPond": 5.99,
@@ -15466,11 +15706,16 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 327,
    "cod": "JUV",
    "chiave": "Cambiaso (JUV)",
    "fasciaIdx": 3,
    "fonti": 1,
+   "inf": {
+    "stato": "Infortunato - rientro entro settembre",
+    "dettaglio": "Leggera distorsione alla caviglia: rientro nella seconda meta' di settembre."
+   },
    "abbId": 311
   },
   {
@@ -15513,6 +15758,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 328,
    "cod": "NAP",
    "chiave": "Beukema (NAP)",
@@ -15560,6 +15806,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 329,
    "cod": "JUV",
    "chiave": "Kelly L. (JUV)",
@@ -15581,7 +15828,7 @@
    "max": 6,
    "fascia": "4a fascia",
    "gerarchia": "Ballottaggio",
-   "nota": "INFORTUNATO (lungo stop) - presenze finora: 0/2",
+   "nota": "Infortunato - rientro dopo la sosta",
    "rig": null,
    "piaz": null,
    "fmPond": 6.1,
@@ -15607,13 +15854,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 330,
    "cod": "UDI",
    "chiave": "Zanoli (UDI)",
    "fasciaIdx": 4,
    "inf": {
-    "stato": "Infortunato - lungo stop",
-    "dettaglio": "Operato al crociato a gennaio. Puo tornare in campo da ottobre."
+    "stato": "Infortunato - rientro entro settembre",
+    "dettaglio": "Riabilitazione post crociato: rientro dopo la sosta."
    },
    "fonti": 0,
    "abbId": 305
@@ -15658,6 +15906,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 331,
    "cod": "LAZ",
    "chiave": "Romagnoli (LAZ)",
@@ -15699,12 +15948,13 @@
     "squadra": "Sassuolo"
    },
    "s26": {
-    "pg": 1,
+    "pg": 2,
     "mv": 6,
-    "fm": 6,
+    "fm": 5.75,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 332,
    "cod": "SAS",
    "chiave": "Idzes (SAS)",
@@ -15746,12 +15996,13 @@
     "squadra": "Milan"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.75,
-    "fm": 6.75,
+    "pg": 3,
+    "mv": 6.67,
+    "fm": 6.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 333,
    "cod": "MIL",
    "chiave": "De Winter (MIL)",
@@ -15799,6 +16050,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 334,
    "cod": "BOL",
    "chiave": "Zortea (BOL)",
@@ -15840,12 +16092,13 @@
     "squadra": "Lecce"
    },
    "s26": {
-    "pg": 1,
+    "pg": 2,
     "mv": 5.5,
     "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 335,
    "cod": "LEC",
    "chiave": "Gallo (LEC)",
@@ -15887,12 +16140,13 @@
     "squadra": "Bologna"
    },
    "s26": {
-    "pg": 1,
-    "mv": 5.5,
-    "fm": 5,
+    "pg": 2,
+    "mv": 6,
+    "fm": 5.75,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 336,
    "cod": "JUV",
    "chiave": "Lucumì (JUV)",
@@ -15934,12 +16188,13 @@
     "squadra": "Lazio"
    },
    "s26": {
-    "pg": 1,
+    "pg": 2,
     "mv": 6.5,
-    "fm": 7.5,
+    "fm": 7,
     "gol": 0,
     "ass": 1
    },
+   "giornate": 3,
    "id": 337,
    "cod": "LAZ",
    "chiave": "Tavares N. (LAZ)",
@@ -15961,7 +16216,7 @@
    "max": 7,
    "fascia": "4a fascia",
    "gerarchia": "Titolare",
-   "nota": "Titolare confermato (2/2)",
+   "nota": "In dubbio / da valutare",
    "rig": null,
    "piaz": null,
    "fmPond": 5.91,
@@ -15981,17 +16236,22 @@
     "squadra": "Torino"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 5.83,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 338,
    "cod": "TOR",
    "chiave": "Coco (TOR)",
    "fasciaIdx": 4,
    "fonti": 2,
+   "inf": {
+    "stato": "In dubbio per la prossima",
+    "dettaglio": "Problema al ginocchio: da valutare."
+   },
    "abbId": 312
   },
   {
@@ -16008,7 +16268,7 @@
    "max": 7,
    "fascia": "4a fascia",
    "gerarchia": "Ballottaggio",
-   "nota": "INFORTUNATO (lungo stop) - presenze finora: 0/2",
+   "nota": "Infortunato - rientro dopo la sosta",
    "rig": null,
    "piaz": null,
    "fmPond": 5.88,
@@ -16034,13 +16294,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 339,
    "cod": "NAP",
    "chiave": "Buongiorno (NAP)",
    "fasciaIdx": 4,
    "inf": {
-    "stato": "Infortunato - lungo stop",
-    "dettaglio": "Operato al menisco del ginocchio destro a luglio. Rientro ipotizzato a meta novembre."
+    "stato": "Infortunato - rientro entro settembre",
+    "dettaglio": "Operato al menisco: rientro dopo la sosta."
    },
    "fonti": 0,
    "abbId": 299
@@ -16085,6 +16346,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 340,
    "cod": "JUV",
    "chiave": "Gatti (JUV)",
@@ -16106,7 +16368,7 @@
    "max": 6,
    "fascia": "4a fascia",
    "gerarchia": "Ballottaggio",
-   "nota": "INFORTUNATO (lungo stop) - presenze finora: 0/2",
+   "nota": "INFORTUNATO (lungo stop) - rientro a novembre",
    "rig": null,
    "piaz": null,
    "fmPond": 5.94,
@@ -16132,13 +16394,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 341,
    "cod": "FIO",
    "chiave": "Parisi (FIO)",
    "fasciaIdx": 4,
    "inf": {
     "stato": "Infortunato - lungo stop",
-    "dettaglio": "Recupero dalla lesione del crociato: punta a tornare convocabile da novembre."
+    "dettaglio": "Lesione del crociato anteriore: rientro a fine novembre."
    },
    "fonti": 0,
    "abbId": 302
@@ -16177,12 +16440,13 @@
     "squadra": "Torino"
    },
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 6,
     "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 342,
    "cod": "TOR",
    "chiave": "Ismajli (TOR)",
@@ -16204,7 +16468,7 @@
    "max": 13,
    "fascia": "3a fascia",
    "gerarchia": "Ballottaggio",
-   "nota": "Nuovo - In ballottaggio (0/2)",
+   "nota": "In dubbio / da valutare",
    "rig": null,
    "piaz": null,
    "fmPond": 5.5,
@@ -16220,11 +16484,16 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 343,
    "cod": "INT",
    "chiave": "Spence (INT)",
    "fasciaIdx": 3,
    "fonti": 2,
+   "inf": {
+    "stato": "In dubbio per la prossima",
+    "dettaglio": "In recupero dopo il Mondiale: possibile rientro alla 5a giornata."
+   },
    "abbId": 316
   },
   {
@@ -16241,7 +16510,7 @@
    "max": 7,
    "fascia": "4a fascia",
    "gerarchia": "Titolare",
-   "nota": "Rischia il posto (1/2)",
+   "nota": "In dubbio / da valutare",
    "rig": null,
    "piaz": null,
    "fmPond": 5.84,
@@ -16267,11 +16536,16 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 344,
    "cod": "MIL",
    "chiave": "Gabbia (MIL)",
    "fasciaIdx": 4,
    "fonti": 2,
+   "inf": {
+    "stato": "In dubbio per la prossima",
+    "dettaglio": "Problema alla caviglia, ma recuperabile."
+   },
    "abbId": 314
   },
   {
@@ -16308,12 +16582,13 @@
     "squadra": "Atalanta"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 5.67,
+    "fm": 5.67,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 345,
    "cod": "ATA",
    "chiave": "Kossounou (ATA)",
@@ -16355,12 +16630,13 @@
     "squadra": "Genoa"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 5.33,
+    "fm": 5.33,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 346,
    "cod": "GEN",
    "chiave": "Marcandalli (GEN)",
@@ -16408,6 +16684,7 @@
     "gol": 2,
     "ass": 0
    },
+   "giornate": 2,
    "id": 347,
    "cod": "UDI",
    "chiave": "Kamara H. (UDI)",
@@ -16449,12 +16726,13 @@
     "squadra": "Cagliari"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 6,
+    "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 348,
    "cod": "CAG",
    "chiave": "Obert (CAG)",
@@ -16496,12 +16774,13 @@
     "squadra": "Atalanta"
    },
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 5.5,
+    "fm": 5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 349,
    "cod": "ATA",
    "chiave": "Bellanova (ATA)",
@@ -16543,12 +16822,13 @@
     "squadra": "Roma"
    },
    "s26": {
-    "pg": 1,
-    "mv": 7,
-    "fm": 7,
+    "pg": 2,
+    "mv": 6.5,
+    "fm": 6.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 350,
    "cod": "ROM",
    "chiave": "Ghilardi (ROM)",
@@ -16590,12 +16870,13 @@
     "squadra": "Bologna"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.5,
-    "fm": 5.25,
+    "pg": 3,
+    "mv": 5.33,
+    "fm": 5.17,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 351,
    "cod": "BOL",
    "chiave": "Heggem (BOL)",
@@ -16617,7 +16898,7 @@
    "max": 6,
    "fascia": "4a fascia",
    "gerarchia": "Titolare",
-   "nota": "INFORTUNATO (lungo stop) - presenze finora: 0/2",
+   "nota": "INFORTUNATO (lungo stop) - rientro a ottobre",
    "rig": null,
    "piaz": null,
    "fmPond": 5.86,
@@ -16643,13 +16924,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 352,
    "cod": "ATA",
    "chiave": "Hien (ATA)",
    "fasciaIdx": 4,
    "inf": {
     "stato": "Infortunato - lungo stop",
-    "dettaglio": "Operato a fine giugno al semimembranoso della coscia sinistra. Rientro da inizio ottobre."
+    "dettaglio": "Lesione muscolare: rientro a ottobre."
    },
    "fonti": 0,
    "abbId": 324
@@ -16688,12 +16970,13 @@
     "squadra": "Lazio"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 5.67,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 353,
    "cod": "LAZ",
    "chiave": "Provstgaard (LAZ)",
@@ -16725,12 +17008,13 @@
    "rankFvm": 17,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 6.5,
-    "fm": 6.5,
+    "pg": 3,
+    "mv": 6.33,
+    "fm": 6.33,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 354,
    "cod": "COM",
    "chiave": "Chalobah T. (COM)",
@@ -16778,6 +17062,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 355,
    "cod": "MIL",
    "chiave": "Tomori (MIL)",
@@ -16825,6 +17110,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 356,
    "cod": "UDI",
    "chiave": "Bertola (UDI)",
@@ -16872,6 +17158,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 357,
    "cod": "COM",
    "chiave": "Smolcic I. (COM)",
@@ -16913,12 +17200,13 @@
     "squadra": "Parma"
    },
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 6,
+    "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 358,
    "cod": "PAR",
    "chiave": "Valenti (PAR)",
@@ -16960,12 +17248,13 @@
     "squadra": "Bologna"
    },
    "s26": {
-    "pg": 1,
-    "mv": 5,
-    "fm": 5,
+    "pg": 2,
+    "mv": 5.25,
+    "fm": 5.25,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 359,
    "cod": "FIO",
    "chiave": "Joao Mario (FIO)",
@@ -17007,12 +17296,13 @@
     "squadra": "Fiorentina"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 7.75,
+    "pg": 3,
+    "mv": 6.17,
+    "fm": 7.17,
     "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 360,
    "cod": "TOR",
    "chiave": "Comuzzo (TOR)",
@@ -17034,7 +17324,7 @@
    "max": 2,
    "fascia": "Scommessa",
    "gerarchia": "Riserva",
-   "nota": "INFORTUNATO (lungo stop) - presenze finora: 0/2",
+   "nota": "INFORTUNATO (lungo stop) - rientro a novembre",
    "rig": null,
    "piaz": null,
    "fmPond": 5.9,
@@ -17060,13 +17350,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 361,
    "cod": "CAG",
    "chiave": "Idrissi R. (CAG)",
    "fasciaIdx": 5,
    "inf": {
     "stato": "Infortunato - lungo stop",
-    "dettaglio": "In ripresa dalla rottura del crociato. Arruolabile da fine ottobre."
+    "dettaglio": "Lesione del crociato anteriore: rientro a novembre."
    },
    "fonti": 0,
    "abbId": 341
@@ -17111,6 +17402,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 362,
    "cod": "FIO",
    "chiave": "Ranieri L. (FIO)",
@@ -17132,7 +17424,7 @@
    "max": 4,
    "fascia": "4a fascia",
    "gerarchia": "Riserva",
-   "nota": "Riserva (0/2)",
+   "nota": "INFORTUNATO (lungo stop) - rientro a ottobre",
    "rig": null,
    "piaz": null,
    "fmPond": 5.88,
@@ -17158,11 +17450,16 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 363,
    "cod": "JUV",
    "chiave": "Cabal (JUV)",
    "fasciaIdx": 4,
    "fonti": 0,
+   "inf": {
+    "stato": "Infortunato - lungo stop",
+    "dettaglio": "Lesione di basso grado del semimembranoso: rientro a ottobre."
+   },
    "abbId": 338
   },
   {
@@ -17205,6 +17502,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 364,
    "cod": "SAS",
    "chiave": "Van Der Brempt (SAS)",
@@ -17246,12 +17544,13 @@
     "squadra": "Atalanta"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6,
-    "fm": 6,
+    "pg": 3,
+    "mv": 6.17,
+    "fm": 6.17,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 365,
    "cod": "ATA",
    "chiave": "Kolasinac (ATA)",
@@ -17293,12 +17592,13 @@
     "squadra": "Sassuolo"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6,
-    "fm": 6,
-    "gol": 0,
+    "pg": 3,
+    "mv": 6.17,
+    "fm": 7.17,
+    "gol": 1,
     "ass": 0
    },
+   "giornate": 3,
    "id": 366,
    "cod": "SAS",
    "chiave": "Doig (SAS)",
@@ -17346,6 +17646,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 367,
    "cod": "BOL",
    "chiave": "Vitik (BOL)",
@@ -17387,12 +17688,13 @@
     "squadra": "Fiorentina"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6,
-    "fm": 6,
+    "pg": 3,
+    "mv": 6.17,
+    "fm": 6.17,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 368,
    "cod": "TOR",
    "chiave": "Fortini (TOR)",
@@ -17414,7 +17716,7 @@
    "max": 5,
    "fascia": "4a fascia",
    "gerarchia": "Riserva",
-   "nota": "Riserva (0/2)",
+   "nota": "FUORI LISTA - non convocabile in campionato",
    "rig": null,
    "piaz": null,
    "fmPond": 5.8,
@@ -17440,11 +17742,16 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 369,
    "cod": "LAZ",
    "chiave": "Pellegrini Lu. (LAZ)",
    "fasciaIdx": 4,
    "fonti": 0,
+   "inf": {
+    "stato": "Infortunato - lungo stop",
+    "dettaglio": "Fuori dalla lista Serie A: non e' schierabile."
+   },
    "abbId": 338
   },
   {
@@ -17481,12 +17788,13 @@
     "squadra": "Parma"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.5,
-    "fm": 5.25,
+    "pg": 3,
+    "mv": 5.67,
+    "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 370,
    "cod": "PAR",
    "chiave": "Troilo (PAR)",
@@ -17518,12 +17826,13 @@
    "rankFvm": 24,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 5.5,
-    "fm": 5.5,
+    "pg": 3,
+    "mv": 6,
+    "fm": 6.33,
     "gol": 0,
-    "ass": 0
+    "ass": 1
    },
+   "giornate": 3,
    "id": 371,
    "cod": "COM",
    "chiave": "Couto (COM)",
@@ -17561,6 +17870,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 372,
    "cod": "INT",
    "chiave": "Stones (INT)",
@@ -17582,7 +17892,7 @@
    "max": 6,
    "fascia": "4a fascia",
    "gerarchia": "Ballottaggio",
-   "nota": "Infortunato - presenze finora: 0/2",
+   "nota": "In dubbio / da valutare",
    "rig": null,
    "piaz": null,
    "fmPond": 5.74,
@@ -17608,13 +17918,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 373,
    "cod": "SAS",
    "chiave": "Walukiewicz (SAS)",
    "fasciaIdx": 4,
    "inf": {
-    "stato": "Infortunato - rientro entro settembre",
-    "dettaglio": "Forte trauma contusivo alla gamba destra. Rientro da valutare a meta settembre."
+    "stato": "In dubbio per la prossima",
+    "dettaglio": "Problema muscolare: in forte dubbio."
    },
    "fonti": 0,
    "abbId": 343
@@ -17653,12 +17964,13 @@
     "squadra": "Lecce"
    },
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 5.5,
-    "fm": 5.5,
+    "fm": 5.33,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 374,
    "cod": "LEC",
    "chiave": "Siebert (LEC)",
@@ -17706,6 +18018,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 375,
    "cod": "MIL",
    "chiave": "Terracciano F. (MIL)",
@@ -17727,7 +18040,7 @@
    "max": 7,
    "fascia": "4a fascia",
    "gerarchia": "Titolare",
-   "nota": "Nuovo - Titolare confermato (2/2)",
+   "nota": "In dubbio / da valutare",
    "rig": null,
    "piaz": null,
    "fmPond": 5.68,
@@ -17753,11 +18066,16 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 376,
    "cod": "VEN",
    "chiave": "Bella-Kotchap (VEN)",
    "fasciaIdx": 4,
    "fonti": 2,
+   "inf": {
+    "stato": "In dubbio per la prossima",
+    "dettaglio": "Problema muscolare: in forte dubbio."
+   },
    "abbId": 339
   },
   {
@@ -17794,12 +18112,13 @@
     "squadra": "Lecce"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 6,
+    "pg": 3,
+    "mv": 5.67,
+    "fm": 5.83,
     "gol": 0,
     "ass": 1
    },
+   "giornate": 3,
    "id": 377,
    "cod": "LEC",
    "chiave": "Veiga D. (LEC)",
@@ -17847,6 +18166,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 378,
    "cod": "NAP",
    "chiave": "Olivera (NAP)",
@@ -17888,12 +18208,13 @@
     "squadra": "Cagliari"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.5,
+    "pg": 3,
+    "mv": 6,
+    "fm": 5.83,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 379,
    "cod": "CAG",
    "chiave": "Zè Pedro (CAG)",
@@ -17935,12 +18256,13 @@
     "squadra": "Parma"
    },
    "s26": {
-    "pg": 1,
+    "pg": 2,
     "mv": 6,
     "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 380,
    "cod": "PAR",
    "chiave": "Britschgi (PAR)",
@@ -17982,12 +18304,13 @@
     "squadra": "Cremonese"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 6,
+    "pg": 3,
+    "mv": 6,
+    "fm": 5.83,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 381,
    "cod": "LAZ",
    "chiave": "Floriani Mussolini (LAZ)",
@@ -18029,12 +18352,13 @@
     "squadra": "Cagliari"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 6.25,
+    "pg": 3,
+    "mv": 6.17,
+    "fm": 6.17,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 382,
    "cod": "CAG",
    "chiave": "Rodriguez Ju. (CAG)",
@@ -18076,12 +18400,13 @@
     "squadra": "Milan"
    },
    "s26": {
-    "pg": 1,
+    "pg": 2,
     "mv": 6,
-    "fm": 6,
+    "fm": 5.75,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 383,
    "cod": "MIL",
    "chiave": "Estupinan (MIL)",
@@ -18119,6 +18444,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 384,
    "cod": "FIO",
    "chiave": "Dragusin (FIO)",
@@ -18166,6 +18492,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 385,
    "cod": "VEN",
    "chiave": "Mazzocchi (VEN)",
@@ -18197,12 +18524,13 @@
    "rankFvm": 33,
    "s25": null,
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 5.5,
+    "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 386,
    "cod": "BOL",
    "chiave": "Theate (BOL)",
@@ -18244,12 +18572,13 @@
     "squadra": "Lecce"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.5,
-    "fm": 5.25,
+    "pg": 3,
+    "mv": 5.33,
+    "fm": 5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 387,
    "cod": "LEC",
    "chiave": "Gaspar K. (LEC)",
@@ -18287,6 +18616,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 388,
    "cod": "LAZ",
    "chiave": "Sutalo J. (LAZ)",
@@ -18334,6 +18664,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 389,
    "cod": "FIO",
    "chiave": "Pongracic (FIO)",
@@ -18365,12 +18696,13 @@
    "rankFvm": 49,
    "s25": null,
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 5,
+    "fm": 5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 390,
    "cod": "NAP",
    "chiave": "Badiashile (NAP)",
@@ -18418,6 +18750,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 391,
    "cod": "FIO",
    "chiave": "Jimenez A. (FIO)",
@@ -18465,6 +18798,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 392,
    "cod": "INT",
    "chiave": "Pavard (INT)",
@@ -18496,12 +18830,13 @@
    "rankFvm": 55,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 6.25,
+    "pg": 3,
+    "mv": 6.33,
+    "fm": 6.67,
     "gol": 0,
-    "ass": 0
+    "ass": 1
    },
+   "giornate": 3,
    "id": 393,
    "cod": "LAZ",
    "chiave": "Doekhi (LAZ)",
@@ -18549,6 +18884,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 394,
    "cod": "VEN",
    "chiave": "Juan Jesus (VEN)",
@@ -18580,12 +18916,13 @@
    "rankFvm": 55,
    "s25": null,
    "s26": {
-    "pg": 1,
+    "pg": 2,
     "mv": 5,
     "fm": 5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 395,
    "cod": "FIO",
    "chiave": "Valdepenas (FIO)",
@@ -18633,6 +18970,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 396,
    "cod": "BOL",
    "chiave": "De Silvestri (BOL)",
@@ -18674,12 +19012,13 @@
     "squadra": "Fiorentina"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.5,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 5.67,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 397,
    "cod": "MON",
    "chiave": "Kouadio (MON)",
@@ -18711,12 +19050,13 @@
    "rankFvm": 58,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 6.75,
-    "fm": 8.5,
+    "pg": 3,
+    "mv": 6.5,
+    "fm": 7.67,
     "gol": 1,
     "ass": 1
    },
+   "giornate": 3,
    "id": 398,
    "cod": "FRO",
    "chiave": "Bracaglia (FRO)",
@@ -18754,6 +19094,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 399,
    "cod": "SAS",
    "chiave": "Caleta-Car (SAS)",
@@ -18791,6 +19132,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 400,
    "cod": "ROM",
    "chiave": "Koulierakis (ROM)",
@@ -18838,6 +19180,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 401,
    "cod": "LAZ",
    "chiave": "Lazzari (LAZ)",
@@ -18869,12 +19212,13 @@
    "rankFvm": 58,
    "s25": null,
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 6,
-    "fm": 6.5,
+    "fm": 6.67,
     "gol": 0,
-    "ass": 1
+    "ass": 2
    },
+   "giornate": 3,
    "id": 402,
    "cod": "MON",
    "chiave": "Mangas (MON)",
@@ -18912,6 +19256,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 403,
    "cod": "CAG",
    "chiave": "Sugawara (CAG)",
@@ -18949,6 +19294,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 404,
    "cod": "LAZ",
    "chiave": "Pedraza (LAZ)",
@@ -18970,7 +19316,7 @@
    "max": 5,
    "fascia": "4a fascia",
    "gerarchia": "Riserva",
-   "nota": "Nuovo - Riserva (0/2)",
+   "nota": "In dubbio / da valutare",
    "rig": null,
    "piaz": null,
    "fmPond": 5.6,
@@ -18996,11 +19342,16 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 405,
    "cod": "MON",
    "chiave": "Ziolkowski (MON)",
    "fasciaIdx": 4,
    "fonti": 1,
+   "inf": {
+    "stato": "In dubbio per la prossima",
+    "dettaglio": "Fascite plantare: in forte dubbio."
+   },
    "abbId": 323
   },
   {
@@ -19037,12 +19388,13 @@
     "squadra": "Torino"
    },
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 5.83,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 406,
    "cod": "UDI",
    "chiave": "Ebosse (UDI)",
@@ -19074,12 +19426,13 @@
    "rankFvm": 76,
    "s25": null,
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 6.5,
-    "fm": 6,
+    "fm": 6.17,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 407,
    "cod": "FRO",
    "chiave": "Calvani (FRO)",
@@ -19117,6 +19470,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 408,
    "cod": "COM",
    "chiave": "Kaiki (COM)",
@@ -19154,6 +19508,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 409,
    "cod": "FRO",
    "chiave": "Monterisi (FRO)",
@@ -19185,12 +19540,13 @@
    "rankFvm": 89,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 5.83,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 410,
    "cod": "MON",
    "chiave": "Birindelli (MON)",
@@ -19222,12 +19578,13 @@
    "rankFvm": 89,
    "s25": null,
    "s26": {
-    "pg": 1,
-    "mv": 6,
-    "fm": 6,
+    "pg": 2,
+    "mv": 6.25,
+    "fm": 6.75,
     "gol": 0,
-    "ass": 0
+    "ass": 1
    },
+   "giornate": 3,
    "id": 411,
    "cod": "TOR",
    "chiave": "Comert (TOR)",
@@ -19265,6 +19622,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 412,
    "cod": "VEN",
    "chiave": "Correia T. (VEN)",
@@ -19296,12 +19654,13 @@
    "rankFvm": 89,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 6,
+    "fm": 6.33,
     "gol": 0,
-    "ass": 0
+    "ass": 1
    },
+   "giornate": 3,
    "id": 413,
    "cod": "VEN",
    "chiave": "Hainaut (VEN)",
@@ -19333,12 +19692,13 @@
    "rankFvm": 89,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 6,
+    "pg": 3,
+    "mv": 6.17,
     "fm": 6.5,
     "gol": 0,
     "ass": 1
    },
+   "giornate": 3,
    "id": 414,
    "cod": "SAS",
    "chiave": "Leysen F. (SAS)",
@@ -19370,12 +19730,13 @@
    "rankFvm": 89,
    "s25": null,
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 6,
+    "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 415,
    "cod": "TOR",
    "chiave": "Patterson (TOR)",
@@ -19407,12 +19768,13 @@
    "rankFvm": 89,
    "s25": null,
    "s26": {
-    "pg": 1,
+    "pg": 2,
     "mv": 5.5,
     "fm": 5.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 416,
    "cod": "FIO",
    "chiave": "Viery (FIO)",
@@ -19460,6 +19822,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 417,
    "cod": "UDI",
    "chiave": "Arizala (UDI)",
@@ -19491,12 +19854,13 @@
    "rankFvm": 108,
    "s25": null,
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 6.5,
+    "fm": 6.5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 418,
    "cod": "ROM",
    "chiave": "Balerdi (ROM)",
@@ -19534,6 +19898,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 419,
    "cod": "NAP",
    "chiave": "Favasuli (NAP)",
@@ -19565,12 +19930,13 @@
    "rankFvm": 108,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 5.25,
-    "fm": 4.75,
+    "pg": 3,
+    "mv": 5.67,
+    "fm": 5.33,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 420,
    "cod": "MON",
    "chiave": "Lucchesi (MON)",
@@ -19592,7 +19958,7 @@
    "max": 6,
    "fascia": "4a fascia",
    "gerarchia": "Riserva",
-   "nota": "Infortunato - presenze finora: 1/2",
+   "nota": "Infortunato - rientro entro settembre",
    "rig": null,
    "piaz": null,
    "fmPond": 5.5,
@@ -19618,13 +19984,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 421,
    "cod": "UDI",
    "chiave": "Palma (UDI)",
    "fasciaIdx": 4,
    "inf": {
     "stato": "Infortunato - rientro entro settembre",
-    "dettaglio": "Problema all'adduttore destro (1a giornata). Ai box fino a meta settembre."
+    "dettaglio": "Lesione dell'adduttore lungo della gamba destra: rientro a fine settembre."
    },
    "fonti": 1,
    "abbId": 286
@@ -19653,12 +20020,13 @@
    "rankFvm": 114,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
+    "pg": 3,
+    "mv": 6.17,
     "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 422,
    "cod": "UDI",
    "chiave": "Abankwah (UDI)",
@@ -19696,6 +20064,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 423,
    "cod": "GEN",
    "chiave": "Drameh (GEN)",
@@ -19733,6 +20102,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 424,
    "cod": "VEN",
    "chiave": "Halhal (VEN)",
@@ -19764,12 +20134,13 @@
    "rankFvm": 114,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 6,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 5.67,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 425,
    "cod": "VEN",
    "chiave": "Haps (VEN)",
@@ -19801,12 +20172,13 @@
    "rankFvm": 114,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 6.5,
-    "fm": 6.5,
+    "pg": 3,
+    "mv": 6.33,
+    "fm": 6.33,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 426,
    "cod": "ROM",
    "chiave": "Lulli (ROM)",
@@ -19844,6 +20216,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 427,
    "cod": "GEN",
    "chiave": "Mitaj (GEN)",
@@ -19875,12 +20248,13 @@
    "rankFvm": 114,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 6.25,
+    "pg": 3,
+    "mv": 6.5,
+    "fm": 6.67,
     "gol": 0,
-    "ass": 0
+    "ass": 1
    },
+   "giornate": 3,
    "id": 428,
    "cod": "FRO",
    "chiave": "Oyono A. (FRO)",
@@ -19922,12 +20296,13 @@
     "squadra": "Genoa"
    },
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 5,
+    "fm": 5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 429,
    "cod": "GEN",
    "chiave": "Sabelli (GEN)",
@@ -19959,12 +20334,13 @@
    "rankFvm": 114,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 5.5,
-    "fm": 5.25,
+    "pg": 3,
+    "mv": 5.17,
+    "fm": 5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 430,
    "cod": "VEN",
    "chiave": "Schingtienne (VEN)",
@@ -20012,6 +20388,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 431,
    "cod": "BOL",
    "chiave": "Helland (BOL)",
@@ -20033,7 +20410,7 @@
    "max": 2,
    "fascia": "Scommessa",
    "gerarchia": "Riserva",
-   "nota": "INFORTUNATO (lungo stop) - Nuovo - presenze finora: 0/2",
+   "nota": "INFORTUNATO (lungo stop) - rientro a ottobre",
    "rig": null,
    "piaz": null,
    "fmPond": 5.6,
@@ -20059,13 +20436,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 432,
    "cod": "NAP",
    "chiave": "Marianucci (NAP)",
    "fasciaIdx": 5,
    "inf": {
     "stato": "Infortunato - lungo stop",
-    "dettaglio": "Lesione di alto grado del collaterale mediale (8/8). Stop di almeno due mesi."
+    "dettaglio": "Lesione di alto grado del collaterale mediale: rientro nella seconda meta' di ottobre."
    },
    "fonti": 0,
    "abbId": 284
@@ -20094,12 +20472,13 @@
    "rankFvm": 137,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 5.5,
-    "fm": 5.5,
+    "pg": 3,
+    "mv": 5.67,
+    "fm": 5.67,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 433,
    "cod": "MON",
    "chiave": "Carboni A. (MON)",
@@ -20147,6 +20526,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 434,
    "cod": "BOL",
    "chiave": "Casale (BOL)",
@@ -20168,7 +20548,7 @@
    "max": 5,
    "fascia": "4a fascia",
    "gerarchia": "Riserva",
-   "nota": "Infortunato - presenze finora: 0/2",
+   "nota": "Infortunato - rientro dopo la sosta",
    "rig": null,
    "piaz": null,
    "fmPond": 5.52,
@@ -20194,13 +20574,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 435,
    "cod": "SAS",
    "chiave": "Candè (SAS)",
    "fasciaIdx": 4,
    "inf": {
     "stato": "Infortunato - rientro entro settembre",
-    "dettaglio": "Rottura del crociato a gennaio: punta a tornare convocabile da meta settembre."
+    "dettaglio": "Rottura del crociato: rientro dopo la sosta."
    },
    "fonti": 0,
    "abbId": 283
@@ -20229,12 +20610,13 @@
    "rankFvm": 138,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 5.83,
+    "fm": 5.83,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 436,
    "cod": "FRO",
    "chiave": "Cittadini (FRO)",
@@ -20272,6 +20654,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 437,
    "cod": "COM",
    "chiave": "Kambwala (COM)",
@@ -20303,12 +20686,13 @@
    "rankFvm": 138,
    "s25": null,
    "s26": {
-    "pg": 1,
+    "pg": 2,
     "mv": 6,
     "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 438,
    "cod": "CAG",
    "chiave": "Kofler (CAG)",
@@ -20340,12 +20724,13 @@
    "rankFvm": 138,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 5.25,
-    "fm": 5.25,
+    "pg": 3,
+    "mv": 5.33,
+    "fm": 5.17,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 439,
    "cod": "NAP",
    "chiave": "Marin R. (NAP)",
@@ -20383,6 +20768,7 @@
     "gol": 1,
     "ass": 0
    },
+   "giornate": 2,
    "id": 440,
    "cod": "SAS",
    "chiave": "Odenthal (SAS)",
@@ -20420,6 +20806,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 441,
    "cod": "FRO",
    "chiave": "Tchato (FRO)",
@@ -20457,6 +20844,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 442,
    "cod": "FRO",
    "chiave": "Terzic (FRO)",
@@ -20504,6 +20892,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 443,
    "cod": "TOR",
    "chiave": "Biraghi (TOR)",
@@ -20525,7 +20914,7 @@
    "max": 2,
    "fascia": "Scommessa",
    "gerarchia": "Riserva",
-   "nota": "Infortunato - presenze finora: 0/2",
+   "nota": "FUORI LISTA - non convocabile in campionato",
    "rig": null,
    "piaz": null,
    "fmPond": 5.6,
@@ -20551,13 +20940,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 444,
    "cod": "LAZ",
    "chiave": "Patric (LAZ)",
    "fasciaIdx": 5,
    "inf": {
-    "stato": "Infortunato - rientro entro settembre",
-    "dettaglio": "Problema fisico, out nella 3a giornata. Tempi di recupero da valutare."
+    "stato": "Infortunato - lungo stop",
+    "dettaglio": "Fuori dalla lista Serie A: non e' schierabile."
    },
    "fonti": 0,
    "abbId": 284
@@ -20576,7 +20966,7 @@
    "max": 5,
    "fascia": "4a fascia",
    "gerarchia": "Riserva",
-   "nota": "In dubbio / da valutare - Nuovo - presenze finora: 2/2",
+   "nota": "In dubbio / da valutare",
    "rig": null,
    "piaz": null,
    "fmPond": 5.5,
@@ -20592,13 +20982,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 445,
    "cod": "VEN",
    "chiave": "Franjic (VEN)",
    "fasciaIdx": 4,
    "inf": {
     "stato": "In dubbio per la prossima",
-    "dettaglio": "Costretto al cambio a Milano per un guaio fisico. Forfait a Frosinone."
+    "dettaglio": "Problema alla spalla: out contro la Fiorentina."
    },
    "fonti": 0,
    "abbId": 303
@@ -20617,7 +21008,7 @@
    "max": 5,
    "fascia": "4a fascia",
    "gerarchia": "Riserva",
-   "nota": "INFORTUNATO (lungo stop) - Nuovo - presenze finora: 0/2",
+   "nota": "INFORTUNATO (lungo stop) - rientro a ottobre",
    "rig": null,
    "piaz": null,
    "fmPond": 5.5,
@@ -20633,13 +21024,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 446,
    "cod": "VEN",
    "chiave": "Sverko (VEN)",
    "fasciaIdx": 4,
    "inf": {
     "stato": "Infortunato - lungo stop",
-    "dettaglio": "Operato in estate all'anca. Recuperabile da fine ottobre."
+    "dettaglio": "Problemi all'anca: rientro a fine ottobre."
    },
    "fonti": 0,
    "abbId": 303
@@ -20684,6 +21076,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 447,
    "cod": "LEC",
    "chiave": "Jean (LEC)",
@@ -20721,6 +21114,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 448,
    "cod": "FRO",
    "chiave": "Akpoguma (FRO)",
@@ -20752,12 +21146,13 @@
    "rankFvm": 155,
    "s25": null,
    "s26": {
-    "pg": 1,
-    "mv": 6,
-    "fm": 6,
+    "pg": 2,
+    "mv": 5.75,
+    "fm": 5.75,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 449,
    "cod": "BOL",
    "chiave": "Alhassane (BOL)",
@@ -20805,6 +21200,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 450,
    "cod": "MON",
    "chiave": "Goglichidze (MON)",
@@ -20836,12 +21232,13 @@
    "rankFvm": 155,
    "s25": null,
    "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
+    "pg": 1,
+    "mv": 5.5,
+    "fm": 5,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 451,
    "cod": "VEN",
    "chiave": "Moreno M. (VEN)",
@@ -20893,6 +21290,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 452,
    "cod": "PAR",
    "chiave": "Carboni F. (PAR)",
@@ -20930,6 +21328,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 453,
    "cod": "CAG",
    "chiave": "Aurelio (CAG)",
@@ -20977,6 +21376,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 454,
    "cod": "LEC",
    "chiave": "Ndaba (LEC)",
@@ -21014,6 +21414,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 455,
    "cod": "MON",
    "chiave": "Bakoune (MON)",
@@ -21045,12 +21446,13 @@
    "rankFvm": 167,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 5.75,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 6,
+    "fm": 6.33,
     "gol": 0,
-    "ass": 0
+    "ass": 1
    },
+   "giornate": 3,
    "id": 456,
    "cod": "SAS",
    "chiave": "Cinquegrano (SAS)",
@@ -21088,6 +21490,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 457,
    "cod": "MIL",
    "chiave": "Diawara S. (MIL)",
@@ -21135,6 +21538,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 458,
    "cod": "PAR",
    "chiave": "Ndiaye (PAR)",
@@ -21182,6 +21586,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 459,
    "cod": "JUV",
    "chiave": "Rugani (JUV)",
@@ -21219,6 +21624,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 460,
    "cod": "VEN",
    "chiave": "Sagrado (VEN)",
@@ -21256,6 +21662,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 461,
    "cod": "GEN",
    "chiave": "Puczka (GEN)",
@@ -21293,6 +21700,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 462,
    "cod": "MON",
    "chiave": "Antov (MON)",
@@ -21340,6 +21748,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 463,
    "cod": "GEN",
    "chiave": "Otoa (GEN)",
@@ -21377,6 +21786,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 464,
    "cod": "FRO",
    "chiave": "Amey (FRO)",
@@ -21424,6 +21834,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 465,
    "cod": "LEC",
    "chiave": "Dembelè A. (LEC)",
@@ -21461,6 +21872,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 466,
    "cod": "PAR",
    "chiave": "Drobnic (PAR)",
@@ -21498,6 +21910,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 467,
    "cod": "COM",
    "chiave": "Goldaniga (COM)",
@@ -21535,6 +21948,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 468,
    "cod": "VEN",
    "chiave": "Gomes (VEN)",
@@ -21572,6 +21986,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 469,
    "cod": "MON",
    "chiave": "Maye (MON)",
@@ -21609,6 +22024,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 470,
    "cod": "FRO",
    "chiave": "Omar Fayed (FRO)",
@@ -21630,7 +22046,7 @@
    "max": 2,
    "fascia": "Scommessa",
    "gerarchia": "Riserva",
-   "nota": "INFORTUNATO (lungo stop) - presenze finora: 0/2",
+   "nota": "In dubbio / da valutare",
    "rig": null,
    "piaz": null,
    "fmPond": 5.5,
@@ -21646,13 +22062,14 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 471,
    "cod": "SAS",
    "chiave": "Pieragnolo (SAS)",
    "fasciaIdx": 5,
    "inf": {
-    "stato": "Infortunato - lungo stop",
-    "dettaglio": "Recupero dalla lesione del crociato anteriore. Convocabile da ottobre."
+    "stato": "In dubbio per la prossima",
+    "dettaglio": "Ricostruzione del crociato anteriore: da valutare."
    },
    "fonti": 0,
    "abbId": 283
@@ -21691,12 +22108,13 @@
     "squadra": "Roma"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 6.25,
+    "pg": 3,
+    "mv": 6.17,
+    "fm": 5.83,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 472,
    "cod": "ROM",
    "chiave": "Svilar (ROM)",
@@ -21728,12 +22146,13 @@
    "rankFvm": 2,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 6.25,
+    "pg": 3,
+    "mv": 6.17,
+    "fm": 5.83,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 473,
    "cod": "JUV",
    "chiave": "Vicario (JUV)",
@@ -21775,12 +22194,13 @@
     "squadra": "Inter"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6,
-    "fm": 5.5,
+    "pg": 3,
+    "mv": 6.17,
+    "fm": 5.17,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 474,
    "cod": "INT",
    "chiave": "Martinez Jo. (INT)",
@@ -21822,12 +22242,13 @@
     "squadra": "Atalanta"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.75,
-    "fm": 6.75,
+    "pg": 3,
+    "mv": 6.83,
+    "fm": 6.17,
     "gol": 0,
-    "ass": 1
+    "ass": 0
    },
+   "giornate": 3,
    "id": 475,
    "cod": "ATA",
    "chiave": "Carnesecchi (ATA)",
@@ -21869,12 +22290,13 @@
     "squadra": "Milan"
    },
    "s26": {
-    "pg": 2,
+    "pg": 3,
     "mv": 6,
-    "fm": 5.5,
+    "fm": 5.33,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 476,
    "cod": "MIL",
    "chiave": "Maignan (MIL)",
@@ -21922,6 +22344,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 477,
    "cod": "COM",
    "chiave": "Butez (COM)",
@@ -21969,6 +22392,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 478,
    "cod": "NAP",
    "chiave": "Meret (NAP)",
@@ -22000,12 +22424,13 @@
    "rankFvm": 8,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 6.25,
+    "pg": 3,
+    "mv": 6.33,
+    "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 479,
    "cod": "LAZ",
    "chiave": "Mandas (LAZ)",
@@ -22053,6 +22478,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 480,
    "cod": "BOL",
    "chiave": "Skorupski (BOL)",
@@ -22100,6 +22526,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 481,
    "cod": "FIO",
    "chiave": "De Gea (FIO)",
@@ -22137,6 +22564,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 482,
    "cod": "TOR",
    "chiave": "Perri (TOR)",
@@ -22184,6 +22612,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 483,
    "cod": "UDI",
    "chiave": "Okoye (UDI)",
@@ -22221,6 +22650,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 484,
    "cod": "COM",
    "chiave": "Sanchez Ro. (COM)",
@@ -22268,6 +22698,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 485,
    "cod": "LEC",
    "chiave": "Falcone (LEC)",
@@ -22309,12 +22740,13 @@
     "squadra": "Cagliari"
    },
    "s26": {
-    "pg": 2,
-    "mv": 6.5,
+    "pg": 3,
+    "mv": 6.33,
     "fm": 6,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 486,
    "cod": "CAG",
    "chiave": "Caprile (CAG)",
@@ -22362,6 +22794,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 487,
    "cod": "GEN",
    "chiave": "Bijlow (GEN)",
@@ -22409,6 +22842,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 488,
    "cod": "SAS",
    "chiave": "Muric (SAS)",
@@ -22440,12 +22874,13 @@
    "rankFvm": 18,
    "s25": null,
    "s26": {
-    "pg": 2,
-    "mv": 6.25,
-    "fm": 5.75,
+    "pg": 3,
+    "mv": 6.17,
+    "fm": 5.17,
     "gol": 0,
     "ass": 0
    },
+   "giornate": 3,
    "id": 489,
    "cod": "FRO",
    "chiave": "Palmisani (FRO)",
@@ -22483,6 +22918,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 490,
    "cod": "VEN",
    "chiave": "Stankovic F. (VEN)",
@@ -22520,6 +22956,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 491,
    "cod": "MON",
    "chiave": "Tornqvist (MON)",
@@ -22567,6 +23004,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 492,
    "cod": "NAP",
    "chiave": "Milinkovic-Savic V. (NAP)",
@@ -22614,6 +23052,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 493,
    "cod": "PAR",
    "chiave": "Corvi (PAR)",
@@ -22651,6 +23090,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 494,
    "cod": "PAR",
    "chiave": "Daffara (PAR)",
@@ -22688,6 +23128,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 495,
    "cod": "TOR",
    "chiave": "Mascardi (TOR)",
@@ -22725,6 +23166,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 496,
    "cod": "MON",
    "chiave": "Thiam (MON)",
@@ -22772,6 +23214,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 497,
    "cod": "INT",
    "chiave": "Provedel (INT)",
@@ -22819,6 +23262,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 498,
    "cod": "FIO",
    "chiave": "Christensen O. (FIO)",
@@ -22866,6 +23310,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 499,
    "cod": "MIL",
    "chiave": "Terracciano (MIL)",
@@ -22913,6 +23358,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 500,
    "cod": "BOL",
    "chiave": "Pessina Mas. (BOL)",
@@ -22950,6 +23396,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 501,
    "cod": "LEC",
    "chiave": "Bleve (LEC)",
@@ -22987,6 +23434,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 502,
    "cod": "NAP",
    "chiave": "Contini (NAP)",
@@ -23024,6 +23472,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 503,
    "cod": "ROM",
    "chiave": "De Marzi (ROM)",
@@ -23061,6 +23510,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 504,
    "cod": "FRO",
    "chiave": "Desplanches (FRO)",
@@ -23098,6 +23548,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 505,
    "cod": "PAR",
    "chiave": "Ghidotti (PAR)",
@@ -23135,6 +23586,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 506,
    "cod": "ROM",
    "chiave": "Gollini (ROM)",
@@ -23172,6 +23624,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 507,
    "cod": "JUV",
    "chiave": "Grabara (JUV)",
@@ -23209,6 +23662,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 508,
    "cod": "VEN",
    "chiave": "Grandi (VEN)",
@@ -23246,6 +23700,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 509,
    "cod": "BOL",
    "chiave": "Happonen (BOL)",
@@ -23283,6 +23738,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 510,
    "cod": "FIO",
    "chiave": "Lezzerini (FIO)",
@@ -23320,6 +23776,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 511,
    "cod": "FRO",
    "chiave": "Lolic (FRO)",
@@ -23357,6 +23814,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 512,
    "cod": "UDI",
    "chiave": "Mrozek (UDI)",
@@ -23394,6 +23852,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 513,
    "cod": "LEC",
    "chiave": "Penev (LEC)",
@@ -23431,6 +23890,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 514,
    "cod": "UDI",
    "chiave": "Piana (UDI)",
@@ -23468,6 +23928,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 515,
    "cod": "JUV",
    "chiave": "Pinsoglio (JUV)",
@@ -23505,6 +23966,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 516,
    "cod": "FRO",
    "chiave": "Pisseri (FRO)",
@@ -23542,6 +24004,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 517,
    "cod": "VEN",
    "chiave": "Pozzi (VEN)",
@@ -23579,6 +24042,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 518,
    "cod": "CAG",
    "chiave": "Radunovic (CAG)",
@@ -23616,6 +24080,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 519,
    "cod": "LAZ",
    "chiave": "Renzetti (LAZ)",
@@ -23653,6 +24118,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 520,
    "cod": "SAS",
    "chiave": "Russo A. (SAS)",
@@ -23690,6 +24156,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 521,
    "cod": "SAS",
    "chiave": "Satalino (SAS)",
@@ -23727,6 +24194,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 522,
    "cod": "CAG",
    "chiave": "Sherri (CAG)",
@@ -23764,6 +24232,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 523,
    "cod": "TOR",
    "chiave": "Siviero (TOR)",
@@ -23801,6 +24270,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 524,
    "cod": "GEN",
    "chiave": "Stolz (GEN)",
@@ -23838,6 +24308,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 525,
    "cod": "MON",
    "chiave": "Strajnar (MON)",
@@ -23875,6 +24346,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 526,
    "cod": "MIL",
    "chiave": "Torriani (MIL)",
@@ -23912,6 +24384,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 527,
    "cod": "COM",
    "chiave": "Vigorito (COM)",
@@ -23959,6 +24432,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 528,
    "cod": "INT",
    "chiave": "Di Gennaro (INT)",
@@ -24006,6 +24480,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 529,
    "cod": "UDI",
    "chiave": "Padelli (UDI)",
@@ -24053,6 +24528,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 530,
    "cod": "ATA",
    "chiave": "Sportiello (ATA)",
@@ -24100,6 +24576,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 531,
    "cod": "VEN",
    "chiave": "Montipò (VEN)",
@@ -24147,59 +24624,13 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 532,
    "cod": "LAZ",
    "chiave": "Motta (LAZ)",
    "fasciaIdx": 5,
    "fonti": 0,
    "abbId": 472
-  },
-  {
-   "r": "P",
-   "nome": "Paleari",
-   "squadra": "Torino",
-   "rm": "Portiere",
-   "prio": 60,
-   "indice": 0.7,
-   "qtI": 1,
-   "qtA": 1,
-   "fvm": 1,
-   "cons": 1,
-   "max": 2,
-   "fascia": "Scommessa",
-   "gerarchia": "Riserva",
-   "nota": "Riserva (0/2)",
-   "rig": null,
-   "piaz": null,
-   "fmPond": 4.52,
-   "nuovo": false,
-   "abb": "Vicario (JUV)",
-   "abbTras": 0,
-   "rankFvm": 27,
-   "s25": {
-    "pg": 29,
-    "mv": 6.09,
-    "fm": 4.52,
-    "gol": 0,
-    "ass": 0,
-    "rig": "0/0",
-    "amm": 1,
-    "esp": 0,
-    "squadra": "Torino"
-   },
-   "s26": {
-    "pg": 0,
-    "mv": null,
-    "fm": null,
-    "gol": 0,
-    "ass": 0
-   },
-   "id": 533,
-   "cod": "TOR",
-   "chiave": "Paleari (TOR)",
-   "fasciaIdx": 5,
-   "fonti": 0,
-   "abbId": 473
   },
   {
    "r": "P",
@@ -24241,6 +24672,7 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 534,
    "cod": "GEN",
    "chiave": "Sommariva (GEN)",
@@ -24288,12 +24720,208 @@
     "gol": 0,
     "ass": 0
    },
+   "giornate": 2,
    "id": 535,
    "cod": "SAS",
    "chiave": "Turati (SAS)",
    "fasciaIdx": 5,
    "fonti": 0,
    "abbId": 474
+  },
+  {
+   "r": "A",
+   "nome": "El Shaarawy",
+   "squadra": "Genoa",
+   "rm": "Esterno alto / Attaccante",
+   "prio": 37,
+   "indice": 17.3,
+   "qtI": 11,
+   "qtA": 11,
+   "fvm": 40,
+   "cons": 11,
+   "max": 13,
+   "fascia": "3a fascia",
+   "gerarchia": "Ballottaggio",
+   "nota": "Nuovo - svincolato tesserato il 3 settembre, condizione da ritrovare",
+   "rig": null,
+   "piaz": null,
+   "fmPond": 5.5,
+   "nuovo": true,
+   "abb": "",
+   "abbTras": 0,
+   "rankFvm": 77,
+   "s25": null,
+   "s26": {
+    "pg": 0,
+    "mv": null,
+    "fm": null,
+    "gol": 0,
+    "ass": 0
+   },
+   "giornate": 3,
+   "aggiunto": true,
+   "id": 536,
+   "cod": "GEN",
+   "chiave": "El Shaarawy (GEN)",
+   "fasciaIdx": 3,
+   "fonti": 0,
+   "abbId": null
+  },
+  {
+   "r": "D",
+   "nome": "Rodriguez R.",
+   "squadra": "Torino",
+   "rm": "Terzino sinistro / Esterno basso",
+   "prio": 20,
+   "indice": 20.8,
+   "qtI": 6,
+   "qtA": 6,
+   "fvm": 12,
+   "cons": 6,
+   "max": 7,
+   "fascia": "4a fascia",
+   "gerarchia": "Ballottaggio",
+   "nota": "Nuovo - svincolato tesserato il 3 settembre, ritorno in granata",
+   "rig": null,
+   "piaz": null,
+   "fmPond": 5.5,
+   "nuovo": true,
+   "abb": "",
+   "abbTras": 0,
+   "rankFvm": 76,
+   "s25": null,
+   "s26": {
+    "pg": 0,
+    "mv": null,
+    "fm": null,
+    "gol": 0,
+    "ass": 0
+   },
+   "giornate": 3,
+   "aggiunto": true,
+   "id": 537,
+   "cod": "TOR",
+   "chiave": "Rodriguez R. (TOR)",
+   "fasciaIdx": 4,
+   "fonti": 0,
+   "abbId": null
+  },
+  {
+   "r": "D",
+   "nome": "Ehizibue",
+   "squadra": "Genoa",
+   "rm": "Terzino destro / Esterno basso",
+   "prio": 20,
+   "indice": 20.8,
+   "qtI": 6,
+   "qtA": 6,
+   "fvm": 12,
+   "cons": 6,
+   "max": 7,
+   "fascia": "4a fascia",
+   "gerarchia": "Ballottaggio",
+   "nota": "Nuovo - svincolato tesserato il 3 settembre",
+   "rig": null,
+   "piaz": null,
+   "fmPond": 5.5,
+   "nuovo": true,
+   "abb": "",
+   "abbTras": 0,
+   "rankFvm": 76,
+   "s25": null,
+   "s26": {
+    "pg": 0,
+    "mv": null,
+    "fm": null,
+    "gol": 0,
+    "ass": 0
+   },
+   "giornate": 3,
+   "aggiunto": true,
+   "id": 538,
+   "cod": "GEN",
+   "chiave": "Ehizibue (GEN)",
+   "fasciaIdx": 4,
+   "fonti": 0,
+   "abbId": null
+  },
+  {
+   "r": "C",
+   "nome": "Sierro",
+   "squadra": "Parma",
+   "rm": "Mediano / Centrale",
+   "prio": 153,
+   "indice": 4.5,
+   "qtI": 4,
+   "qtA": 4,
+   "fvm": 8,
+   "cons": 4,
+   "max": 5,
+   "fascia": "4a fascia",
+   "gerarchia": "Riserva",
+   "nota": "Nuovo - svincolato tesserato il 4 settembre, ancora senza quotazione ufficiale",
+   "rig": null,
+   "piaz": null,
+   "fmPond": 5.5,
+   "nuovo": true,
+   "abb": "",
+   "abbTras": 0,
+   "rankFvm": 179,
+   "s25": null,
+   "s26": {
+    "pg": 0,
+    "mv": null,
+    "fm": null,
+    "gol": 0,
+    "ass": 0
+   },
+   "giornate": 3,
+   "aggiunto": true,
+   "id": 539,
+   "cod": "PAR",
+   "chiave": "Sierro (PAR)",
+   "fasciaIdx": 4,
+   "fonti": 0,
+   "abbId": null
+  },
+  {
+   "r": "D",
+   "nome": "Mohammed",
+   "squadra": "Venezia",
+   "rm": "Difensore centrale",
+   "prio": 81,
+   "indice": 8.5,
+   "qtI": 3,
+   "qtA": 3,
+   "fvm": 5,
+   "cons": 3,
+   "max": 4,
+   "fascia": "4a fascia",
+   "gerarchia": "Riserva",
+   "nota": "Nuovo - tesserato a mercato chiuso, ancora senza quotazione ufficiale",
+   "rig": null,
+   "piaz": null,
+   "fmPond": 5.5,
+   "nuovo": true,
+   "abb": "",
+   "abbTras": 0,
+   "rankFvm": 167,
+   "s25": null,
+   "s26": {
+    "pg": 0,
+    "mv": null,
+    "fm": null,
+    "gol": 0,
+    "ass": 0
+   },
+   "giornate": 3,
+   "aggiunto": true,
+   "id": 540,
+   "cod": "VEN",
+   "chiave": "Mohammed (VEN)",
+   "fasciaIdx": 4,
+   "fonti": 0,
+   "abbId": null
   }
  ]
 }
